@@ -1752,7 +1752,11 @@ function eligible(meal, mode, saison) {
   );
 }
 
-const QUICK_THRESHOLD = 30;
+const QUICK_THRESHOLD = 20;
+
+function slotsForDay(dayIdx) {
+  return dayIdx >= 5 ? ['petit-dej', 'midi', 'diner'] : ['petit-dej', 'diner'];
+}
 
 function generateWeek(weekKey, mode, saison) {
   const baseSeed = hashString(weekKey + ':' + mode);
@@ -1783,21 +1787,28 @@ function generateWeek(weekKey, mode, saison) {
   const longDiner = shuffleSeeded(allDiner.filter(r => r.temps > QUICK_THRESHOLD), rng);
 
   DAYS.forEach((day, idx) => {
-    const slotKey = day.key + '-diner';
-    let chosenId;
-    if (swaps[slotKey]) {
-      chosenId = swaps[slotKey];
-    } else {
-      const isWeekend = idx >= 4;
-      const primary = isWeekend ? longDiner : quickDiner;
-      const fallback = isWeekend ? quickDiner : longDiner;
-      let pick = primary.find(r => !usedIds.has(r.id));
-      if (!pick) pick = fallback.find(r => !usedIds.has(r.id));
-      if (!pick) pick = allDiner[idx % allDiner.length];
-      chosenId = pick ? pick.id : null;
-    }
-    if (chosenId) usedIds.add(chosenId);
-    week[slotKey] = chosenId;
+    const isWeekend = idx >= 5;
+    const slots = isWeekend ? ['midi', 'diner'] : ['diner'];
+
+    slots.forEach(slot => {
+      const slotKey = day.key + '-' + slot;
+      let chosenId;
+      if (swaps[slotKey]) {
+        chosenId = swaps[slotKey];
+      } else if (!isWeekend) {
+        let pick = quickDiner.find(r => !usedIds.has(r.id));
+        if (!pick) pick = quickDiner[idx % Math.max(1, quickDiner.length)];
+        if (!pick) pick = allDiner[idx % allDiner.length];
+        chosenId = pick ? pick.id : null;
+      } else {
+        let pick = longDiner.find(r => !usedIds.has(r.id));
+        if (!pick) pick = quickDiner.find(r => !usedIds.has(r.id));
+        if (!pick) pick = allDiner[idx % allDiner.length];
+        chosenId = pick ? pick.id : null;
+      }
+      if (chosenId) usedIds.add(chosenId);
+      week[slotKey] = chosenId;
+    });
   });
 
   return week;
@@ -1816,8 +1827,19 @@ function swapMeal(weekKey, mode, slotKey, saison) {
   if (!State.data.swaps[k]) State.data.swaps[k] = {};
   const week = generateWeek(weekKey, mode, saison);
   const currentId = week[slotKey];
-  const slotType = slotKey.split('-').slice(1).join('-');
-  const candidates = eligible(slotType, mode, saison).filter(r => r.id !== currentId);
+  const isPetitDej = slotKey.endsWith('-petit-dej');
+  const isMidi = slotKey.endsWith('-midi');
+  const isDinerWeekday = !isPetitDej && !isMidi && (() => {
+    const day = slotKey.split('-')[0];
+    const idx = DAYS.findIndex(d => d.key === day);
+    return idx < 5;
+  })();
+  const queryType = isPetitDej ? 'petit-dej' : 'diner';
+  let candidates = eligible(queryType, mode, saison).filter(r => r.id !== currentId);
+  if (isDinerWeekday) {
+    const quick = candidates.filter(r => r.temps <= QUICK_THRESHOLD);
+    if (quick.length > 0) candidates = quick;
+  }
   if (candidates.length === 0) return;
   const usedInWeek = new Set(Object.values(week));
   const fresh = candidates.filter(r => !usedInWeek.has(r.id));
@@ -1844,12 +1866,12 @@ function renderMenus() {
 
   const { week: wno } = getISOWeek(now);
   document.getElementById('stat-week').textContent = String(wno).padStart(2,'0');
-  document.getElementById('stat-recipes').textContent = '14';
+  document.getElementById('stat-recipes').textContent = '16';
   document.getElementById('stat-saison').textContent = saison.charAt(0).toUpperCase();
   document.getElementById('hero-mode-label').textContent = mode === 'kids' ? 'la tribu' : 'nous deux';
   document.getElementById('hero-sub').textContent = mode === 'kids'
-    ? 'Petits-déj + dîners, pensés pour la maisonnée.'
-    : 'Petits-déj + dîners, plus libres, plus raffinés.';
+    ? '5 dîners express + week-end complet, pour la maisonnée.'
+    : '5 dîners express + week-end complet, plus libres.';
 
   document.getElementById('brand-date').textContent = formatDateFull(realNow);
 
@@ -1872,7 +1894,12 @@ function renderMenus() {
       </div>
     `;
 
-    MEAL_SLOTS.forEach(slot => {
+    const daySlots = slotsForDay(idx).map(s =>
+      s === 'petit-dej' ? { key:'petit-dej', label:'Petit-déjeuner' }
+      : s === 'midi' ? { key:'midi', label:'Déjeuner' }
+      : { key:'diner', label:'Dîner' }
+    );
+    daySlots.forEach(slot => {
       const slotKey = day.key + '-' + slot.key;
       const recipeId = week[slotKey];
       const r = findRecipe(recipeId);
@@ -2440,8 +2467,66 @@ window.addEventListener('appinstalled', () => {
 });
 
 /* ===== Init ================================================== */
+/* ===== Sync entre partenaires (via URL) ===================== */
+function buildShareURL() {
+  const now = effectiveDate();
+  const wk = getWeekKey(now);
+  const mode = currentMode();
+  const k = wk + ':' + mode;
+  const payload = {
+    wk,
+    m: mode,
+    r: State.data.regen[k] || 0,
+    s: State.data.swaps[k] || {}
+  };
+  const enc = btoa(unescape(encodeURIComponent(JSON.stringify(payload))));
+  return location.origin + location.pathname + '?sync=' + enc;
+}
+
+async function shareWeek() {
+  const url = buildShareURL();
+  const text = `Ma semaine sur Notre Cuisine — ouvre le lien pour la recevoir :\n${url}`;
+  try {
+    if (navigator.share) {
+      await navigator.share({ title: 'Notre Cuisine — semaine', text, url });
+      toast('Partagé.');
+    } else if (navigator.clipboard) {
+      await navigator.clipboard.writeText(url);
+      toast('Lien copié dans le presse-papier.');
+    } else {
+      prompt('Copie ce lien et envoie-le à ton/ta partenaire :', url);
+    }
+  } catch (e) {}
+}
+
+function applySharedWeekIfPresent() {
+  const params = new URLSearchParams(location.search);
+  const enc = params.get('sync');
+  if (!enc) return;
+  try {
+    const json = decodeURIComponent(escape(atob(enc)));
+    const data = JSON.parse(json);
+    if (!data.wk || !data.m) return;
+    const modeLabel = data.m === 'kids' ? 'avec les ados' : 'rien que nous';
+    if (confirm(`Synchroniser la semaine ${data.wk} (${modeLabel}) envoyée par ton/ta partenaire ?\n\nCela remplacera tes choix de plats pour cette semaine.`)) {
+      const k = data.wk + ':' + data.m;
+      if (!State.data.regen) State.data.regen = {};
+      if (!State.data.swaps) State.data.swaps = {};
+      State.data.regen[k] = data.r;
+      State.data.swaps[k] = data.s;
+      delete State.data.checked[k];
+      State.save();
+      toast('Semaine synchronisée.');
+    }
+  } catch (e) {
+    console.warn('Sync invalide', e);
+  }
+  history.replaceState(null, '', location.origin + location.pathname);
+}
+
 function init() {
   State.load();
+  applySharedWeekIfPresent();
 
   const mode = currentMode();
   document.body.classList.toggle('mode-us', mode === 'us');
@@ -2575,6 +2660,7 @@ function init() {
   });
 
   document.getElementById('btn-refresh').addEventListener('click', forceRefresh);
+  document.getElementById('btn-share-week').addEventListener('click', shareWeek);
   document.getElementById('btn-add-recipe').addEventListener('click', () => openRecipeForm(null));
   document.getElementById('recipe-modal-close').addEventListener('click', closeRecipeForm);
   document.getElementById('recipe-modal-backdrop').addEventListener('click', closeRecipeForm);
