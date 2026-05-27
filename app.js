@@ -1655,7 +1655,7 @@ const State = {
   data: null,
   makeFresh() {
     return {
-      v: 2,
+      v: 3,
       modeOverride: null,
       regen: {},
       swaps: {},
@@ -1677,7 +1677,12 @@ const State = {
     if (!d.checked) d.checked = {};
     if (!d.ritualsDone) d.ritualsDone = {};
     if (!d.ritualsSkipped) d.ritualsSkipped = {};
-    d.v = 2;
+    if ((d.v || 1) < 3) {
+      d.swaps = {};
+      d.regen = {};
+      d.checked = {};
+    }
+    d.v = 3;
     return d;
   },
   load() {
