@@ -1685,6 +1685,8 @@ const State = {
     if (!d.servingsKids) d.servingsKids = d.servings || 6;
     if (!d.servingsUs) d.servingsUs = 4;
     delete d.servings;
+    if (!('householdCode' in d)) d.householdCode = null;
+    if (!('lastSyncedAt' in d)) d.lastSyncedAt = 0;
     d.v = 4;
     return d;
   },
@@ -2319,6 +2321,37 @@ function renderReglages() {
 
   renderUserRecipesList();
 
+  const syncStatusEl = document.getElementById('sync-status');
+  const syncCodeBox = document.getElementById('sync-code-box');
+  const syncCodeVal = document.getElementById('sync-code-value');
+  const syncActBtn = document.getElementById('btn-sync-activate');
+  const syncJoinBtn = document.getElementById('btn-sync-join');
+  const syncDisBtn = document.getElementById('btn-sync-disable');
+  if (syncStatusEl) {
+    if (!syncIsConfigured()) {
+      syncStatusEl.textContent = 'Pas encore configurée — voir instructions.';
+      syncCodeBox.style.display = 'none';
+      syncActBtn.style.opacity = '0.5';
+      syncJoinBtn.style.opacity = '0.5';
+      syncDisBtn.style.display = 'none';
+    } else if (syncIsActive()) {
+      syncStatusEl.textContent = 'Activée — appareil dans le foyer ' + State.data.householdCode;
+      syncCodeBox.style.display = 'block';
+      syncCodeVal.textContent = State.data.householdCode;
+      syncActBtn.style.display = 'none';
+      syncJoinBtn.style.display = 'flex';
+      syncDisBtn.style.display = 'flex';
+    } else {
+      syncStatusEl.textContent = 'Inactive — active-la pour synchroniser tes appareils.';
+      syncCodeBox.style.display = 'none';
+      syncActBtn.style.display = 'flex';
+      syncActBtn.style.opacity = '1';
+      syncJoinBtn.style.display = 'flex';
+      syncJoinBtn.style.opacity = '1';
+      syncDisBtn.style.display = 'none';
+    }
+  }
+
   const isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
   const standalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
   const installSub = document.getElementById('install-sub');
@@ -2519,6 +2552,202 @@ window.addEventListener('appinstalled', () => {
 });
 
 /* ===== Init ================================================== */
+/* ============================================================
+   Sync temps réel — Firebase Realtime Database
+   ============================================================ */
+const FIREBASE_CONFIG = null;
+
+const SYNC = {
+  loaded: false,
+  app: null,
+  db: null,
+  ref: null,
+  active: false,
+  pushDebounce: null,
+  lastAppliedHash: null,
+  selfPushAt: 0
+};
+
+function syncIsConfigured() { return !!FIREBASE_CONFIG; }
+function syncIsActive() { return SYNC.active; }
+
+async function _loadFirebaseSDK() {
+  if (window.firebase) return;
+  const v = '10.7.0';
+  await new Promise((resolve, reject) => {
+    const s = document.createElement('script');
+    s.src = `https://www.gstatic.com/firebasejs/${v}/firebase-app-compat.js`;
+    s.onload = resolve;
+    s.onerror = reject;
+    document.head.appendChild(s);
+  });
+  await new Promise((resolve, reject) => {
+    const s = document.createElement('script');
+    s.src = `https://www.gstatic.com/firebasejs/${v}/firebase-database-compat.js`;
+    s.onload = resolve;
+    s.onerror = reject;
+    document.head.appendChild(s);
+  });
+}
+
+function _genHouseholdCode() {
+  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+  let s = '';
+  for (let i = 0; i < 8; i++) s += chars[Math.floor(Math.random() * chars.length)];
+  return s.slice(0, 4) + '-' + s.slice(4);
+}
+
+function _normCode(c) {
+  return (c || '').toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 8).replace(/^(.{4})(.{0,4})$/, '$1-$2');
+}
+
+function _syncDataHash() {
+  return JSON.stringify({
+    s: State.data.swaps || {},
+    r: State.data.regen || {},
+    c: State.data.checked || {}
+  });
+}
+
+async function syncActivate(code) {
+  if (!syncIsConfigured()) {
+    toast('Sync Firebase non configurée.');
+    return false;
+  }
+  try {
+    await _loadFirebaseSDK();
+  } catch (e) {
+    toast('Impossible de charger Firebase.');
+    return false;
+  }
+  if (!SYNC.app) {
+    SYNC.app = firebase.initializeApp(FIREBASE_CONFIG);
+    SYNC.db = firebase.database();
+  }
+  const norm = _normCode(code);
+  if (norm.length < 9) {
+    toast('Code invalide.');
+    return false;
+  }
+  if (SYNC.ref) SYNC.ref.off();
+  State.data.householdCode = norm;
+  State.save();
+
+  SYNC.ref = SYNC.db.ref('households/' + norm);
+  SYNC.ref.on('value', (snap) => {
+    const remote = snap.val();
+    if (!remote) {
+      const localHash = _syncDataHash();
+      if (localHash !== JSON.stringify({s:{},r:{},c:{}})) {
+        _syncPushNow();
+      }
+      return;
+    }
+    if (Date.now() - SYNC.selfPushAt < 1500) return;
+    const remoteHash = JSON.stringify({
+      s: remote.swaps || {},
+      r: remote.regen || {},
+      c: remote.checked || {}
+    });
+    if (remoteHash === _syncDataHash()) return;
+    if ((remote.lastModified || 0) <= (State.data.lastSyncedAt || 0)) return;
+    State.data.swaps = remote.swaps || {};
+    State.data.regen = remote.regen || {};
+    State.data.checked = remote.checked || {};
+    State.data.lastSyncedAt = remote.lastModified;
+    SYNC.lastAppliedHash = remoteHash;
+    State._origSave ? State._origSave() : localStorage.setItem(STORE_KEY, JSON.stringify(State.data));
+    renderAll();
+    toast('Mise à jour reçue.');
+  });
+  SYNC.active = true;
+  renderReglages();
+  return true;
+}
+
+function _syncPushNow() {
+  if (!SYNC.active || !SYNC.ref) return;
+  const payload = {
+    swaps: State.data.swaps || {},
+    regen: State.data.regen || {},
+    checked: State.data.checked || {},
+    lastModified: Date.now()
+  };
+  SYNC.selfPushAt = payload.lastModified;
+  SYNC.ref.set(payload).catch(() => {});
+  State.data.lastSyncedAt = payload.lastModified;
+  SYNC.lastAppliedHash = _syncDataHash();
+}
+
+function syncScheduledPush() {
+  if (!SYNC.active) return;
+  if (_syncDataHash() === SYNC.lastAppliedHash) return;
+  if (SYNC.pushDebounce) clearTimeout(SYNC.pushDebounce);
+  SYNC.pushDebounce = setTimeout(_syncPushNow, 600);
+}
+
+function syncDeactivate() {
+  if (SYNC.ref) SYNC.ref.off();
+  SYNC.active = false;
+  SYNC.ref = null;
+  State.data.householdCode = null;
+  State.data.lastSyncedAt = 0;
+  State.save();
+  renderReglages();
+  toast('Sync désactivée.');
+}
+
+async function syncStart(useExisting) {
+  if (!syncIsConfigured()) {
+    alert("La sync Firebase n'est pas encore configurée.\n\nVoir les instructions dans le README.");
+    return;
+  }
+  let code;
+  if (useExisting) {
+    code = prompt('Colle le code maison de l\'autre appareil (ex. ABCD-EFGH) :');
+    if (!code) return;
+    code = _normCode(code);
+    if (code.length < 9) { toast('Code invalide.'); return; }
+  } else {
+    code = _genHouseholdCode();
+  }
+  const ok = await syncActivate(code);
+  if (ok) {
+    toast('Sync activée : ' + code);
+  }
+}
+
+async function syncShareCode() {
+  const code = State.data.householdCode;
+  if (!code) { toast('Pas de code à partager.'); return; }
+  const text = `Code maison Notre Cuisine : ${code}\n\nDans l'app : Réglages → Rejoindre un code → colle ce code.\n${location.origin}${location.pathname}`;
+  try {
+    if (navigator.share) {
+      await navigator.share({ title: 'Code maison', text });
+    } else if (navigator.clipboard) {
+      await navigator.clipboard.writeText(code);
+      toast('Code copié : ' + code);
+    } else {
+      prompt('Code à transmettre :', code);
+    }
+  } catch (e) {}
+}
+
+async function syncTryAutoActivate() {
+  if (syncIsConfigured() && State.data.householdCode) {
+    await syncActivate(State.data.householdCode);
+  }
+}
+
+(function wrapStateSave() {
+  const orig = State.save.bind(State);
+  State._origSave = orig;
+  State.save = function() {
+    orig();
+    syncScheduledPush();
+  };
+})();
+
 /* ===== Sync entre partenaires (via URL) ===================== */
 function buildShareURL() {
   const now = effectiveDate();
@@ -2579,6 +2808,7 @@ function applySharedWeekIfPresent() {
 function init() {
   State.load();
   applySharedWeekIfPresent();
+  syncTryAutoActivate();
 
   const mode = currentMode();
   document.body.classList.toggle('mode-us', mode === 'us');
@@ -2683,6 +2913,13 @@ function init() {
   });
   document.getElementById('btn-reset').addEventListener('click', resetAll);
   document.getElementById('btn-reset-planning').addEventListener('click', resetPlanning);
+
+  document.getElementById('btn-sync-activate').addEventListener('click', () => syncStart(false));
+  document.getElementById('btn-sync-join').addEventListener('click', () => syncStart(true));
+  document.getElementById('btn-sync-disable').addEventListener('click', () => {
+    if (confirm('Désactiver la sync sur cet appareil ?')) syncDeactivate();
+  });
+  document.getElementById('btn-sync-share').addEventListener('click', syncShareCode);
 
   document.querySelectorAll('.week-nav-btn').forEach(b => {
     b.addEventListener('click', () => {
