@@ -2555,7 +2555,15 @@ window.addEventListener('appinstalled', () => {
 /* ============================================================
    Sync temps réel — Firebase Realtime Database
    ============================================================ */
-const FIREBASE_CONFIG = null;
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyCXJe_K0Yw4y4twCTj42A8l52s22yv3ods",
+  authDomain: "ma-cuisine-269e9.firebaseapp.com",
+  databaseURL: "https://ma-cuisine-269e9-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "ma-cuisine-269e9",
+  storageBucket: "ma-cuisine-269e9.firebasestorage.app",
+  messagingSenderId: "251138635702",
+  appId: "1:251138635702:web:47e5f8abcc7d7b0decb317"
+};
 
 const SYNC = {
   loaded: false,
