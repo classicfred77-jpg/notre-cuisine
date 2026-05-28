@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'notre-cuisine-v7';
+const CACHE_VERSION = 'notre-cuisine-v8';
 const CORE_ASSETS = [
   './',
   './index.html',
