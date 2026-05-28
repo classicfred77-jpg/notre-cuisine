@@ -172,20 +172,34 @@
       <h1 id="reg-title">Nos <em>réglages</em></h1>
     </div>
 
-    <div class="settings-section-title">Préférences</div>
+    <div class="settings-section-title">Portions</div>
     <div class="settings-list">
       <div class="settings-item-row">
         <div class="settings-icon" style="background: var(--rose-soft); color: var(--bordeaux);">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
         <div class="settings-text">
-          <div class="ttl">Portions par recette</div>
-          <div class="sub" id="servings-sub">Pour 6 personnes</div>
+          <div class="ttl">Avec les ados</div>
+          <div class="sub" id="servings-kids-sub">4 au dîner + 2 restes du midi</div>
         </div>
-        <div class="seg-toggle" id="servings-toggle" role="group" aria-label="Portions">
+        <div class="seg-toggle" id="servings-kids-toggle" role="group" aria-label="Portions ados">
           <button data-servings="4">4</button>
           <button data-servings="6">6</button>
           <button data-servings="8">8</button>
+        </div>
+      </div>
+      <div class="settings-item-row">
+        <div class="settings-icon" style="background: var(--terracotta-soft); color: var(--terracotta);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+        </div>
+        <div class="settings-text">
+          <div class="ttl">Rien que nous deux</div>
+          <div class="sub" id="servings-us-sub">2 au dîner + 2 restes du midi</div>
+        </div>
+        <div class="seg-toggle" id="servings-us-toggle" role="group" aria-label="Portions couple">
+          <button data-servings="2">2</button>
+          <button data-servings="4">4</button>
+          <button data-servings="6">6</button>
         </div>
       </div>
     </div>

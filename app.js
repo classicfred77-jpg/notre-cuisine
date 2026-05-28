@@ -1655,7 +1655,7 @@ const State = {
   data: null,
   makeFresh() {
     return {
-      v: 3,
+      v: 4,
       modeOverride: null,
       regen: {},
       swaps: {},
@@ -1663,14 +1663,14 @@ const State = {
       ritualsDone: {},
       ritualsSkipped: {},
       userRecipes: [],
-      servings: 6,
+      servingsKids: 6,
+      servingsUs: 4,
       weekOffset: 0
     };
   },
   migrate(d) {
     if (!d || typeof d !== 'object') return this.makeFresh();
     if (!d.userRecipes) d.userRecipes = [];
-    if (!d.servings) d.servings = 6;
     if (d.weekOffset === undefined) d.weekOffset = 0;
     if (!d.regen) d.regen = {};
     if (!d.swaps) d.swaps = {};
@@ -1682,7 +1682,10 @@ const State = {
       d.regen = {};
       d.checked = {};
     }
-    d.v = 3;
+    if (!d.servingsKids) d.servingsKids = d.servings || 6;
+    if (!d.servingsUs) d.servingsUs = 4;
+    delete d.servings;
+    d.v = 4;
     return d;
   },
   load() {
@@ -1970,7 +1973,8 @@ function renderCourses() {
 
   const aggregator = new Map();
   const norm = (s) => s.toLowerCase().trim().replace(/s$/, '');
-  Object.values(week).forEach(rid => {
+  Object.entries(week).forEach(([slotKey, rid]) => {
+    if (slotKey.endsWith('-petit-dej')) return;
     const r = findRecipe(rid);
     if (!r) return;
     r.ingredients.forEach(ing => {
@@ -2057,7 +2061,9 @@ function formatQty(n) {
 function round2(n) { return Math.round(n * 100) / 100; }
 
 function getServings() {
-  return (State.data && State.data.servings) || 6;
+  if (!State.data) return 6;
+  const mode = currentMode();
+  return mode === 'kids' ? (State.data.servingsKids || 6) : (State.data.servingsUs || 4);
 }
 
 function scaleQty(rawQty) {
@@ -2264,11 +2270,18 @@ function renderReglages() {
   document.getElementById('info-recipes').textContent = total + (State.data.userRecipes.length ? ` (dont ${State.data.userRecipes.length} perso)` : '');
   document.getElementById('info-rituals').textContent = RITUALS.length;
 
-  const servings = State.data.servings || 6;
-  document.getElementById('servings-sub').textContent = 'Pour ' + servings + ' personne' + (servings > 1 ? 's' : '');
-  document.querySelectorAll('#servings-toggle button').forEach(b => {
-    b.classList.toggle('active', parseInt(b.dataset.servings) === servings);
+  const sKids = State.data.servingsKids || 6;
+  const sUs = State.data.servingsUs || 4;
+  document.querySelectorAll('#servings-kids-toggle button').forEach(b => {
+    b.classList.toggle('active', parseInt(b.dataset.servings) === sKids);
   });
+  document.querySelectorAll('#servings-us-toggle button').forEach(b => {
+    b.classList.toggle('active', parseInt(b.dataset.servings) === sUs);
+  });
+  const kidsSubEl = document.getElementById('servings-kids-sub');
+  const usSubEl = document.getElementById('servings-us-sub');
+  if (kidsSubEl) kidsSubEl.textContent = `Recettes scalées pour ${sKids} portions (dîner 4 + 2 restes midi)`;
+  if (usSubEl) usSubEl.textContent = `Recettes scalées pour ${sUs} portions (2 dîners + ${sUs - 2} restes)`;
 
   renderUserRecipesList();
 
@@ -2654,13 +2667,22 @@ function init() {
     }
   });
 
-  document.querySelectorAll('#servings-toggle button').forEach(b => {
+  document.querySelectorAll('#servings-kids-toggle button').forEach(b => {
     b.addEventListener('click', () => {
-      State.data.servings = parseInt(b.dataset.servings, 10);
+      State.data.servingsKids = parseInt(b.dataset.servings, 10);
       State.save();
       renderReglages();
       renderCourses();
-      toast('Portions : ' + State.data.servings + '.');
+      toast('Portions ados : ' + State.data.servingsKids + '.');
+    });
+  });
+  document.querySelectorAll('#servings-us-toggle button').forEach(b => {
+    b.addEventListener('click', () => {
+      State.data.servingsUs = parseInt(b.dataset.servings, 10);
+      State.save();
+      renderReglages();
+      renderCourses();
+      toast('Portions couple : ' + State.data.servingsUs + '.');
     });
   });
 
