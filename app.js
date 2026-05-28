@@ -2028,7 +2028,7 @@ function renderCourses() {
         <div class="checkbox">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
         </div>
-        <div class="ing-check-label"><span class="qty">${formatQty(scaleQty(it.qte))} ${it.unite}</span>${it.nom}</div>
+        <div class="ing-check-label"><span class="qty">${formatQty(scaleQty(it.qte))} ${fmtUnit(it.unite, scaleQty(it.qte))}</span>${it.nom}</div>
       `;
       row.addEventListener('click', () => {
         if (State.data.checked[checkedKey][key]) {
@@ -2068,6 +2068,30 @@ function getServings() {
 
 function scaleQty(rawQty) {
   return round2(rawQty * (getServings() / 4));
+}
+
+const _UNIT_PLURALS = {
+  'pièce':'pièces','tranche':'tranches','gousse':'gousses','boîte':'boîtes',
+  'botte':'bottes','sachet':'sachets','branche':'branches','cube':'cubes',
+  'tige':'tiges','morceau':'morceaux','brin':'brins','paquet':'paquets',
+  'cuisse':'cuisses','filet':'filets','pavé':'pavés','crottin':'crottins',
+  'magret':'magrets','pot':'pots','baguette':'baguettes','côte':'côtes',
+  'rouleau':'rouleaux','feuille':'feuilles','tête':'têtes','litre':'litres',
+  'dose':'doses','poignée':'poignées','portion':'portions','noix':'noix',
+  'boule':'boules','pincée':'pincées'
+};
+const _UNIT_SINGS = Object.fromEntries(Object.entries(_UNIT_PLURALS).map(([s,p]) => [p,s]));
+
+function fmtUnit(unit, qty) {
+  if (!unit) return '';
+  const want = qty >= 2 ? 'plural' : 'singular';
+  for (const [sg, pl] of Object.entries(_UNIT_PLURALS)) {
+    if (unit === sg) return want === 'plural' ? pl : sg;
+    if (unit === pl) return want === 'plural' ? pl : sg;
+    if (unit.startsWith(sg + ' ')) return (want === 'plural' ? pl : sg) + unit.slice(sg.length);
+    if (unit.startsWith(pl + ' ')) return (want === 'plural' ? pl : sg) + unit.slice(pl.length);
+  }
+  return unit;
 }
 
 function hexA(hex, alpha) {
@@ -2175,7 +2199,7 @@ function openSheet(recipeId) {
     <div class="recipe-section">
       <h3><span class="filet"></span>Ingrédients <span class="muted" style="font-weight:400; font-family:var(--font-sans); font-size:0.85rem;"> · pour ${getServings()}</span></h3>
       <ul class="ing-list">
-        ${r.ingredients.map(i => `<li class="ing-item"><span class="ing-qty">${formatQty(scaleQty(i.qte))} ${i.unite}</span><span class="ing-name">${i.nom}</span><span class="ing-rayon">${i.rayon}</span></li>`).join('')}
+        ${r.ingredients.map(i => `<li class="ing-item"><span class="ing-qty">${formatQty(scaleQty(i.qte))} ${fmtUnit(i.unite, scaleQty(i.qte))}</span><span class="ing-name">${i.nom}</span><span class="ing-rayon">${i.rayon}</span></li>`).join('')}
       </ul>
     </div>
     <div class="recipe-section">
@@ -2243,10 +2267,20 @@ function importData(file) {
 }
 
 function resetAll() {
-  if (!confirm('Tout effacer définitivement ?\n\nLes menus se régénéreront automatiquement, mais les rituels marqués et les courses cochées seront perdus.')) return;
+  if (!confirm('Tout effacer définitivement ?\n\nTes recettes perso, rituels marqués, plats swappés — tout sera perdu.')) return;
   State.reset();
   setMode(autoModeFor(new Date()));
   toast('Réinitialisé.');
+}
+
+function resetPlanning() {
+  if (!confirm('Repartir d\'une planif neuve ?\n\nLes plats swappés et la liste de courses cochée seront réinitialisés. Tes recettes perso et tes rituels sont gardés.\n\nUtile pour reconverger entre ton téléphone et celui de ta partenaire.')) return;
+  State.data.swaps = {};
+  State.data.regen = {};
+  State.data.checked = {};
+  State.save();
+  renderAll();
+  toast('Planif réinitialisée.');
 }
 
 /* ===== Navigation ============================================ */
@@ -2648,6 +2682,7 @@ function init() {
     e.target.value = '';
   });
   document.getElementById('btn-reset').addEventListener('click', resetAll);
+  document.getElementById('btn-reset-planning').addEventListener('click', resetPlanning);
 
   document.querySelectorAll('.week-nav-btn').forEach(b => {
     b.addEventListener('click', () => {
