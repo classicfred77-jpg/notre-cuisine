@@ -265,7 +265,7 @@ const RECIPES = [
     { nom:"Farine", qte:25, unite:"g", rayon:"Épicerie sucrée" },
     { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" }
   ],
-  etapes:["Préparer une béchamel courte (beurre + farine + lait).","Beurrer le pain, monter avec jambon et béchamel.","Recouvrir, napper de béchamel et fromage.","Cuire 12 min au four à 200°C."] },
+  etapes:["Préchauffer le four à 200°C en mode grill.","Préparer la béchamel : faire fondre 40g de beurre, ajouter 25g de farine, mélanger 1 min. Verser 25cl de lait en fouettant. Cuire 3 min jusqu'à épaississement. Saler, poivrer, muscade.","Beurrer 12 tranches de pain de mie.","Monter chaque croque : pain (beurre vers le bas) + 1 c. à soupe de béchamel + 1 tranche de jambon + 1 belle pincée d'emmental + 1 c. à soupe de béchamel + pain (beurre vers le haut).","Saupoudrer du reste de béchamel sur le dessus de chaque croque.","Parsemer généreusement du reste d'emmental.","Enfourner sous le grill 10-12 min jusqu'à doré et coulant.","Servir aussitôt avec une salade verte vinaigrée."] },
 
 { id:"dj05", nom:"Lasagnes à la bolognaise", mode:"kids", type:"diner", saison:["automne","hiver","printemps"], culture:"italien", temps:75, difficulte:2,
   ingredients:[
@@ -291,7 +291,7 @@ const RECIPES = [
     { nom:"Beurre", qte:60, unite:"g", rayon:"Crèmerie" },
     { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" }
   ],
-  etapes:["Cuire les pdt à l'eau salée 25 min.","Écraser avec lait chaud, beurre, sel, muscade.","Poêler les steaks 2 min par face.","Servir avec la purée bien chaude."] },
+  etapes:["Éplucher 1kg de pommes de terre, les couper en cubes de 3cm.","Cuire à l'eau bouillante salée 25 min jusqu'à tendres (pointe couteau).","Pendant ce temps, sortir les steaks hachés 10 min avant pour qu'ils soient à température.","Égoutter les pdt, les passer au presse-purée.","Faire tiédir 20cl de lait. L'ajouter à la purée avec 60g de beurre, 1 pincée de muscade. Saler, poivrer.","Bien battre la purée pour qu'elle soit lisse et aérée.","Saler les steaks juste avant cuisson. Cuire 2 min par face dans une poêle bien chaude SANS matière grasse.","Servir : grande cuillère de purée + steak haché. Beurre supplémentaire ou ketchup à part."] },
 
 { id:"dj07", nom:"Pizza maison margherita", mode:"kids", type:"diner", saison:["été","printemps"], culture:"italien", temps:90, difficulte:2,
   ingredients:[
@@ -351,7 +351,7 @@ const RECIPES = [
     { nom:"Salade verte", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
     { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" }
   ],
-  etapes:["Foncer un moule avec la pâte, piquer le fond.","Faire revenir les lardons.","Battre œufs, crème, lait, muscade, sel, poivre.","Verser sur les lardons, four 35 min à 180°C."] },
+  etapes:["Préchauffer le four à 180°C.","Foncer un moule à tarte de pâte brisée. Piquer le fond à la fourchette. Mettre du papier cuisson + haricots secs sur la pâte (cuisson à blanc).","Pré-cuire 10 min au four.","Pendant ce temps, faire revenir 250g de lardons fumés à sec dans une poêle 5 min. Égoutter sur papier absorbant.","Dans un saladier, battre 4 œufs entiers + 30cl de crème + 15cl de lait + 1 pincée de muscade. Saler très peu (lardons salés), poivrer.","Sortir le moule du four, retirer haricots et papier.","Répartir les lardons sur le fond.","Verser l'appareil œufs-crème.","Enfourner 35 min : la quiche doit être prise mais encore légèrement tremblotante au centre.","Laisser tiédir 5 min avant de servir avec une salade verte vinaigrée."] },
 
 { id:"dj12", nom:"Poulet rôti & frites maison", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:75, difficulte:1,
   ingredients:[
@@ -398,7 +398,7 @@ const RECIPES = [
     { nom:"Beurre", qte:20, unite:"g", rayon:"Crèmerie" },
     { nom:"Ail", qte:1, unite:"gousse", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Tomber les épinards au beurre avec l'ail.","Beurrer 4 ramequins, déposer les épinards.","Casser un œuf dans chaque, crème et parmesan.","Bain-marie au four 10 min à 180°C."] },
+  etapes:["Préchauffer le four à 180°C.","Laver 300g d'épinards frais, les essorer.","Hacher 1 gousse d'ail.","Dans une grande poêle, faire fondre 20g de beurre. Y faire tomber les épinards + ail à feu vif 3 min (ils réduisent beaucoup). Saler, poivrer.","Beurrer 4 ramequins. Répartir les épinards au fond.","Casser 1 œuf dans chaque ramequin sans casser le jaune.","Couvrir de 15cl de crème répartie (environ 3 c. à soupe par ramequin) et parsemer 10g de parmesan râpé par ramequin.","Placer les ramequins dans un plat. Verser de l'eau chaude dans le plat (bain-marie) jusqu'à mi-hauteur des ramequins.","Enfourner 10 min : le blanc doit être pris, le jaune encore coulant.","Servir aussitôt avec des mouillettes de pain grillé."] },
 
 { id:"dj16", nom:"Salade niçoise", mode:"us", type:"diner", saison:["été","printemps"], culture:"méditerranéen", temps:25, difficulte:1,
   ingredients:[
@@ -562,7 +562,7 @@ const RECIPES = [
     { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
     { nom:"Ras-el-hanout", qte:2, unite:"c. à café", rayon:"Épicerie salée" }
   ],
-  etapes:["Dorer poulet, retirer.","Suer oignons, ajouter légumes en gros morceaux, ras-el-hanout, tomates, eau.","Remettre poulet, mijoter 40 min, ajouter pois chiches en fin.","Cuire merguez à part, hydrater la semoule."] },
+  etapes:["Préchauffer le four à 200°C.","Émincer 2 oignons. Couper 3 carottes en rondelles, 2 courgettes en cubes.","Dans une grande cocotte, chauffer 3 c. à soupe d'huile. Dorer les cuisses de poulet 5 min toutes faces. Réserver.","Suer oignons 5 min, ajouter ras-el-hanout (2 c. à café), mélanger 1 min.","Ajouter carottes, courgettes, 25cl de tomates concassées, 1 boîte de pois chiches égouttés et 50cl d'eau.","Remettre poulet, saler. Couvrir, mijoter 40 min à feu doux.","Pendant ce temps, faire dorer 8 merguez dans une poêle 10 min en les retournant.","Hydrater 400g de semoule selon paquet (eau salée + 2 c. à soupe d'huile).","Servir : semoule + bouillon de légumes + poulet + 2 merguez par personne."] },
 
 { id:"dn05", nom:"Boulettes de bœuf sauce tomate & spaghetti", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:45, difficulte:1,
   ingredients:[
@@ -640,7 +640,7 @@ const RECIPES = [
     { nom:"Vin blanc", qte:10, unite:"cl", rayon:"Boissons" },
     { nom:"Thym", qte:2, unite:"branches", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Saisir le filet entier, sel, poivre, thym, four 25 min à 180°C.","Pâtes al dente.","Sauce : échalotes + vin blanc + moutarde + crème.","Trancher le filet, napper, servir avec les pâtes."] },
+  etapes:["Préchauffer le four à 180°C.","Saler et poivrer 600g de filet mignon de porc entier. Saisir 3 min toutes faces dans 2 c. à soupe d'huile chaude.","Transférer sur plaque, enfourner 25 min. La viande doit rester légèrement rosée à cœur.","Pendant ce temps, cuire 400g de tagliatelles 9 min al dente.","Pendant la cuisson de la viande, émincer 2 échalotes.","Quand la viande est cuite, la sortir et la laisser reposer 5 min sous papier alu.","Dans la poêle de saisie, suer les échalotes, déglacer 10cl de vin blanc. Ajouter 25cl de crème + 3 c. à soupe de moutarde. Mijoter 3 min.","Trancher la viande en médaillons. Servir sur les pâtes, napper de sauce."] },
 
 { id:"dn11", nom:"Tajine poulet citron & olives", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"méditerranéen", temps:70, difficulte:2,
   ingredients:[
@@ -654,7 +654,7 @@ const RECIPES = [
     { nom:"Coriandre fraîche", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Semoule fine", qte:300, unite:"g", rayon:"Épicerie salée" }
   ],
-  etapes:["Saisir le poulet, retirer.","Suer oignons, ail, gingembre, safran.","Remettre poulet, citrons confits coupés, eau, mijoter 45 min.","Ajouter olives, coriandre, servir avec semoule."] },
+  etapes:["Préchauffer le four à 180°C.","Émincer 2 oignons, écraser 3 gousses d'ail, râper 1 morceau de gingembre (3cm).","Couper 2 citrons confits en petits dés.","Dans une cocotte allant au four, chauffer 3 c. à soupe d'huile. Saisir les 4 cuisses de poulet côté peau 5 min. Réserver.","Suer oignons + ail + gingembre + 1 pincée de safran 5 min.","Remettre poulet, ajouter citrons confits, 30cl d'eau, sel.","Couvrir, enfourner 40 min.","Ajouter 150g d'olives violettes 10 min avant la fin.","Cuire 300g de semoule fine en parallèle (eau bouillante salée + huile).","Servir : semoule + tajine + coriandre fraîche ciselée."] },
 
 { id:"dn12", nom:"Spaghetti bolognaise", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:50, difficulte:1,
   ingredients:[
@@ -704,7 +704,7 @@ const RECIPES = [
     { nom:"Citron", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
     { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Légumes en bâtonnets, vapeur 8 min.","Cabillaud poêlé 4 min par face, huile + ail.","Persillade : ail haché, persil, huile, citron.","Napper le poisson, légumes à côté."] },
+  etapes:["Couper 2 courgettes et 3 carottes en bâtonnets de 7cm. Détailler 1 brocoli en bouquets.","Cuire à la vapeur 8 min, garder croquants.","Émincer 4 gousses d'ail.","Dans une grande poêle, chauffer 4 c. à soupe d'huile d'olive. Cuire 600g de cabillaud 4 min par face.","Pendant la cuisson, préparer la persillade : ail + persil ciselé + 1 filet d'huile.","Servir : légumes vapeur + cabillaud + persillade + quartier de citron."] },
 
 { id:"dn18", nom:"Poulet rôti du dimanche & légumes racines", mode:"kids", type:"diner", saison:["automne","hiver"], culture:"français", temps:90, difficulte:1,
   ingredients:[
@@ -717,7 +717,7 @@ const RECIPES = [
     { nom:"Thym & romarin", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
     { nom:"Ail", qte:1, unite:"tête", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Beurrer le poulet, herbes dans la cavité, sel.","Légumes en cubes autour, huile, sel.","Four 1 h 15 à 200°C en arrosant.","Repos 10 min, découpe."] },
+  etapes:["Sortir le poulet 30 min avant la cuisson (à température ambiante = mieux cuit).","Préchauffer le four à 200°C.","Beurrer le poulet généreusement (50g de beurre), saler, poivrer. Glisser 2 branches de thym + 2 branches de romarin + 4 gousses d'ail dans la cavité.","Éplucher carottes, panais, pdt. Les couper en gros morceaux. Disposer autour du poulet dans le plat.","Arroser les légumes d'huile, saler.","Enfourner 1h15 : arroser le poulet de son jus toutes les 20 min. Si la peau dore trop vite, couvrir d'alu.","Vérifier la cuisson : piquer la cuisse, le jus doit être clair. La viande doit se détacher facilement.","Sortir, laisser reposer 10 min sous alu (très important pour la jutosité).","Découper et servir avec les légumes confits."] },
 
 { id:"dn19", nom:"Bœuf bourguignon & tagliatelles", mode:"both", type:"diner", saison:["automne","hiver"], culture:"français", temps:180, difficulte:2,
   ingredients:[
@@ -756,7 +756,7 @@ const RECIPES = [
     { nom:"Farine", qte:25, unite:"g", rayon:"Épicerie sucrée" },
     { nom:"Salade verte", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Béchamel courte.","Monter : pain, jambon, béchamel, comté.","Four 10 min à 200°C, œuf au plat dessus.","Vinaigrette pour la salade."] },
+  etapes:["Préchauffer le four à 220°C grill.","Préparer une béchamel courte : faire fondre 30g de beurre, ajouter 25g de farine, verser 25cl de lait en fouettant. Cuire 3 min jusqu'à épaississement.","Beurrer 4 tranches de pain de mie. Monter croques : pain (beurre dessous) + 1 c. de béchamel + 1 tranche de jambon + 1 c. de béchamel + comté + pain (beurre dessus).","Saupoudrer du reste de comté.","Enfourner 8 min jusqu'à doré.","Pendant ce temps, cuire 4 œufs au plat dans une poêle beurrée à feu doux. Saler le blanc.","Préparer la salade vinaigrette à part.","Dresser : croque + œuf au plat dessus. Salade à côté."] },
 
 { id:"dn22", nom:"Pavé de saumon basse-T° & asperges", mode:"us", type:"diner", saison:["printemps"], culture:"français", temps:30, difficulte:2,
   ingredients:[
@@ -1309,7 +1309,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:6, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Émincer les oignons, fondre à feu doux 45 min jusqu'à compote brune.","Étaler la pâte sur plaque huilée.","Étaler les oignons, disposer anchois en croisillons, olives.","Thym et huile d'olive, four 25 min à 200°C."] },
+  etapes:["Préchauffer le four à 200°C.","Émincer 1,5kg d'oignons en rondelles fines.","Dans une grande poêle, chauffer 4 c. à soupe d'huile d'olive à feu doux. Y faire fondre les oignons 45 MINUTES en remuant régulièrement.","Important : il faut qu'ils confisent doucement jusqu'à devenir une compote dorée presque brune. Saler en fin.","Étaler la pâte à pizza sur une plaque tapissée de papier cuisson huilé.","Égoutter les oignons sur passoire, étaler en couche régulière sur la pâte.","Disposer 20 filets d'anchois en croisillons (en losanges).","Parsemer 150g d'olives noires de Nice.","Quelques branches de thym, 2 c. à soupe d'huile d'olive sur le tout.","Enfourner 25 min jusqu'à la pâte dorée. Servir tiède en parts."] },
 
 { id:"fr06", nom:"Aïoli garni provençal", mode:"us", type:"diner", saison:["printemps","été"], culture:"français", temps:60, difficulte:2,
   ingredients:[
@@ -1413,7 +1413,7 @@ const RECIPES = [
     { nom:"Huile de tournesol", qte:6, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Faire sauter lardons à sec, garder le gras.","Pocher les œufs dans l'eau frémissante vinaigrée 3 min.","Croûtons frottés à l'ail.","Vinaigrette avec gras de lardons, dresser salade-lardons-œuf-croûtons."] },
+  etapes:["Pocher les œufs : porter une grande casserole d'eau à frémissement. Ajouter 5 c. à soupe de vinaigre de vin. Casser chaque œuf dans une tasse.","Créer un tourbillon dans l'eau avec une cuillère. Verser l'œuf au centre. Cuire 3 min sans bouillir. Sortir à l'écumoire, réserver sur papier absorbant. Répéter pour les 6 œufs.","Dans une grande poêle, faire revenir 300g de lardons fumés à sec 5 min jusqu'à dorés et croustillants. Garder le gras.","Toaster 8 tranches de pain de campagne et les frotter avec 2 gousses d'ail (juste pour parfumer).","Préparer la vinaigrette : 6 c. à soupe d'huile + 5 c. à soupe de vinaigre de vin + 1 c. à café de moutarde + sel + poivre. Ajouter 2 c. à soupe du gras de lardons pour le côté gourmand.","Effeuiller 1 grosse frisée. Dans des assiettes individuelles, dresser : salade + lardons chauds + croûtons + œuf poché posé délicatement.","Verser un peu de vinaigrette sur chaque assiette. Tour de poivre. Servir aussitôt."] },
 
 { id:"fr14", nom:"Pommes de terre dauphine maison", mode:"kids", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:60, difficulte:2,
   ingredients:[
@@ -1439,7 +1439,7 @@ const RECIPES = [
     { nom:"Vinaigre de vin", qte:1, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Pain de campagne", qte:1, unite:"pièce", rayon:"Boulangerie" }
   ],
-  etapes:["Égoutter le fromage blanc.","Hacher finement herbes, ail, échalote.","Mélanger fromage + herbes + huile + vinaigre, sel et poivre.","Servir bien frais avec pain grillé."] },
+  etapes:["Égoutter 500g de fromage blanc en faisselle 30 min pour qu'il soit bien ferme.","Pendant ce temps, émincer très finement 2 échalotes (au robot c'est plus rapide).","Hacher 1 botte de ciboulette, 1 botte de persil plat et 1/2 botte de cerfeuil aux ciseaux.","Écraser 2 gousses d'ail au presse-ail.","Verser le fromage blanc dans un grand saladier. Ajouter herbes + échalotes + ail + 4 c. à soupe d'huile d'olive + 1 c. à soupe de vinaigre.","Mélanger délicatement. Saler généreusement, poivrer.","Couvrir, mettre au frigo 1h MINIMUM pour que les saveurs se développent.","Servir bien frais avec du pain de campagne grillé."] },
 
 { id:"fr16", nom:"Tablier de sapeur (gras-double pané)", mode:"us", type:"diner", saison:["automne","hiver"], culture:"français", temps:60, difficulte:3,
   ingredients:[
@@ -2774,7 +2774,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Ail", qte:1, unite:"gousses", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Toaster le pain, frotter à l'ail.","Trancher mozza et tomates.","Disposer, sel, huile d'olive.","Basilic frais sur le dessus."] },
+  etapes:["Préchauffer le four position grill à 220°C.","Couper 4 tomates en rondelles épaisses (1cm). Émincer 1 gousse d'ail très finement.","Trancher 250g de mozzarella di bufala en rondelles de 5mm. Bien l'éponger au papier absorbant (sinon ça rend de l'eau).","Toaster 8 tranches de pain de campagne 2 min sous le grill jusqu'à dorées.","Frotter rapidement chaque toast avec une demi-gousse d'ail (juste pour parfumer).","Sur chaque toast, disposer 1 rondelle de tomate, 1 rondelle de mozza. Saler très légèrement, poivrer, arroser de quelques gouttes d'huile d'olive.","Passer 3 min sous le grill : la mozza doit juste commencer à fondre.","Sortir, ajouter quelques feuilles de basilic frais déchirées à la main. Servir aussitôt."] },
 
 { id:"fq02", nom:"Tartines chèvre-figue-miel", mode:"us", type:"diner", saison:["été","automne"], culture:"bistronomie", temps:10, difficulte:1,
   ingredients:[
@@ -2785,7 +2785,7 @@ const RECIPES = [
     { nom:"Roquette", qte:100, unite:"g", rayon:"Fruits & Légumes" },
     { nom:"Noix concassées", qte:60, unite:"g", rayon:"Épicerie sucrée" }
   ],
-  etapes:["Toaster le pain.","Étaler le chèvre, four 3 min à 200°C.","Figues coupées en quartiers dessus.","Miel, noix, roquette."] },
+  etapes:["Préchauffer le four à 200°C en mode grill.","Toaster 8 tranches de pain au levain 2 min jusqu'à dorées.","Trancher 200g de bûche de chèvre en 8 rondelles épaisses.","Couper 6 figues fraîches en quartiers (en 4).","Disposer 1 rondelle de chèvre sur chaque toast. Passer 3 min sous le grill : le chèvre doit fondre et commencer à brunir.","Sortir, déposer 3 quartiers de figue par toast.","Arroser de 1/2 c. à café de miel chaud par toast. Concasser 60g de cerneaux de noix, parsemer.","Servir avec une chiffonnade de roquette à côté, vinaigrée au balsamique."] },
 
 { id:"fq03", nom:"Salade composée poulet-maïs-tomate", mode:"kids", type:"diner", saison:["printemps","été"], culture:"français", temps:15, difficulte:1,
   ingredients:[
@@ -2796,7 +2796,7 @@ const RECIPES = [
     { nom:"Œufs durs", qte:4, unite:"pièces", rayon:"Crèmerie" },
     { nom:"Vinaigrette", qte:1, unite:"portion", rayon:"Épicerie salée" }
   ],
-  etapes:["Préparer œufs durs, refroidir.","Couper tomates et poulet en dés.","Tout dresser sur lit de salade.","Vinaigrette à la moutarde."] },
+  etapes:["Pour les œufs durs : porter une casserole d'eau à ébullition, plonger les œufs, cuire 9 min. Refroidir aussitôt sous l'eau froide. Écaler et couper en 4.","Couper 4 tomates en quartiers. Couper 400g de blancs de poulet cuits (restes ou pochés à l'eau salée 12 min) en morceaux.","Laver et essorer une salade (mélange laitue + mâche).","Dans un grand saladier de service, disposer la salade au fond.","Ajouter les tomates, les œufs durs, le poulet en gros morceaux.","Préparer la vinaigrette : 1 c. à café de moutarde + 1 c. à soupe de vinaigre + 3 c. à soupe d'huile + sel + poivre. Bien émulsionner au fouet.","Verser sur la salade au moment de servir. Mélanger délicatement."] },
 
 { id:"fq04", nom:"Tabouleh menthe-citron express", mode:"both", type:"diner", saison:["printemps","été"], culture:"méditerranéen", temps:20, difficulte:1,
   ingredients:[
@@ -2808,7 +2808,7 @@ const RECIPES = [
     { nom:"Persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Huile d'olive", qte:6, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Hydrater semoule avec jus de citron + huile + eau tiède 15 min.","Hacher tomates, concombre, herbes.","Mélanger, sel, poivre.","Servir bien frais."] },
+  etapes:["Mettre 300g de semoule fine dans un grand saladier. Ajouter 4 c. à soupe d'huile d'olive et le jus de 2 citrons. Mélanger.","Couvrir d'1 verre d'eau tiède. Couvrir d'un torchon, laisser gonfler 15 min. La semoule absorbe et devient tendre.","Pendant ce temps : couper 4 tomates en très petits dés (en gardant le jus). Couper 1 concombre en dés.","Hacher finement 1 botte de menthe et 1 botte de persil (utiliser ciseaux pour aller vite).","Aérer la semoule à la fourchette.","Ajouter tomates (avec leur jus), concombre, herbes. Saler, poivrer généreusement.","Bien mélanger. Goûter, rectifier l'acidité (rajouter du citron si besoin).","Servir bien frais, idéalement après 30 min au frigo pour que les saveurs se développent."] },
 
 { id:"fq05", nom:"Sandwich club poulet-bacon-avocat", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
   ingredients:[
@@ -2820,7 +2820,7 @@ const RECIPES = [
     { nom:"Salade", qte:8, unite:"feuilles", rayon:"Fruits & Légumes" },
     { nom:"Mayonnaise", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Faire griller le bacon.","Toaster le pain.","Étaler mayo, monter : pain, salade, poulet, bacon, avocat, tomate.","Couper en triangles."] },
+  etapes:["Faire griller 4 tranches de bacon dans une poêle à sec 5 min jusqu'à croustillantes. Égoutter sur papier absorbant.","Pendant ce temps, toaster 12 tranches de pain de mie complet.","Couper 2 avocats en deux, vider la chair, écraser avec le jus d'1/2 citron.","Couper 2 tomates en rondelles fines.","Pocher 4 morceaux de blanc de poulet à l'eau bouillante salée 10 min OU utiliser des restes. Émincer.","Étaler 1 c. à café de mayonnaise sur chaque toast.","Monter chaque sandwich : pain + salade + poulet, pain du milieu, pain + avocat + bacon + tomate, pain.","Piquer avec 4 cure-dents, couper en 4 triangles. Servir avec des chips ou frites."] },
 
 { id:"fq06", nom:"Omelette aux 4 fromages", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:15, difficulte:1,
   ingredients:[
@@ -2832,7 +2832,7 @@ const RECIPES = [
     { nom:"Beurre", qte:40, unite:"g", rayon:"Crèmerie" },
     { nom:"Ciboulette", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Battre œufs, sel, poivre.","Beurre fondu dans poêle chaude.","Verser œufs, ajouter fromages au centre.","Replier, baveuse, ciboulette."] },
+  etapes:["Casser 10 œufs dans un grand bol. Ajouter sel et poivre, battre à la fourchette (juste pour mélanger).","Préparer les 4 fromages : râper 80g de comté et 80g d'emmental, émietter 60g de bleu, couper 80g de chèvre en petits dés.","Dans une grande poêle anti-adhésive, faire fondre 40g de beurre à feu DOUX.","Verser les œufs. Attendre 30 sec, puis ramener doucement les bords vers le centre à la spatule, en laissant les œufs liquides couler sur les côtés.","Quand les œufs sont encore baveux au centre (3 min), parsemer les 4 fromages en bande au centre.","Laisser fondre 30 sec, puis replier l'omelette en deux à la spatule.","Faire glisser sur un plat de service. Parsemer la ciboulette ciselée. Servir aussitôt."] },
 
 { id:"fq07", nom:"Pâtes au citron & parmesan", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:15, difficulte:1,
   ingredients:[
@@ -2855,7 +2855,7 @@ const RECIPES = [
     { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" },
     { nom:"Échalote", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Cuire pâtes 9 min, petits pois 4 min à part.","Suer échalote au beurre, jambon en lanières.","Pâtes + petits pois + crème + parmesan.","Mélanger, dresser."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition.","Pendant ce temps, ciseler 1 échalote. Couper 6 tranches de jambon en lanières.","Cuire 500g de penne 9 min al dente.","Décongeler 300g de petits pois (les plonger 3 min dans l'eau bouillante des pâtes, les sortir à l'écumoire).","Dans une grande sauteuse, faire fondre 30g de beurre. Suer l'échalote 2 min.","Ajouter le jambon, 25cl de crème fraîche. Mijoter 3 min.","Ajouter les petits pois, mélanger 1 min.","Égoutter les pâtes, les verser dans la sauteuse. Mélanger avec 60g de parmesan. Servir aussitôt."] },
 
 { id:"fq09", nom:"Pâtes alla puttanesca", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:20, difficulte:1,
   ingredients:[
@@ -2868,7 +2868,7 @@ const RECIPES = [
     { nom:"Piment doux", qte:1, unite:"c. à café", rayon:"Épicerie salée" },
     { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Cuire pâtes al dente.","Fondre anchois + ail dans huile, ajouter tomates + olives + câpres + piment.","Mijoter 10 min.","Mélanger aux pâtes, persil."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition.","Pendant ce temps, écraser 4 gousses d'ail. Hacher 10 filets d'anchois à l'huile.","Cuire 500g de spaghetti al dente.","Dans une grande sauteuse, faire fondre les anchois dans 4 c. à soupe d'huile à feu doux : ils se désagrègent en 2 min.","Ajouter l'ail, faire blondir 1 min (PAS brûler).","Ajouter 40cl de tomates concassées, 150g d'olives noires dénoyautées, 3 c. à soupe de câpres, 1 c. à café de piment doux. Mijoter 10 min.","Égoutter les pâtes, les verser dans la sauteuse. Mélanger 1 min.","Parsemer de persil ciselé. Servir."] },
 
 { id:"fq10", nom:"Croque-monsieur au comté", mode:"kids", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -2890,7 +2890,7 @@ const RECIPES = [
     { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" },
     { nom:"Origan séché", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
   ],
-  etapes:["Beurrer pain.","Monter jambon + rondelles de tomate + fromage.","Recouvrir, fromage dessus.","Four 10 min à 220°C, origan."] },
+  etapes:["Préchauffer le four à 220°C en mode grill.","Couper 2 tomates en rondelles fines.","Beurrer 4 tranches de pain de mie sur une face.","Monter chaque croque : pain (beurre vers le bas) + 1 tranche de jambon + rondelles de tomate + 1 belle pincée d'emmental + 1 pincée d'origan + 1 tranche pain (beurre vers le haut).","Saupoudrer le dessus du reste d'emmental.","Enfourner 8-10 min sous le grill jusqu'à doré et fondant.","Servir aussitôt avec une salade verte."] },
 
 { id:"fq12", nom:"Œufs au plat & jambon, pdt sautées", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -2901,7 +2901,7 @@ const RECIPES = [
     { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Pdt en dés, sautés au beurre 18 min.","Ail haché en fin.","Œufs au plat à part 3 min.","Jambon réchauffé, dresser avec persil."] },
+  etapes:["Éplucher 800g de pommes de terre. Les couper en dés de 1,5cm. Les éponger au papier absorbant.","Dans une grande poêle, chauffer 60g de beurre à feu moyen. Y faire sauter les pdt 18 min en remuant régulièrement, jusqu'à dorées et tendres.","Pendant la dernière minute, ajouter 2 gousses d'ail hachées.","Pendant ce temps, dans une autre poêle, cuire 8 œufs au plat à feu doux dans 1 c. à café de beurre. Saler le blanc.","Réchauffer les 4 tranches de jambon dans la poêle des œufs en fin.","Servir : pdt sautées + œuf au plat + jambon + persil ciselé."] },
 
 { id:"fq13", nom:"Frittata courgettes-féta-menthe", mode:"us", type:"diner", saison:["printemps","été"], culture:"méditerranéen", temps:20, difficulte:1,
   ingredients:[
@@ -2912,7 +2912,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Courgettes en rondelles, sauter 8 min huile + ail.","Battre œufs, féta émiettée, menthe.","Verser dans la poêle, cuire 5 min couvert.","Finir 3 min sous grill."] },
+  etapes:["Préchauffer le four position grill à 220°C.","Couper 2 courgettes en rondelles fines. Émincer 2 gousses d'ail.","Dans une grande poêle allant au four, chauffer 4 c. à soupe d'huile d'olive. Sauter ail + courgettes 8 min jusqu'à tendres mais avec encore du croquant.","Casser 10 œufs dans un bol, battre à la fourchette avec sel et poivre.","Émietter 200g de féta. Hacher 1/2 botte de menthe.","Ajouter féta et menthe aux œufs.","Verser le mélange œufs sur les courgettes dans la poêle. Cuire 5 min à feu doux couvert (les œufs prennent par le dessous).","Enfourner 3 min sous le grill pour finir le dessus.","Démouler sur une planche, couper en parts. Servir tiède."] },
 
 { id:"fq14", nom:"Saumon poêlé express, haricots verts", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:18, difficulte:1,
   ingredients:[
@@ -2923,7 +2923,7 @@ const RECIPES = [
     { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" },
     { nom:"Persil", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Haricots verts vapeur 8 min.","Saumon côté peau 5 min, retourner 1 min.","Beurre noisette + citron + ail + persil.","Napper poisson et haricots."] },
+  etapes:["Cuire 500g de haricots verts à l'eau bouillante salée 8 min. Égoutter, garder croquants.","Pendant ce temps, presser 1 citron et zester.","Hacher 2 gousses d'ail. Ciseler le persil.","Dans une grande poêle, chauffer 1 c. à soupe d'huile à feu moyen. Cuire les pavés de saumon côté peau 5 min, retourner 1 min (cœur nacré).","Réserver le saumon sur un plat chaud.","Dans la même poêle, faire fondre 50g de beurre jusqu'à coloration noisette. Hors feu, ajouter ail + jus de citron + zeste + persil.","Servir : haricots verts + saumon + beurre noisette nappé."] },
 
 { id:"fq15", nom:"Cabillaud poêlé aux herbes", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:15, difficulte:1,
   ingredients:[
@@ -2933,7 +2933,7 @@ const RECIPES = [
     { nom:"Citron", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
     { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
   ],
-  etapes:["Riz pilaf 12 min en parallèle.","Cabillaud à la poêle 4 min par face dans beurre.","Hacher herbes, ajouter sur le poisson.","Citron, dresser sur riz."] },
+  etapes:["Cuire 400g de riz basmati : 1 volume riz / 1,5 volume eau salée, couvert à feu doux 12 min, repos 5 min.","Pendant ce temps, hacher 1 botte d'herbes mélangées (persil, ciboulette, estragon).","Presser 1 citron.","Dans une grande poêle, chauffer 30g de beurre à feu moyen. Cuire 700g de dos de cabillaud 4 min par face. Saler en fin.","Retirer le poisson, garder au chaud.","Dans la poêle, faire fondre 30g de beurre supplémentaire jusqu'à coloration noisette.","Hors feu, ajouter le jus de citron et les herbes hachées.","Servir : riz + cabillaud + herbes en beurre noisette."] },
 
 { id:"fq16", nom:"Filets de poulet citronné express", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:18, difficulte:1,
   ingredients:[
@@ -2944,7 +2944,7 @@ const RECIPES = [
     { nom:"Ail", qte:3, unite:"gousses", rayon:"Fruits & Légumes" },
     { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
   ],
-  etapes:["Saisir aiguillettes 5 min.","Ajouter ail + jus citron + beurre.","Persil ciselé.","Riz blanc à part."] },
+  etapes:["Cuire 400g de riz basmati en parallèle.","Presser 2 citrons.","Émincer 3 gousses d'ail.","Dans une grande poêle, chauffer 50g de beurre à feu moyen-vif.","Saisir 600g d'aiguillettes de poulet 5 min en remuant, jusqu'à dorées.","Baisser à feu moyen. Ajouter ail haché et jus de citron. Cuire 2 min en remuant.","Hors feu, ajouter persil ciselé et 1 noix de beurre supplémentaire pour lustrer.","Servir sur le riz."] },
 
 { id:"fq17", nom:"Steak haché à la moutarde", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:15, difficulte:1,
   ingredients:[
@@ -2955,7 +2955,7 @@ const RECIPES = [
     { nom:"Bouillon", qte:10, unite:"cl", rayon:"Épicerie salée" },
     { nom:"Pommes de terre vapeur", qte:1, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Steaks 2 min par face.","Échalotes, déglacer bouillon + crème + moutarde.","Pdt vapeur à part.","Sauce sur les steaks."] },
+  etapes:["Émincer 2 échalotes.","Cuire les pdt vapeur 20 min en parallèle.","Dans une poêle, saisir les 4 steaks hachés 2 min par face à feu vif. Réserver au chaud.","Dans la même poêle, suer les échalotes 2 min.","Déglacer avec 10cl de bouillon, gratter le fond.","Ajouter 15cl de crème + 3 c. à soupe de moutarde. Mijoter 2 min.","Napper les steaks. Servir avec les pdt vapeur."] },
 
 { id:"fq18", nom:"Boulettes bœuf sauce tomate express", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:20, difficulte:1,
   ingredients:[
@@ -2967,7 +2967,7 @@ const RECIPES = [
     { nom:"Origan", qte:1, unite:"c. à café", rayon:"Épicerie salée" },
     { nom:"Spaghetti", qte:400, unite:"g", rayon:"Épicerie salée" }
   ],
-  etapes:["Mélanger viande + mie + œuf, former boulettes.","Dorer 5 min, ajouter coulis + origan.","Pâtes al dente 9 min.","Servir boulettes sur spaghetti."] },
+  etapes:["Dans un saladier, mélanger 600g de bœuf haché + 1 œuf + 60g de chapelure + 1 oignon haché + 2 gousses d'ail écrasées + sel + poivre. Pétrir 2 min.","Former 16 boulettes de la taille d'une grosse noix.","Dans une grande sauteuse, chauffer 3 c. à soupe d'huile à feu moyen-vif. Dorer les boulettes 4 min sur toutes les faces. Réserver.","Cuire 400g de spaghetti al dente en parallèle.","Dans la sauteuse, ajouter 40cl de coulis de tomates + 1 c. à café d'origan. Remettre les boulettes. Mijoter 10 min.","Servir les spaghetti dans des assiettes, 4 boulettes + sauce. Parmesan."] },
 
 { id:"fq19", nom:"Côtes de porc moutarde", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -2978,7 +2978,7 @@ const RECIPES = [
     { nom:"Vin blanc", qte:10, unite:"cl", rayon:"Boissons" },
     { nom:"Pommes de terre vapeur", qte:800, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Pdt vapeur.","Côtes saisies 4 min par face.","Échalote, vin, moutarde, crème.","Napper, servir."] },
+  etapes:["Cuire les pdt vapeur 20 min.","Émincer 1 échalote.","Saisir 4 côtes de porc 4 min par face dans une poêle bien chaude. Saler, poivrer. Réserver.","Dans la même poêle, suer l'échalote 2 min, déglacer 10cl de vin blanc.","Ajouter 20cl de crème + 3 c. à soupe de moutarde forte. Mijoter 2 min.","Napper les côtes. Servir avec pdt vapeur."] },
 
 { id:"fq20", nom:"Aiguillettes basquaise express", mode:"both", type:"diner", saison:["printemps","été","automne"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -3044,7 +3044,7 @@ const RECIPES = [
     { nom:"Pain de campagne", qte:6, unite:"tranches", rayon:"Boulangerie" },
     { nom:"Comté râpé", qte:200, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Émincer oignons, fondre beurre 12 min jusqu'à blonds.","Vin + bouillon 5 min.","Bols, croûtons, fromage.","Grill 3 min."] },
+  etapes:["Émincer 6 oignons en rondelles fines.","Dans une grande cocotte, faire fondre 60g de beurre à feu doux.","Faire blondir les oignons 12 min en remuant souvent (ils doivent ramollir et brunir).","Déglacer avec 10cl de vin blanc, laisser évaporer 1 min.","Verser 1,2L de bouillon de bœuf chaud. Mijoter 5 min.","Toaster 6 tranches de pain de campagne.","Verser la soupe dans des bols allant au four. Poser un croûton sur chaque, parsemer généreusement 200g de comté râpé.","Passer 3 min sous le grill à 220°C jusqu'à fromage doré et bouillonnant.","Servir IMMÉDIATEMENT (attention c'est brûlant)."] },
 
 { id:"fq26", nom:"Velouté carotte-orange-gingembre", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -3055,7 +3055,7 @@ const RECIPES = [
     { nom:"Crème", qte:15, unite:"cl", rayon:"Crèmerie" },
     { nom:"Coriandre", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Carottes en rondelles + gingembre, bouillon 15 min.","Jus d'orange ajouté.","Mixer, crémer.","Coriandre."] },
+  etapes:["Éplucher 800g de carottes, les couper en rondelles. Râper 1 morceau de gingembre.","Dans une casserole, suer 1 échalote ciselée dans 1 c. à soupe d'huile 2 min.","Ajouter carottes + gingembre, mélanger 1 min.","Verser 1L de bouillon + jus de 2 oranges. Saler.","Porter à ébullition, mijoter 15 min jusqu'à tendres.","Mixer fin au mixeur plongeant.","Ajouter 15cl de crème, rectifier sel/poivre.","Servir avec coriandre ciselée."] },
 
 { id:"fq27", nom:"Velouté poireaux-pommes de terre", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:20, difficulte:1,
   ingredients:[
