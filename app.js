@@ -86,7 +86,7 @@ const RECIPES = [
     { nom:"Confiture au choix", qte:60, unite:"g", rayon:"Épicerie sucrée" },
     { nom:"Oranges à presser", qte:4, unite:"pièces", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Toaster les tranches de pain.","Tartiner d'une couche de beurre demi-sel.","Étaler la confiture.","Servir avec un jus d'orange fraîchement pressé."] },
+  etapes:["Faire chauffer le grille-pain ou préchauffer le four à 220°C.","Toaster les 4 tranches de pain de campagne 2-3 min jusqu'à dorées et croustillantes mais pas brûlées.","Sortir le beurre 5 min avant pour qu'il soit pommade (plus facile à tartiner sans déchirer le pain).","Tartiner chaque tranche d'une couche généreuse de beurre demi-sel.","Étaler 1 c. à soupe de confiture sur le beurre.","Presser les oranges au presse-agrumes (manuel ou électrique). Filtrer si on n'aime pas la pulpe.","Servir le jus dans des verres bien froids et les tartines aussitôt."] },
 
 { id:"pd02", nom:"Porridge avoine, pomme & cannelle", mode:"both", type:"petit-dej", saison:["automne","hiver","printemps"], culture:"international", temps:10, difficulte:1,
   ingredients:[
@@ -96,7 +96,7 @@ const RECIPES = [
     { nom:"Cannelle", qte:1, unite:"c. à café", rayon:"Épicerie salée" },
     { nom:"Miel", qte:2, unite:"c. à café", rayon:"Épicerie sucrée" }
   ],
-  etapes:["Verser flocons et lait dans une casserole.","Cuire à feu doux 5 min en remuant.","Râper la pomme dans le bol.","Ajouter cannelle et miel, mélanger."] },
+  etapes:["Dans une casserole moyenne, verser 80g de flocons d'avoine et 40cl de lait demi-écrémé.","Porter à frémissement à feu moyen en remuant régulièrement à la cuillère en bois.","Quand ça frémit, baisser à feu doux. Cuire 5 min en remuant souvent pour éviter que ça accroche.","Pendant ce temps, laver, épépiner et râper grossièrement 1 pomme (avec ou sans peau selon préférence).","Hors du feu, ajouter la pomme râpée et 1 c. à café de cannelle. Mélanger.","Verser dans les bols. Arroser de 2 c. à café de miel.","Servir aussitôt, parsemer éventuellement de quelques amandes effilées."] },
 
 { id:"pd03", nom:"Œufs brouillés & pain grillé", mode:"both", type:"petit-dej", saison:["printemps","été","automne","hiver"], culture:"français", temps:10, difficulte:1,
   ingredients:[
@@ -106,7 +106,7 @@ const RECIPES = [
     { nom:"Pain de mie complet", qte:6, unite:"tranches", rayon:"Boulangerie" },
     { nom:"Ciboulette", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Battre les œufs avec lait, sel et poivre.","Faire fondre le beurre à feu doux dans une poêle.","Verser les œufs, remuer lentement jusqu'à texture crémeuse.","Toaster le pain et parsemer de ciboulette ciselée."] },
+  etapes:["Casser 6 œufs dans un bol. Ajouter 5cl de lait, sel et poivre. Battre à la fourchette (pas trop, juste pour mélanger).","Mettre le pain de mie dans le grille-pain pour qu'il soit prêt en même temps.","Dans une poêle anti-adhésive, faire fondre 20g de beurre à feu DOUX (l'astuce des œufs brouillés réussis : feu doux).","Verser les œufs. Attendre 30 sec sans toucher, puis ramener les bords vers le centre à la spatule.","Continuer doucement 2-3 min en mélangeant régulièrement. Les œufs doivent rester baveux, pas secs.","Hors du feu (la chaleur résiduelle finit la cuisson), ajouter la ciboulette ciselée.","Servir aussitôt sur les tartines beurrées."] },
 
 { id:"pd04", nom:"Pancakes complets, fruits rouges & sirop d'érable", mode:"kids", type:"petit-dej", saison:["été","automne","printemps"], culture:"international", temps:20, difficulte:1,
   ingredients:[
@@ -118,7 +118,7 @@ const RECIPES = [
     { nom:"Fruits rouges (frais ou surgelés)", qte:200, unite:"g", rayon:"Surgelés" },
     { nom:"Sirop d'érable", qte:10, unite:"cl", rayon:"Épicerie sucrée" }
   ],
-  etapes:["Mélanger farine, levure et sucre.","Ajouter œufs et lait, fouetter.","Cuire de petites louches à la poêle, 1 min par face.","Servir avec fruits rouges et sirop d'érable."] },
+  etapes:["Dans un saladier, mélanger 200g de farine complète, 1 sachet de levure et 30g de sucre roux.","Dans un autre bol, battre 2 œufs avec 25cl de lait. Verser progressivement dans la farine en fouettant pour éviter les grumeaux.","Laisser reposer la pâte 10 min (les pancakes seront plus moelleux).","Chauffer une poêle anti-adhésive à feu moyen. La graisser très légèrement avec un papier huilé.","Verser une louche de pâte (environ 1/2 louche pour des pancakes de 12 cm).","Cuire 1-2 min : quand des petites bulles se forment et éclatent en surface, c'est le moment de retourner.","Retourner à la spatule, cuire 1 min de plus.","Garder au chaud sous un linge propre. Continuer avec toute la pâte.","Servir avec les fruits rouges (préalablement décongelés ou frais) et un filet de sirop d'érable."] },
 
 { id:"pd05", nom:"Tartines avocat & œuf poché", mode:"us", type:"petit-dej", saison:["printemps","été","automne","hiver"], culture:"international", temps:15, difficulte:2,
   ingredients:[
@@ -129,7 +129,7 @@ const RECIPES = [
     { nom:"Piment d'Espelette", qte:1, unite:"pincée", rayon:"Épicerie salée" },
     { nom:"Vinaigre blanc", qte:1, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Écraser l'avocat avec citron, sel et piment.","Tartiner sur le pain grillé.","Pocher les œufs dans l'eau frémissante vinaigrée, 3 min.","Déposer un œuf sur chaque tartine, finir d'une pincée de piment."] },
+  etapes:["Toaster 2 tranches épaisses de pain au levain au grille-pain ou au four 3-4 min.","Couper l'avocat en deux, retirer le noyau. Vider la chair dans un bol, écraser à la fourchette.","Ajouter le jus d'1/2 citron, du sel, et 1 pincée de piment d'Espelette. Mélanger.","Préparer une casserole d'eau avec 1 c. à soupe de vinaigre blanc. Porter à frémissement (pas bouillir fort).","Casser chaque œuf dans une petite tasse (un par un). Faire tourner l'eau frémissante avec une cuillère pour former un tourbillon.","Verser délicatement l'œuf au centre du tourbillon. Cuire 3 min sans toucher (le blanc s'enroule autour du jaune).","Récupérer chaque œuf avec une écumoire, déposer sur du papier absorbant.","Tartiner les pains grillés d'avocat. Déposer un œuf poché sur chaque, parsemer de piment.","Servir aussitôt, fleur de sel et tour de poivre."] },
 
 { id:"pd06", nom:"Bircher muesli yaourt & fruits", mode:"both", type:"petit-dej", saison:["printemps","été","automne","hiver"], culture:"international", temps:5, difficulte:1,
   ingredients:[
@@ -140,7 +140,7 @@ const RECIPES = [
     { nom:"Amandes effilées", qte:20, unite:"g", rayon:"Épicerie sucrée" },
     { nom:"Miel", qte:2, unite:"c. à café", rayon:"Épicerie sucrée" }
   ],
-  etapes:["La veille : tremper l'avoine dans le yaourt.","Le matin : râper la pomme dans le bol.","Ajouter raisins, amandes et miel.","Mélanger et servir."] },
+  etapes:["LA VEILLE AU SOIR : dans un bol, mélanger 60g de flocons d'avoine avec les 2 pots de yaourt nature. Couvrir, mettre au frigo toute la nuit (les flocons gonflent et deviennent crémeux).","Le matin : laver et râper 1 pomme (avec la peau).","Sortir le bol du frigo. Ajouter la pomme râpée, 30g de raisins secs et 20g d'amandes effilées.","Mélanger délicatement.","Ajouter 2 c. à café de miel et bien incorporer.","Répartir dans 2 bols ou verrines.","Servir frais. Astuce : on peut ajouter des fruits rouges, des graines de chia ou de la coco râpée."] },
 
 { id:"pd07", nom:"Smoothie bowl banane mangue granola", mode:"kids", type:"petit-dej", saison:["été","printemps"], culture:"international", temps:8, difficulte:1,
   ingredients:[
@@ -150,7 +150,7 @@ const RECIPES = [
     { nom:"Granola", qte:80, unite:"g", rayon:"Épicerie sucrée" },
     { nom:"Graines de chia", qte:2, unite:"c. à café", rayon:"Épicerie sucrée" }
   ],
-  etapes:["Mixer banane, mangue et yaourt en purée épaisse.","Verser dans des bols.","Parsemer généreusement de granola.","Ajouter les graines de chia."] },
+  etapes:["Sortir la mangue surgelée du congélateur 5 min avant (elle se mixe mieux quand elle n'est pas en bloc dur).","Couper 2 bananes en rondelles.","Dans le blender, mettre les bananes, la mangue et les 2 pots de yaourt.","Mixer 30 sec à puissance maximum jusqu'à obtenir une texture épaisse type sorbet.","Si trop épais, ajouter 2-3 c. à soupe d'eau. Si trop liquide, ajouter 2 glaçons et remixer.","Verser dans 2 grands bols.","Parsemer 80g de granola en couche généreuse.","Saupoudrer 2 c. à café de graines de chia.","Servir immédiatement, le smoothie commence à fondre rapidement."] },
 
 { id:"pd08", nom:"Pain perdu brioche & miel", mode:"both", type:"petit-dej", saison:["automne","hiver"], culture:"français", temps:15, difficulte:1,
   ingredients:[
@@ -161,7 +161,7 @@ const RECIPES = [
     { nom:"Miel", qte:4, unite:"c. à soupe", rayon:"Épicerie sucrée" },
     { nom:"Vanille en poudre", qte:1, unite:"pincée", rayon:"Épicerie sucrée" }
   ],
-  etapes:["Battre œufs, lait et vanille.","Tremper les tranches de brioche.","Dorer au beurre 2 min par face.","Servir nappé de miel chaud."] },
+  etapes:["Battre 3 œufs dans une assiette creuse avec 20cl de lait et 1 pincée de vanille.","Couper la brioche rassise en tranches de 2cm d'épaisseur (la rassise prend mieux la trempette).","Tremper chaque tranche dans le mélange œuf-lait 10 sec par face (pas plus, sinon ça se déchire).","Faire fondre 30g de beurre dans une grande poêle à feu moyen.","Cuire les tranches 2-3 min par face jusqu'à dorées et croustillantes aux bords.","Renouveler avec le reste, en ajoutant un peu de beurre si besoin.","Pendant ce temps, faire tiédir 4 c. à soupe de miel au micro-ondes 15 sec pour qu'il devienne liquide.","Servir le pain perdu chaud, arroser de miel liquide."] },
 
 { id:"pd09", nom:"Yaourt grec, miel, noix & graines", mode:"both", type:"petit-dej", saison:["printemps","été","automne","hiver"], culture:"international", temps:3, difficulte:1,
   ingredients:[
@@ -171,7 +171,7 @@ const RECIPES = [
     { nom:"Graines de tournesol", qte:20, unite:"g", rayon:"Épicerie sucrée" },
     { nom:"Fruit de saison", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Verser le yaourt dans des bols.","Concasser grossièrement les noix.","Ajouter noix, graines et miel.","Couronner d'un fruit frais coupé."] },
+  etapes:["Sortir le yaourt grec entier du frigo (la version entière est plus crémeuse, indispensable).","Verser dans 4 bols ou verrines.","Concasser grossièrement les 40g de cerneaux de noix avec le plat d'un couteau (pas hacher).","Préparer un fruit de saison : couper en lamelles ou cubes.","Sur chaque bol : 1 c. à soupe de miel, les noix concassées, 1 c. à café de graines de tournesol.","Couronner avec le fruit frais.","Servir aussitôt, idéalement le yaourt encore frais."] },
 
 { id:"pd10", nom:"Tartine fromage blanc, figues & amandes", mode:"us", type:"petit-dej", saison:["été","automne"], culture:"méditerranéen", temps:7, difficulte:1,
   ingredients:[
@@ -181,7 +181,7 @@ const RECIPES = [
     { nom:"Amandes torréfiées", qte:30, unite:"g", rayon:"Épicerie sucrée" },
     { nom:"Miel de fleurs", qte:2, unite:"c. à café", rayon:"Épicerie sucrée" }
   ],
-  etapes:["Toaster le pain.","Étaler généreusement le fromage blanc.","Disposer les figues en quartiers.","Parsemer d'amandes concassées et d'un filet de miel."] },
+  etapes:["Toaster 2 tranches de pain au levain.","Pendant ce temps, laver et torréfier 30g d'amandes à sec dans une poêle 2-3 min en remuant (elles doivent embaumer).","Couper les figues en quartiers (en 4 ou 6 selon la taille).","Étaler généreusement le fromage blanc sur les toasts.","Disposer les quartiers de figue dessus.","Concasser grossièrement les amandes torréfiées, parsemer.","Arroser de 2 c. à café de miel de fleurs.","Servir aussitôt."] },
 
 { id:"pd11", nom:"Granola maison, lait & myrtilles", mode:"both", type:"petit-dej", saison:["printemps","été","automne"], culture:"international", temps:5, difficulte:1,
   ingredients:[
@@ -189,7 +189,7 @@ const RECIPES = [
     { nom:"Lait demi-écrémé", qte:40, unite:"cl", rayon:"Crèmerie" },
     { nom:"Myrtilles", qte:200, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Répartir le granola dans des bols.","Verser le lait froid.","Couronner des myrtilles fraîches."] },
+  etapes:["Sortir le granola, le lait et les myrtilles.","Répartir 120g de granola dans 4 bols.","Verser 40cl de lait froid sur le granola, sans noyer.","Laver les myrtilles. Les répartir généreusement par-dessus (200g pour 4 bols).","Servir immédiatement avant que le granola ne ramollisse trop."] },
 
 { id:"pd12", nom:"Œufs à la coque & mouillettes", mode:"both", type:"petit-dej", saison:["printemps","été","automne","hiver"], culture:"français", temps:8, difficulte:1,
   ingredients:[
@@ -198,7 +198,7 @@ const RECIPES = [
     { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" },
     { nom:"Fleur de sel", qte:1, unite:"pincée", rayon:"Épicerie salée" }
   ],
-  etapes:["Plonger les œufs dans l'eau bouillante 3 min 30.","Toaster le pain et beurrer.","Couper en bâtonnets.","Servir œuf décapité, sel et mouillettes."] },
+  etapes:["Sortir les œufs 10 min avant pour qu'ils soient à température ambiante (sinon ils craquent).","Porter une casserole d'eau à grosse ébullition.","Plonger délicatement les œufs avec une cuillère. Régler le minuteur sur 3 min 30 sec PILE.","Pendant ce temps, toaster 4 tranches de pain de campagne et les couper en bâtonnets de 2cm (mouillettes).","Beurrer chaque mouillette avec 30g de beurre.","À la fin du minuteur, sortir les œufs et les passer 5 sec sous l'eau froide pour stopper la cuisson.","Mettre dans les coquetiers, taper délicatement le sommet à la petite cuillère pour décoiffer.","Saler le jaune, servir aussitôt avec les mouillettes."] },
 
 { id:"pd13", nom:"Bowl chia, coco & mangue", mode:"both", type:"petit-dej", saison:["été","printemps"], culture:"international", temps:10, difficulte:1,
   ingredients:[
@@ -208,7 +208,7 @@ const RECIPES = [
     { nom:"Noix de coco râpée", qte:30, unite:"g", rayon:"Épicerie sucrée" },
     { nom:"Sirop d'agave", qte:2, unite:"c. à café", rayon:"Épicerie sucrée" }
   ],
-  etapes:["Mélanger chia et lait de coco, laisser 4 h au frais.","Couper la mangue en dés.","Répartir le pudding dans les bols.","Couronner de mangue et coco râpée."] },
+  etapes:["LA VEILLE OU 4h AVANT : dans un bol, mélanger 6 c. à soupe de graines de chia avec 40cl de lait de coco et 2 c. à café de sirop d'agave. Mettre au frigo, mélanger toutes les 30 min pendant 1h pour éviter les amas.","Le matin : la préparation doit être épaisse type pudding.","Couper la mangue en petits dés (chair seulement, sans noyau).","Répartir le pudding chia dans 4 bols.","Disposer les dés de mangue dessus.","Parsemer 30g de noix de coco râpée.","Servir frais."] },
 
 { id:"pd14", nom:"Tartines chèvre, miel & thym", mode:"us", type:"petit-dej", saison:["printemps","été","automne"], culture:"méditerranéen", temps:8, difficulte:1,
   ingredients:[
@@ -217,7 +217,7 @@ const RECIPES = [
     { nom:"Miel de châtaignier", qte:2, unite:"c. à soupe", rayon:"Épicerie sucrée" },
     { nom:"Thym frais", qte:1, unite:"branche", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Trancher et toaster le pain.","Couper le chèvre en rondelles, disposer dessus.","Passer 4 min sous le grill.","Arroser de miel chaud, parsemer de thym."] },
+  etapes:["Préchauffer le grill du four à 220°C.","Couper la baguette en 2 dans la longueur, puis en 4 morceaux.","Toaster ces tranches 2 min au grill côté coupe vers le haut.","Pendant ce temps, couper la bûche de chèvre en rondelles épaisses (1cm).","Sortir les tranches, déposer 1-2 rondelles de chèvre sur chacune.","Repasser au grill 4 min : le fromage doit fondre et dorer.","Sortir, arroser chaque tartine d'1 c. à café de miel chaud.","Effeuiller le thym frais directement dessus.","Servir aussitôt."] },
 
 { id:"pd15", nom:"Œufs Bénédicte", mode:"us", type:"petit-dej", saison:["printemps","automne","hiver"], culture:"international", temps:25, difficulte:3,
   ingredients:[
@@ -229,7 +229,7 @@ const RECIPES = [
     { nom:"Citron", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
     { nom:"Vinaigre blanc", qte:1, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Hollandaise : fouetter jaunes au bain-marie, incorporer beurre clarifié et citron.","Faire revenir le bacon.","Pocher les œufs dans l'eau frémissante vinaigrée 3 min.","Toaster les muffins, monter avec bacon, œuf et nappage hollandaise."] },
+  etapes:["Préparer le beurre clarifié : faire fondre 100g de beurre, laisser reposer, retirer la mousse blanche en surface, garder le liquide clair doré.","Dans un bol au bain-marie (eau à frémissement, pas bouillante), battre 2 jaunes d'œufs avec 1 c. à soupe d'eau froide jusqu'à ce que le mélange double de volume (3-4 min).","Verser le beurre clarifié tiède EN FILET MINCE en fouettant en continu (comme une mayonnaise) jusqu'à obtenir une sauce épaisse et brillante. Ajouter le jus d'1/2 citron, sel, poivre. Réserver au tiède.","Pendant ce temps, faire revenir les 4 tranches de bacon dans une poêle à sec jusqu'à croustillantes (5 min).","Pocher les 4 œufs : eau frémissante + 1 c. à soupe de vinaigre, casser chaque œuf un par un dans un tourbillon, cuire 3 min, sortir à l'écumoire.","Toaster les muffins anglais coupés en 2.","Monter chaque assiette : 1/2 muffin + 1 tranche de bacon + 1 œuf poché + 1 belle cuillère de hollandaise. Servir aussitôt."] },
 
 { id:"dj01", nom:"Pâtes carbonara à la française", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:20, difficulte:1,
   ingredients:[
@@ -281,7 +281,7 @@ const RECIPES = [
     { nom:"Parmesan râpé", qte:80, unite:"g", rayon:"Crèmerie" },
     { nom:"Herbes de Provence", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
   ],
-  etapes:["Sauce bolognaise : suer oignons, carottes, ail, ajouter viande et tomates, 30 min.","Béchamel : beurre + farine + lait.","Monter en couches : sauce, lasagnes, béchamel, parmesan.","Four 30 min à 180°C."] },
+  etapes:["Préchauffer le four à 180°C.","Préparer la sauce bolognaise : émincer 1 oignon, 2 carottes en petits dés, 2 gousses d'ail. Suer dans 2 c. à soupe d'huile 8 min.","Ajouter 500g de bœuf haché. Émietter et cuire 6 min jusqu'à doré.","Ajouter 50cl de coulis de tomates, 1 c. à café d'herbes de Provence, sel, poivre. Mijoter 30 min à feu doux.","Pendant ce temps, préparer la béchamel : faire fondre 50g de beurre, ajouter 50g de farine, verser 50cl de lait en plusieurs fois en fouettant. Cuire jusqu'à épaississement (5 min). Saler, poivrer.","Beurrer un grand plat à gratin. Étaler 1 louche de bolo au fond.","Couches successives : feuilles de lasagne + bolo + béchamel + parmesan. Faire 4 couches.","Finir par béchamel + parmesan généreusement.","Enfourner 30 min : le dessus doit être bien doré et bouillonnant.","Laisser reposer 10 min hors du four avant de servir (le moelleux se stabilise). Servir avec une salade verte."] },
 
 { id:"dj06", nom:"Steak haché & purée maison", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:30, difficulte:1,
   ingredients:[
@@ -537,7 +537,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Aneth", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Poser saumon sur plaque, citron, huile, sel, four 15 min à 200°C.","Riz pilaf 12 min.","Brocolis 6 min à la vapeur.","Servir, aneth ciselé sur le saumon."] },
+  etapes:["Préchauffer le four à 200°C (chaleur tournante).","Laver et couper 2 brocolis en bouquets de taille égale.","Mettre les pavés de saumon sur une plaque tapissée de papier cuisson, côté peau dessous.","Arroser de 3 c. à soupe d'huile d'olive, saler, poivrer. Couper 2 citrons en quartiers, en placer autour.","Mettre les brocolis dans le panier vapeur OU lancer la cuisson à l'eau bouillante salée pour 6 min de cuisson croquante.","Cuire 400g de riz basmati en parallèle : eau bouillante salée pendant 11 min.","Enfourner le saumon 15 min : il doit être nacré à cœur, opaque sur les bords.","Servir : pavé de saumon, riz, brocolis croquants, quartier de citron, aneth ciselé sur le saumon."] },
 
 { id:"dn02", nom:"Cabillaud, écrasé pdt & haricots verts", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:35, difficulte:1,
   ingredients:[
@@ -548,7 +548,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Citron", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Cuire les pdt 20 min, écraser à la fourchette avec beurre et huile.","Cuire les haricots 8 min al dente.","Cuire le cabillaud à la poêle 4 min par face.","Servir avec un quart de citron."] },
+  etapes:["Éplucher 700g de pommes de terre rattes, les laisser entières si petites, sinon couper en 2.","Cuire à l'eau bouillante salée 20 min jusqu'à tendres (pointe de couteau).","Pendant ce temps, équeuter 400g de haricots verts.","Cuire les haricots 8 min à l'eau bouillante salée : ils doivent rester verts vifs et croquants. Égoutter.","Égoutter les pommes de terre. Les écraser grossièrement à la fourchette avec 50g de beurre et 3 c. à soupe d'huile d'olive. Saler, poivrer.","Pendant ce temps, chauffer une poêle anti-adhésive avec 1 c. à soupe d'huile d'olive à feu moyen-vif.","Cuire les pavés de cabillaud 4 min côté peau, 3 min côté chair. Saler en fin.","Servir : écrasé de pdt, haricots verts, pavé de cabillaud, quartier de citron."] },
 
 { id:"dn04", nom:"Couscous merguez & poulet (doux)", mode:"kids", type:"diner", saison:["automne","hiver","printemps"], culture:"méditerranéen", temps:60, difficulte:2,
   ingredients:[
@@ -628,7 +628,7 @@ const RECIPES = [
     { nom:"Herbes de Provence", qte:1, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Huile d'olive", qte:6, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Saisir les cuisses dans une cocotte, retirer.","Suer oignons et légumes en dés, herbes.","Remettre poulet, tomates, ail, mijoter 40 min couvert.","Servir avec un bon pain."] },
+  etapes:["Préchauffer le four à 200°C.","Couper 2 aubergines, 2 courgettes, 2 poivrons en cubes de 2cm. Émincer 2 oignons. Couper 6 tomates en quartiers.","Dans une grande cocotte allant au four, chauffer 4 c. à soupe d'huile à feu moyen-vif.","Saisir les cuisses de poulet côté peau 5 min jusqu'à dorées, retourner 3 min. Les retirer.","Dans la même cocotte, ajouter oignons et autres légumes. Cuire 8 min en remuant. Ajouter 4 gousses d'ail écrasées et 1 c. à soupe d'herbes de Provence.","Remettre les cuisses de poulet sur les légumes (côté peau vers le haut).","Ajouter 2 c. à soupe d'huile d'olive supplémentaire, saler.","Couvrir, enfourner 40 min. Les légumes confisent, le poulet est ultra-tendre.","Servir avec un bon pain de campagne pour saucer."] },
 
 { id:"dn10", nom:"Filet mignon de porc à la moutarde & tagliatelles", mode:"kids", type:"diner", saison:["printemps","automne","hiver"], culture:"français", temps:40, difficulte:1,
   ingredients:[
@@ -668,7 +668,7 @@ const RECIPES = [
     { nom:"Parmesan", qte:80, unite:"g", rayon:"Crèmerie" },
     { nom:"Vin rouge", qte:10, unite:"cl", rayon:"Boissons" }
   ],
-  etapes:["Suer oignon, carotte, céleri hachés.","Ajouter viande, dorer, déglacer au vin.","Tomates et concentré, mijoter 30 min minimum.","Servir sur spaghetti al dente, parmesan râpé."] },
+  etapes:["Émincer 1 oignon, 1 carotte, 1 branche de céleri en très petits dés (la 'soffritto').","Dans une grande sauteuse, chauffer 2 c. à soupe d'huile d'olive à feu moyen.","Suer le soffritto 8 min à feu doux jusqu'à fondant.","Ajouter 500g de bœuf haché. L'émietter à la spatule, cuire 8 min en remuant jusqu'à bien doré.","Déglacer avec 10cl de vin rouge, laisser évaporer 2 min.","Ajouter 80cl de tomates concassées, 2 c. à soupe de concentré de tomate, sel, poivre, 1 c. à café de sucre.","MIJOTER À FEU TRÈS DOUX 30 MIN (idéalement plus, 1h c'est l'idéal). Le secret d'une vraie bolognaise : le temps.","Cuire 400g de spaghetti al dente dans une grande casserole d'eau salée.","Égoutter, dresser dans des assiettes, napper de sauce. Parmesan râpé généreusement, basilic en fin."] },
 
 { id:"dn14", nom:"Tartiflette savoyarde", mode:"kids", type:"diner", saison:["automne","hiver"], culture:"français", temps:60, difficulte:2,
   ingredients:[
@@ -679,7 +679,7 @@ const RECIPES = [
     { nom:"Crème fraîche", qte:20, unite:"cl", rayon:"Crèmerie" },
     { nom:"Vin blanc sec", qte:10, unite:"cl", rayon:"Boissons" }
   ],
-  etapes:["Cuire les pdt 20 min, peler, trancher.","Faire revenir lardons et oignons, déglacer au vin.","Mélanger pdt et lardons dans un plat, crème dessus.","Couper le reblochon en deux, croûte vers le haut, four 25 min à 200°C."] },
+  etapes:["Préchauffer le four à 200°C.","Éplucher 1,2kg de pommes de terre. Les couper en rondelles de 5mm.","Cuire les pommes de terre à l'eau bouillante salée 12 min jusqu'à AL DENTE (encore un peu fermes, elles finiront au four).","Pendant ce temps, émincer 2 oignons. Dans une grande poêle, faire revenir 300g de lardons à sec 4 min, ajouter les oignons, cuire 8 min jusqu'à dorés.","Déglacer avec 10cl de vin blanc, laisser évaporer 2 min.","Beurrer un grand plat à gratin. Égoutter les pommes de terre.","Étaler une couche de pommes de terre, étaler 1/2 du mélange lardons-oignons, recommencer.","Verser 20cl de crème fraîche sur le dessus, saler, poivrer.","Couper le reblochon en deux dans le sens de l'épaisseur. Déposer les 2 demi-reblochons CROÛTE VERS LE HAUT sur le gratin.","Enfourner 25 min : le reblochon doit être complètement fondu et le dessus bien doré.","Servir IMMÉDIATEMENT avec une salade verte vinaigrée et un vin blanc savoyard."] },
 
 { id:"dn15", nom:"Magret de canard & purée de patate douce", mode:"both", type:"diner", saison:["automne","hiver"], culture:"français", temps:35, difficulte:2,
   ingredients:[
@@ -691,7 +691,7 @@ const RECIPES = [
     { nom:"Vinaigre balsamique", qte:2, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Thym", qte:2, unite:"branches", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Quadriller la peau du magret, cuire côté peau 8 min, retourner 4 min.","Repos 10 min, jus + miel + balsamique en sauce.","Cuire patates douces, écraser avec beurre, crème.","Trancher le magret, nappage, servir."] },
+  etapes:["Préchauffer le four à 200°C.","Éplucher 1kg de patates douces, couper en cubes de 3cm.","Cuire à l'eau bouillante salée 18 min jusqu'à tendres. Égoutter.","Écraser au presse-purée avec 40g de beurre et 10cl de crème. Saler, poivrer. Réserver au chaud.","Quadriller la peau des 2 magrets de canard au couteau pointu (pour évacuer le gras).","Saler les magrets côté peau. Les déposer dans une poêle FROIDE, côté peau vers le bas.","Allumer à feu moyen-doux. Cuire 8 min : la graisse fond et la peau devient croustillante. Vider la graisse régulièrement.","Retourner les magrets côté chair, cuire 4 min de plus (rosé).","Sortir et laisser reposer 5 min sous papier alu.","Pendant ce temps, dans la même poêle (vidée du gras), faire un caramel : 2 c. à soupe de miel + 2 c. à soupe de vinaigre balsamique. Réduire 1 min.","Trancher les magrets en lamelles. Servir sur la purée, napper de sauce."] },
 
 { id:"dn16", nom:"Cabillaud à l'ail & légumes vapeur", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"méditerranéen", temps:30, difficulte:1,
   ingredients:[
@@ -731,7 +731,7 @@ const RECIPES = [
     { nom:"Farine", qte:30, unite:"g", rayon:"Épicerie sucrée" },
     { nom:"Tagliatelles", qte:400, unite:"g", rayon:"Épicerie salée" }
   ],
-  etapes:["Mariner la viande au vin rouge la veille.","Faire suer lardons et oignons, dorer la viande, fariner.","Verser le vin, bouquet garni, mijoter 2h30 à couvert.","Ajouter champignons, servir avec tagliatelles."] },
+  etapes:["LA VEILLE : mariner 1kg de bœuf à braiser dans 75cl de vin rouge corsé avec 1 bouquet garni, 1 oignon en quartiers et 3 carottes en rondelles. Couvrir, frigo 12h.","Le jour J : sortir la viande, garder la marinade. Sécher la viande au papier absorbant.","Dans une cocotte, faire revenir 200g de lardons à sec 5 min. Réserver.","Dans la même cocotte, saisir la viande 5 min toutes faces dans le gras des lardons. Saupoudrer 30g de farine, mélanger 1 min.","Ajouter la marinade (filtrée) + 25cl de bouillon + bouquet garni. Porter à ébullition.","Couvrir, mijoter au four ou feu très doux 2h30. Vérifier toutes les 30 min, ajouter eau si besoin.","Pendant ce temps, sauter 400g de champignons en quartiers à part dans 30g de beurre 5 min.","Ajouter champignons et lardons dans la cocotte 30 min avant la fin.","Cuire 400g de tagliatelles 3 min dans une grande casserole d'eau salée.","Servir le bourguignon nappé sur les tagliatelles."] },
 
 { id:"dn20", nom:"Galettes de pdt & saumon fumé", mode:"kids", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:30, difficulte:1,
   ingredients:[
@@ -743,7 +743,7 @@ const RECIPES = [
     { nom:"Aneth", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Huile", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Râper les pdt crues, essorer, mélanger avec œufs, sel.","Cuire en galettes à la poêle 4 min par face.","Dresser : galette, crème, saumon fumé, aneth.","Citron en quartiers."] },
+  etapes:["Éplucher 800g de pommes de terre, les râper grossièrement.","Mettre les pommes de terre râpées dans un torchon propre et ESSORER fortement au-dessus de l'évier pour extraire l'eau. C'est crucial pour la tenue.","Dans un saladier, mélanger les pommes de terre essorées avec 2 œufs battus, sel, poivre.","Chauffer 3 c. à soupe d'huile dans une grande poêle à feu moyen.","Former 4 grosses galettes (1 par personne) à la cuillère. Tasser dans la poêle.","Cuire 4 min par face jusqu'à dorée et croustillante. Renouveler si besoin pour 8 galettes au total.","Mélanger 15cl de crème fraîche avec un peu de citron et de poivre.","Dresser : galette + crème + saumon fumé + brins d'aneth.","Servir aussitôt avec un quartier de citron."] },
 
 { id:"dn21", nom:"Croque-madame & salade verte", mode:"kids", type:"diner", saison:["printemps","automne","hiver"], culture:"français", temps:25, difficulte:1,
   ingredients:[
@@ -994,7 +994,7 @@ const RECIPES = [
     { nom:"Aneth", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Citron", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Cuire les penne al dente.","Émincer courgettes et échalote, saumon en dés. Sauter le tout 8 min.","Ajouter la crème, sel, poivre, citron, laisser frémir 2 min.","Mélanger avec les pâtes, aneth ciselé."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition.","Pendant ce temps, ciseler 1 échalote finement. Couper 3 courgettes en demi-rondelles. Couper 400g de saumon en cubes de 2cm.","Cuire 500g de penne 9 min al dente (1 min de moins que le paquet).","Dans une grande sauteuse, chauffer 2 c. à soupe d'huile. Suer l'échalote 2 min. Ajouter les courgettes, cuire 6 min en remuant souvent.","Ajouter les cubes de saumon, cuire 3 min à feu vif. Le saumon doit juste blanchir, pas être sec.","Verser 25cl de crème fraîche, le zeste et jus d'1 citron. Saler, poivrer. Mijoter 2 min.","Égoutter les pâtes, les verser dans la sauteuse. Mélanger 1 min.","Servir avec l'aneth ciselé sur le dessus."] },
 
 { id:"qk04", nom:"Pâtes au thon, citron & câpres", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:15, difficulte:1,
   ingredients:[
@@ -1006,7 +1006,7 @@ const RECIPES = [
     { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Huile d'olive", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Cuire les pâtes al dente.","Émietter le thon, ajouter ail haché, câpres, zeste et jus de citron, huile.","Mélanger avec les pâtes chaudes.","Persil ciselé, poivre du moulin."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition.","Pendant ce temps, presser 1 citron pour recueillir 3 c. à soupe de jus. Râper le zeste.","Émincer 2 gousses d'ail très finement. Égoutter les 2 boîtes de thon. Hacher 3 c. à soupe de câpres.","Cuire 500g de spaghetti 8 min al dente.","Dans une grande sauteuse, chauffer 3 c. à soupe d'huile à feu doux. Y faire blondir l'ail 1 min (sans brunir).","Hors du feu, ajouter le thon émietté, les câpres, le zeste et le jus de citron. Mélanger.","Égoutter les pâtes en gardant 1 louche d'eau. Verser dans la sauteuse, ajouter 3 c. à soupe d'eau de cuisson.","Remettre 30 sec sur feu doux pour homogénéiser. Persil ciselé en fin. Servir aussitôt."] },
 
 { id:"qk05", nom:"One-pot pasta tomates-mozzarella", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:20, difficulte:1,
   ingredients:[
@@ -1029,7 +1029,7 @@ const RECIPES = [
     { nom:"Cerneaux de noix", qte:80, unite:"g", rayon:"Épicerie sucrée" },
     { nom:"Poire mûre (option)", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Cuire les penne al dente.","Faire fondre le gorgonzola en dés dans la crème à feu doux.","Mélanger avec les pâtes.","Noix concassées et dés de poire sur le dessus."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition.","Cuire 500g de penne 9 min al dente.","Pendant ce temps, couper 200g de gorgonzola en petits dés. Concasser 80g de cerneaux de noix.","Dans une grande sauteuse, verser 20cl de crème liquide. Chauffer doucement (PAS bouillir).","Ajouter les dés de gorgonzola, remuer doucement jusqu'à fonte complète (3 min).","Égoutter les pâtes en gardant 1 louche d'eau.","Verser dans la sauteuse, mélanger avec 2 c. à soupe d'eau de cuisson pour bien enrober.","Si voulu, peler et couper la poire en petits dés.","Servir aussitôt, parsemer de noix concassées et dés de poire crue."] },
 
 { id:"qk07", nom:"Saumon poêlé citron & courgettes", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -1146,7 +1146,7 @@ const RECIPES = [
     { nom:"Crème fraîche", qte:15, unite:"cl", rayon:"Crèmerie" },
     { nom:"Paprika", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
   ],
-  etapes:["Poêler poulet émincé + poivron + paprika.","Garnir une tortilla : poulet, cheddar, maïs, recouvrir d'une autre tortilla.","Dorer 2 min par face à la poêle sèche.","Couper en parts, servir avec crème."] },
+  etapes:["Émincer 1 oignon et couper 1 poivron rouge en dés.","Dans une grande poêle, chauffer 2 c. à soupe d'huile à feu moyen. Faire revenir oignon et poivron 5 min.","Ajouter 500g de poulet en lanières, 1 c. à café de paprika, sel, poivre. Cuire 8 min en remuant.","Poser 1 tortilla dans une poêle SÈCHE à feu moyen.","Étaler sur une moitié : 1/8e du mélange poulet, 1 c. à soupe de cheddar râpé, 1 c. à café de maïs, 1 c. à café de crème fraîche.","Replier la tortilla en chausson. Cuire 2 min, retourner avec une spatule large, encore 2 min.","Renouveler avec les autres. Garder au chaud sous papier alu.","Couper chacune en 3 parts, servir avec crème fraîche à part."] },
 
 { id:"qk21", nom:"Velouté de potimarron rapide", mode:"both", type:"diner", saison:["automne","hiver"], culture:"français", temps:30, difficulte:1,
   ingredients:[
@@ -1158,7 +1158,7 @@ const RECIPES = [
     { nom:"Pain de campagne", qte:0.5, unite:"pièce", rayon:"Boulangerie" },
     { nom:"Comté râpé", qte:120, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Potimarron en cubes (avec peau), pdt en cubes, suer oignon.","Couvrir de bouillon, cuire 20 min.","Mixer, ajouter crème, ajuster.","Servir avec croûtons grillés et fromage râpé."] },
+  etapes:["Éplucher 1,5kg de potimarron (la peau est comestible mais le velouté est plus lisse pelé). Le couper en cubes de 3cm.","Éplucher 300g de pommes de terre, couper en cubes.","Émincer 1 oignon.","Dans une grande casserole, chauffer 1 c. à soupe d'huile, suer l'oignon 3 min.","Ajouter potimarron et pommes de terre, couvrir d'eau ou bouillon (1L environ). Saler.","Porter à ébullition, baisser, mijoter 20 min jusqu'à ce que les légumes soient tendres.","Mixer au mixeur plongeant en sauce lisse. Ajouter 20cl de crème, rectifier sel/poivre.","Couper le pain de campagne en croûtons, dorer au four 5 min à 200°C.","Servir le velouté chaud avec croûtons et 120g de comté râpé à part."] },
 
 { id:"qk22", nom:"Omelette aux herbes & salade", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:15, difficulte:1,
   ingredients:[
@@ -1169,7 +1169,7 @@ const RECIPES = [
     { nom:"Vinaigrette", qte:1, unite:"portion", rayon:"Épicerie salée" },
     { nom:"Pain", qte:1, unite:"baguette", rayon:"Boulangerie" }
   ],
-  etapes:["Battre les œufs, sel, poivre, herbes ciselées.","Beurre dans une grande poêle bien chaude, verser les œufs.","Replier sur eux-mêmes, baveuse au centre.","Servir avec salade et bon pain."] },
+  etapes:["Battre 12 œufs dans un grand bol. Saler, poivrer.","Hacher 1 botte de mélange persil-ciboulette-estragon (utiliser les ciseaux pour la ciboulette).","Ajouter les herbes dans les œufs, mélanger.","Faire fondre 40g de beurre dans une grande poêle à feu moyen-vif.","Verser les œufs. Attendre 30 sec, puis ramener les bords vers le centre à la spatule pour laisser couler l'œuf cru sur les côtés.","Continuer 2 min : les œufs doivent encore être baveux au centre.","Plier l'omelette en 2 dans la poêle, faire glisser dans le plat.","Servir aussitôt avec une bonne salade verte vinaigrée et du pain frais."] },
 
 { id:"qk23", nom:"Frittata pommes de terre & épinards", mode:"both", type:"diner", saison:["printemps","automne","hiver"], culture:"italien", temps:25, difficulte:1,
   ingredients:[
@@ -1192,7 +1192,7 @@ const RECIPES = [
     { nom:"Aneth", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Fromage frais", qte:200, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Toaster le pain.","Écraser l'avocat au citron, étaler sur fromage frais.","Cuire les œufs à la coque ou pochés.","Saumon fumé, œuf au-dessus, aneth."] },
+  etapes:["Préchauffer le four à 200°C.","Toaster 6 tranches épaisses de pain au levain.","Faire cuire 6 œufs : mollets (6 min eau bouillante puis bain glacé) OU pochés (eau frémissante vinaigrée, 3 min).","Couper 3 avocats en deux, écraser à la fourchette avec le jus d'1/2 citron, sel, poivre.","Étaler une couche de fromage frais sur chaque toast.","Tartiner l'avocat écrasé par-dessus.","Déposer 1-2 tranches de saumon fumé.","Décoiffer l'œuf mollet (ou poser le poché) sur le dessus.","Parsemer d'aneth ciselé, fleur de sel, tour de poivre. Servir."] },
 
 { id:"qk26", nom:"Soupe carottes & cumin", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"méditerranéen", temps:25, difficulte:1,
   ingredients:[
@@ -1204,7 +1204,7 @@ const RECIPES = [
     { nom:"Crème fraîche", qte:15, unite:"cl", rayon:"Crèmerie" },
     { nom:"Pain", qte:0.5, unite:"baguette", rayon:"Boulangerie" }
   ],
-  etapes:["Carottes et pdt en cubes, suer oignon.","Cumin, bouillon, cuire 18 min.","Mixer, ajouter crème.","Servir avec pain grillé."] },
+  etapes:["Éplucher 1kg de carottes, les couper en rondelles.","Éplucher 300g de pommes de terre, couper en cubes.","Émincer 1 oignon.","Dans une grande casserole, chauffer 1 c. à soupe d'huile, suer l'oignon 3 min.","Ajouter carottes et pdt, 1 c. à soupe de cumin, saler. Mélanger 1 min.","Verser 1,2L de bouillon, porter à ébullition, mijoter 20 min jusqu'à tendre.","Mixer au mixeur plongeant en velouté lisse. Ajouter 15cl de crème, rectifier.","Servir avec du pain de campagne grillé."] },
 
 { id:"qk27", nom:"Galettes complètes œuf-jambon-fromage", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:25, difficulte:1,
   ingredients:[
@@ -1215,7 +1215,7 @@ const RECIPES = [
     { nom:"Beurre", qte:40, unite:"g", rayon:"Crèmerie" },
     { nom:"Salade verte", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Beurrer la poêle, faire glisser une galette.","Casser un œuf au centre, jambon, fromage.","Cuire 3 min, replier les bords en carré.","Servir avec salade."] },
+  etapes:["Préparer les galettes : poser 1 galette de sarrasin dans une poêle légèrement beurrée à feu moyen.","Quand elle commence à dorer dessous (1 min), casser un œuf en plein centre.","Déposer 1 tranche de jambon plié en 4 dessus, et 30g d'emmental râpé tout autour.","Saler et poivrer l'œuf. Cuire 2-3 min : le blanc doit prendre, le jaune rester coulant.","Replier les 4 côtés de la galette vers le centre pour former un carré laissant voir le jaune.","Faire glisser sur une assiette chaude.","Renouveler avec les 5 autres galettes.","Servir aussitôt avec une salade verte vinaigrée."] },
 
 { id:"qk28", nom:"Tarte tomate-moutarde-chèvre rapide", mode:"both", type:"diner", saison:["été","printemps","automne"], culture:"français", temps:30, difficulte:1,
   ingredients:[
@@ -1226,7 +1226,7 @@ const RECIPES = [
     { nom:"Herbes de Provence", qte:1, unite:"c. à café", rayon:"Épicerie salée" },
     { nom:"Huile d'olive", qte:2, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Étaler la pâte, étaler la moutarde sur le fond.","Disposer rondelles de tomate, sel, herbes.","Chèvre en rondelles dessus, huile d'olive.","Four 25 min à 200°C."] },
+  etapes:["Préchauffer le four à 200°C.","Étaler la pâte feuilletée sur sa plaque (gardée sur le papier cuisson).","Étaler 3 c. à soupe de moutarde à l'ancienne sur le fond, en laissant 1 cm de bord.","Trancher 5 tomates mûres en rondelles de 5mm. Les disposer sur la moutarde en se chevauchant légèrement. Saler, poivrer.","Trancher la bûche de chèvre en rondelles. Disposer sur les tomates.","Parsemer 1 c. à café d'herbes de Provence, arroser de 2 c. à soupe d'huile d'olive.","Enfourner 25 min : la pâte doit être bien dorée, le chèvre doit fondre et brunir légèrement.","Sortir, laisser tiédir 5 min, couper en parts. Servir avec une salade verte."] },
 
 { id:"qk30", nom:"Croque-monsieur express au four", mode:"kids", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -1237,7 +1237,7 @@ const RECIPES = [
     { nom:"Crème fraîche", qte:10, unite:"cl", rayon:"Crèmerie" },
     { nom:"Salade verte", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Beurrer les tranches, monter avec jambon + crème + fromage.","Refermer, recouvrir de fromage.","Four 10 min à 220°C en mode grill.","Servir avec salade verte."] },
+  etapes:["Préchauffer le four à 220°C en mode grill.","Beurrer 6 tranches de pain de mie. Tartiner 1 c. à café de crème fraîche sur chaque.","Disposer 1 tranche de jambon plié en 2 sur 6 tranches.","Parsemer 30g d'emmental ou comté râpé.","Recouvrir avec les 6 tranches restantes, beurre vers le haut.","Saupoudrer le dessus du reste de fromage râpé.","Enfourner sous le grill 8-10 min en surveillant : doit être bien doré et coulant.","Servir aussitôt avec une salade verte vinaigrée."] },
 
 { id:"fr01", nom:"Ratatouille provençale", mode:"both", type:"diner", saison:["été","automne"], culture:"français", temps:75, difficulte:1,
   ingredients:[
@@ -1487,7 +1487,7 @@ const RECIPES = [
     { nom:"Baies de genièvre", qte:1, unite:"c. à café", rayon:"Épicerie salée" },
     { nom:"Saindoux ou graisse d'oie", qte:80, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Rincer la choucroute, suer oignons dans la graisse.","Lit de choucroute + lard + viandes + genièvre + vin, cuire 1h30 couvert.","Pdt 30 min avant la fin, sur le dessus.","Saucisses 15 min avant fin, servir bien chaud."] },
+  etapes:["Sortir la choucroute crue, la rincer rapidement à l'eau froide (ôte l'excès d'acidité) et bien l'égoutter.","Dans une grande cocotte, faire fondre 80g de saindoux (ou graisse d'oie) à feu moyen.","Émincer 2 oignons, les suer 5 min jusqu'à translucides.","Disposer la moitié de la choucroute au fond. Déposer le lard fumé, la palette demi-sel et la moitié des baies de genièvre.","Recouvrir avec le reste de choucroute. Verser 50cl de vin blanc Riesling. Saler très légèrement (les viandes sont déjà salées).","Couvrir, cuire à feu doux 1h30 (ou four à 160°C, même temps).","Éplucher 8 pommes de terre, les ajouter sur le dessus de la choucroute 30 min avant la fin.","Pocher les saucisses fumées dans une casserole d'eau frémissante 12 min en parallèle (ne PAS bouillir, elles éclatent).","Cuire les saucisses de Strasbourg les 5 dernières minutes seulement.","Dresser : monticule de choucroute, viandes coupées en tranches, saucisses entières, pommes de terre. Moutarde forte à part."] },
 
 { id:"fr20", nom:"Baeckeoffe d'Alsace", mode:"both", type:"diner", saison:["automne","hiver"], culture:"français", temps:180, difficulte:2,
   ingredients:[
@@ -1588,7 +1588,7 @@ const RECIPES = [
     { nom:"Emmental râpé", qte:200, unite:"g", rayon:"Crèmerie" },
     { nom:"Beurre demi-sel", qte:50, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Pâte : farine + sel + eau, fouetter, reposer 1h.","Cuire les galettes à la poêle beurrée.","À mi-cuisson : œuf + jambon + fromage, replier en carré.","Servir aussitôt, croustillant aux bords."] },
+  etapes:["Dans un saladier, mélanger 300g de farine de sarrasin avec 1 c. à café de sel.","Ajouter 60cl d'eau froide en plusieurs fois, en fouettant énergiquement pour éviter les grumeaux.","Laisser reposer la pâte au frigo 1h MINIMUM (idéalement 2-3h pour une vraie texture).","Chauffer une grande poêle (idéalement crêpière) à feu moyen-fort. Beurrer avec 50g de beurre demi-sel à mesure.","Verser 1 louche de pâte au centre, étaler en mouvement circulaire avec le rateau (ou en inclinant la poêle).","Cuire 1-2 min : les bords se décollent et la pâte est sèche.","Casser 1 œuf au centre. Saler le blanc, ajouter 1 tranche de jambon repliée et 1 belle pincée d'emmental râpé tout autour.","Cuire 2-3 min : le blanc d'œuf doit prendre mais le jaune doit rester coulant.","Replier les 4 côtés de la galette vers le centre pour former un carré.","Faire glisser sur une assiette chaude. Servir aussitôt avec une salade verte. Renouveler pour les autres."] },
 
 { id:"fr28", nom:"Cotriade bretonne (soupe de poisson)", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:60, difficulte:2,
   ingredients:[
@@ -1628,7 +1628,7 @@ const RECIPES = [
     { nom:"Échalote", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
     { nom:"Calvados", qte:5, unite:"cl", rayon:"Boissons" }
   ],
-  etapes:["Dorer poulet au beurre, retirer.","Faire revenir échalotes, flamber au calvados, déglacer cidre.","Remettre poulet, mijoter 35 min, pommes en quartiers 10 min avant.","Camembert en dés + crème en fin, fondre."] },
+  etapes:["Saler et poivrer 6 cuisses de poulet.","Dans une grande cocotte, chauffer 40g de beurre à feu moyen-vif. Y dorer les cuisses 5 min de chaque côté. Réserver.","Dans la cocotte, suer 2 échalotes ciselées 3 min.","Flamber au calvados : verser 5cl de calvados, attention aux flammes, laisser brûler.","Déglacer avec 50cl de cidre brut, gratter le fond.","Remettre les cuisses, couvrir, mijoter 25 min à feu doux.","Pendant ce temps, éplucher et couper 4 pommes à cuire en quartiers.","Les ajouter à la cocotte 10 min avant la fin, qu'elles confisent dans le jus.","Couper le camembert ENTIER en dés. Hors feu, l'ajouter avec 25cl de crème fraîche. Mélanger jusqu'à ce que le camembert fonde en sauce onctueuse.","Servir avec du riz blanc ou des tagliatelles."] },
 
 { id:"fr31", nom:"Sole meunière aux pommes vapeur", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:25, difficulte:2,
   ingredients:[
