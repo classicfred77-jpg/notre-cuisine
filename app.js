@@ -79,7 +79,6 @@ function illuFor(r) {
    85 recettes — petit-dej / déjeuner / dîner, modes kids/us/both
    ============================================================ */
 const RECIPES = [
-/* --- Petits-déjeuners (15) --- */
 { id:"pd01", nom:"Tartines beurre & confiture maison", mode:"both", type:"petit-dej", saison:["printemps","été","automne","hiver"], culture:"français", temps:5, difficulte:1,
   ingredients:[
     { nom:"Pain de campagne tranché", qte:4, unite:"tranches", rayon:"Boulangerie" },
@@ -232,7 +231,6 @@ const RECIPES = [
   ],
   etapes:["Hollandaise : fouetter jaunes au bain-marie, incorporer beurre clarifié et citron.","Faire revenir le bacon.","Pocher les œufs dans l'eau frémissante vinaigrée 3 min.","Toaster les muffins, monter avec bacon, œuf et nappage hollandaise."] },
 
-/* --- Déjeuners (30) --- */
 { id:"dj01", nom:"Pâtes carbonara à la française", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:20, difficulte:1,
   ingredients:[
     { nom:"Tagliatelles fraîches", qte:500, unite:"g", rayon:"Crèmerie" },
@@ -243,7 +241,6 @@ const RECIPES = [
     { nom:"Poivre noir", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
   ],
   etapes:["Faire revenir les lardons sans matière grasse.","Cuire les pâtes al dente.","Battre œufs, crème, parmesan et poivre.","Hors feu, mélanger pâtes chaudes, lardons et sauce."] },
-
 
 { id:"dj03", nom:"Wraps poulet caesar", mode:"kids", type:"diner", saison:["printemps","été"], culture:"international", temps:20, difficulte:1,
   ingredients:[
@@ -417,7 +414,6 @@ const RECIPES = [
   ],
   etapes:["Œufs durs 9 min, écaler.","Couper tomates, poivron, oignon en lamelles.","Dresser dans un grand plat, ajouter thon, anchois, olives.","Huile d'olive, basilic ciselé, servir frais."] },
 
-
 { id:"dj18", nom:"Buddha bowl quinoa & légumes rôtis", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"international", temps:40, difficulte:1,
   ingredients:[
     { nom:"Quinoa", qte:250, unite:"g", rayon:"Épicerie salée" },
@@ -483,10 +479,6 @@ const RECIPES = [
   ],
   etapes:["Couper saumon et avocat en petits dés.","Mélanger avec jus de citron, huile, câpres, ciboulette.","Saler, poivrer délicatement.","Servir dans un cercle, sur un toast grillé."] },
 
-
-
-
-
 { id:"dj27", nom:"Tagliatelles fraîches à la truffe", mode:"us", type:"diner", saison:["automne","hiver"], culture:"italien", temps:20, difficulte:2,
   ingredients:[
     { nom:"Tagliatelles fraîches aux œufs", qte:400, unite:"g", rayon:"Crèmerie" },
@@ -536,7 +528,6 @@ const RECIPES = [
   ],
   etapes:["Toaster le pain, déposer un demi-crottin, miel.","Passer 3 min sous le grill.","Faire revenir les lardons.","Dresser sur le mesclun, vinaigrette, lardons, noix."] },
 
-/* --- Dîners (40) --- */
 { id:"dn01", nom:"Saumon rôti citron, riz & brocolis", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:35, difficulte:1,
   ingredients:[
     { nom:"Pavés de saumon", qte:4, unite:"pièces (150g)", rayon:"Poissonnerie" },
@@ -558,7 +549,6 @@ const RECIPES = [
     { nom:"Citron", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
   etapes:["Cuire les pdt 20 min, écraser à la fourchette avec beurre et huile.","Cuire les haricots 8 min al dente.","Cuire le cabillaud à la poêle 4 min par face.","Servir avec un quart de citron."] },
-
 
 { id:"dn04", nom:"Couscous merguez & poulet (doux)", mode:"kids", type:"diner", saison:["automne","hiver","printemps"], culture:"méditerranéen", temps:60, difficulte:2,
   ingredients:[
@@ -680,7 +670,6 @@ const RECIPES = [
   ],
   etapes:["Suer oignon, carotte, céleri hachés.","Ajouter viande, dorer, déglacer au vin.","Tomates et concentré, mijoter 30 min minimum.","Servir sur spaghetti al dente, parmesan râpé."] },
 
-
 { id:"dn14", nom:"Tartiflette savoyarde", mode:"kids", type:"diner", saison:["automne","hiver"], culture:"français", temps:60, difficulte:2,
   ingredients:[
     { nom:"Pommes de terre", qte:1.2, unite:"kg", rayon:"Fruits & Légumes" },
@@ -716,7 +705,6 @@ const RECIPES = [
     { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
   etapes:["Légumes en bâtonnets, vapeur 8 min.","Cabillaud poêlé 4 min par face, huile + ail.","Persillade : ail haché, persil, huile, citron.","Napper le poisson, légumes à côté."] },
-
 
 { id:"dn18", nom:"Poulet rôti du dimanche & légumes racines", mode:"kids", type:"diner", saison:["automne","hiver"], culture:"français", temps:90, difficulte:1,
   ingredients:[
@@ -909,7 +897,6 @@ const RECIPES = [
   ],
   etapes:["Couper concombre et tomates en sticks.","Tiédir les pitas 4 min au four.","Dresser bouchées, dips, fromages.","Huile d'olive, herbes, citron en quartiers."] },
 
-
 { id:"dn34", nom:"Côtelettes d'agneau & flageolets", mode:"us", type:"diner", saison:["printemps","automne","hiver"], culture:"français", temps:30, difficulte:2,
   ingredients:[
     { nom:"Côtelettes d'agneau", qte:8, unite:"pièces", rayon:"Boucherie" },
@@ -976,9 +963,6 @@ const RECIPES = [
   ],
   etapes:["Réhydrater cèpes secs, garder l'eau.","Sauter cèpes frais à part.","Nacrer riz, vin, bouillon + eau cèpes louche par louche.","Mantecare : beurre, parmesan, cèpes."] },
 
-
-
-/* --- Express semaine (30) — plats rapides, familiaux, ≤30 min --- */
 { id:"qk01", nom:"Pâtes au pesto, tomates cerises & parmesan", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:15, difficulte:1,
   ingredients:[
     { nom:"Penne ou fusilli", qte:500, unite:"g", rayon:"Épicerie salée" },
@@ -1058,7 +1042,6 @@ const RECIPES = [
   ],
   etapes:["Trancher les courgettes en rondelles, les sauter à l'huile et ail 8 min.","Poêler les pavés de saumon 3 min par face.","Arroser de citron en fin de cuisson.","Servir avec les courgettes, herbes."] },
 
-
 { id:"qk09", nom:"Cabillaud moutarde & écrasé pommes de terre", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:25, difficulte:1,
   ingredients:[
     { nom:"Dos de cabillaud", qte:800, unite:"g", rayon:"Poissonnerie" },
@@ -1081,7 +1064,6 @@ const RECIPES = [
   ],
   etapes:["Cuire les pdt vapeur 15 min.","Toaster les amandes à sec.","Cuire les filets de truite 2 min par face au beurre noisette.","Citron, persil, amandes sur le poisson, servir."] },
 
-
 { id:"qk12", nom:"Escalopes de poulet pané maison", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:25, difficulte:1,
   ingredients:[
     { nom:"Escalopes de poulet fines", qte:6, unite:"pièces", rayon:"Boucherie" },
@@ -1094,7 +1076,6 @@ const RECIPES = [
   ],
   etapes:["Préparer 3 assiettes : farine, œufs battus, chapelure.","Passer les escalopes dans chacune, dans l'ordre.","Frire 3 min par face dans une poêle.","Salade vinaigrette, citron en quartiers."] },
 
-
 { id:"qk14", nom:"Poulet citronné aux herbes & pommes de terre", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"méditerranéen", temps:30, difficulte:1,
   ingredients:[
     { nom:"Cuisses ou pilons de poulet", qte:8, unite:"pièces", rayon:"Boucherie" },
@@ -1105,7 +1086,6 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
   etapes:["Tout sur une plaque : poulet, grenailles entières, ail en chemise, citron en quartiers.","Arroser d'huile, sel, origan.","Four 30 min à 200°C en remuant à mi-cuisson.","Servir directement de la plaque."] },
-
 
 { id:"qk16", nom:"Boulettes de bœuf à la libanaise & boulgour", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"méditerranéen", temps:25, difficulte:1,
   ingredients:[
@@ -1214,7 +1194,6 @@ const RECIPES = [
   ],
   etapes:["Toaster le pain.","Écraser l'avocat au citron, étaler sur fromage frais.","Cuire les œufs à la coque ou pochés.","Saumon fumé, œuf au-dessus, aneth."] },
 
-
 { id:"qk26", nom:"Soupe carottes & cumin", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"méditerranéen", temps:25, difficulte:1,
   ingredients:[
     { nom:"Carottes", qte:1, unite:"kg", rayon:"Fruits & Légumes" },
@@ -1249,7 +1228,6 @@ const RECIPES = [
   ],
   etapes:["Étaler la pâte, étaler la moutarde sur le fond.","Disposer rondelles de tomate, sel, herbes.","Chèvre en rondelles dessus, huile d'olive.","Four 25 min à 200°C."] },
 
-
 { id:"qk30", nom:"Croque-monsieur express au four", mode:"kids", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:20, difficulte:1,
   ingredients:[
     { nom:"Pain de mie", qte:12, unite:"tranches", rayon:"Boulangerie" },
@@ -1259,8 +1237,7 @@ const RECIPES = [
     { nom:"Crème fraîche", qte:10, unite:"cl", rayon:"Crèmerie" },
     { nom:"Salade verte", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Beurrer les tranches, monter avec jambon + crème + fromage.","Refermer, recouvrir de fromage.","Four 10 min à 220°C en mode grill.","Servir avec salade verte."] }
-,
+  etapes:["Beurrer les tranches, monter avec jambon + crème + fromage.","Refermer, recouvrir de fromage.","Four 10 min à 220°C en mode grill.","Servir avec salade verte."] },
 
 { id:"fr01", nom:"Ratatouille provençale", mode:"both", type:"diner", saison:["été","automne"], culture:"français", temps:75, difficulte:1,
   ingredients:[
@@ -2038,8 +2015,7 @@ const RECIPES = [
     { nom:"Thym", qte:2, unite:"branches", rayon:"Fruits & Légumes" },
     { nom:"Bouillon", qte:20, unite:"cl", rayon:"Épicerie salée" }
   ],
-  etapes:["Beurrer la pintade, four 200°C, 1h en arrosant.","Lardons + échalotes + marrons sautés ensemble.","Déglacer vin blanc, bouillon, mijoter 15 min.","Servir pintade découpée sur marrons."] }
-,
+  etapes:["Beurrer la pintade, four 200°C, 1h en arrosant.","Lardons + échalotes + marrons sautés ensemble.","Déglacer vin blanc, bouillon, mijoter 15 min.","Servir pintade découpée sur marrons."] },
 
 { id:"bi01", nom:"Œuf parfait, mousseline d'asperges", mode:"us", type:"diner", saison:["printemps"], culture:"bistronomie", temps:45, difficulte:3,
   ingredients:[
@@ -2787,872 +2763,7 @@ const RECIPES = [
     { nom:"Vinaigre de Xérès", qte:2, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Échalote", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Réchauffer gésiers à la poêle, poêler foies 2 min/face.","Toaster pain, frotter à l'ail.","Vinaigrette huile noix + Xérès + échalote.","Dresser mesclun, viandes chaudes, croûtons, noix."] }
-,
-
-{ id:"an01", nom:"Colombo de poulet créole", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:60, difficulte:2,
-  ingredients:[
-    { nom:"Cuisses de poulet", qte:8, unite:"pièces", rayon:"Boucherie" },
-    { nom:"Poudre à colombo", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Pommes de terre", qte:800, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Christophines", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Aubergine", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:6, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive ou ciboule", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde (laurier)", qte:3, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Piment antillais", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Huile", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Riz long", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner poulet 1h avec colombo, citron vert, ail, cive.","Saisir, ajouter oignons, légumes en cubes, bois d'inde.","Couvrir d'eau, mijoter 40 min, piment entier (sans percer).","Servir sur riz blanc."] },
-
-{ id:"an02", nom:"Colombo de cabri (agneau)", mode:"both", type:"diner", saison:["printemps","automne","hiver"], culture:"antillais", temps:120, difficulte:2,
-  ingredients:[
-    { nom:"Épaule d'agneau en cubes", qte:1.2, unite:"kg", rayon:"Boucherie" },
-    { nom:"Poudre à colombo", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Pommes de terre", qte:800, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Christophines", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Aubergines", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:6, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Tamarin (pâte)", qte:1, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:3, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner agneau colombo + citron vert + ail 2h.","Saisir, oignons, légumes, bois d'inde, tamarin, eau.","Mijoter 1h30 doux, piment entier.","Servir avec riz."] },
-
-{ id:"an03", nom:"Court-bouillon de poisson antillais", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:35, difficulte:1,
-  ingredients:[
-    { nom:"Vivaneau ou daurade entier", qte:1.2, unite:"kg", rayon:"Poissonnerie" },
-    { nom:"Tomates", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:3, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Thym", qte:2, unite:"branches", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Roucou (option)", qte:1, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Huile", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Riz blanc", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Citronner le poisson 15 min.","Suer oignons + ail + tomates 10 min, ajouter eau, thym, bois d'inde.","Pocher le poisson 12 min, piment entier.","Cive ciselée, servir avec riz."] },
-
-{ id:"an04", nom:"Blaff de poisson", mode:"both", type:"diner", saison:["printemps","été","automne"], culture:"antillais", temps:30, difficulte:1,
-  ingredients:[
-    { nom:"Poisson blanc en tronçons", qte:1, unite:"kg", rayon:"Poissonnerie" },
-    { nom:"Citron vert", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:6, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:3, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Thym", qte:3, unite:"branches", rayon:"Fruits & Légumes" },
-    { nom:"Piment antillais", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Sel poivre", qte:1, unite:"portion", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner poisson dans citron vert + ail + sel + poivre 30 min.","Eau bouillante avec cive, thym, bois d'inde, piment.","Plonger le poisson 8 min hors ébullition.","Servir avec persil et bouillon."] },
-
-{ id:"an05", nom:"Riz collé aux haricots rouges (créole)", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:60, difficulte:1,
-  ingredients:[
-    { nom:"Riz long", qte:400, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Haricots rouges secs", qte:250, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Lard fumé en lardons", qte:200, unite:"g", rayon:"Boucherie" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:2, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Thym", qte:2, unite:"branches", rayon:"Fruits & Légumes" },
-    { nom:"Lait de coco", qte:20, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Tremper haricots 12h. Cuire 1h al dente.","Suer lardons, oignons, ail, ajouter haricots avec leur eau.","Riz dans le mélange avec bois d'inde, thym, lait coco, piment.","Cuire couvert 25 min jusqu'à absorption."] },
-
-{ id:"an06", nom:"Accras de morue antillais", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:45, difficulte:2,
-  ingredients:[
-    { nom:"Morue dessalée", qte:400, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Farine", qte:250, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Levure chimique", qte:1, unite:"sachet", rayon:"Épicerie sucrée" },
-    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Lait", qte:25, unite:"cl", rayon:"Crèmerie" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:3, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Huile de friture", qte:1, unite:"litre", rayon:"Épicerie salée" }
-  ],
-  etapes:["Pocher morue 10 min, effeuiller fin.","Pâte : farine + levure + œufs + lait, ajouter morue + cive + ail + persil + piment haché.","Frire à la cuillère dans huile à 180°C.","Servir chaud, sauce chien à côté."] },
-
-{ id:"an07", nom:"Boudin créole antillais", mode:"us", type:"diner", saison:["automne","hiver"], culture:"antillais", temps:60, difficulte:2,
-  ingredients:[
-    { nom:"Boudin créole frais", qte:1, unite:"kg", rayon:"Boucherie" },
-    { nom:"Patates douces", qte:1, unite:"kg", rayon:"Fruits & Légumes" },
-    { nom:"Bananes plantain mûres", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Huile", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Cive", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Pocher le boudin 15 min eau frémissante (pas bouillante).","Patates douces vapeur 20 min, écraser à la fourchette.","Bananes plantain en rondelles, frire dorées.","Servir avec cive et citron vert."] },
-
-{ id:"an08", nom:"Touffé de bananes plantain & morue", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:45, difficulte:2,
-  ingredients:[
-    { nom:"Bananes plantain vertes", qte:6, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Morue dessalée", qte:400, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Tomates", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Thym", qte:2, unite:"branches", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:2, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Huile", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" }
-  ],
-  etapes:["Pocher morue 10 min, effeuiller.","Suer oignons, ail, tomates, ajouter morue.","Bananes plantain pelées en rondelles épaisses, ajouter avec thym, bois d'inde, eau.","Mijoter 25 min couvert, cive et citron vert."] },
-
-{ id:"an09", nom:"Calalou aux crabes (soupe)", mode:"us", type:"diner", saison:["printemps","été","automne"], culture:"antillais", temps:75, difficulte:2,
-  ingredients:[
-    { nom:"Crabes de terre", qte:4, unite:"pièces", rayon:"Poissonnerie" },
-    { nom:"Feuilles de calalou (ou épinards)", qte:600, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Gombos", qte:200, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Tomates", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:3, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Lard fumé", qte:150, unite:"g", rayon:"Boucherie" },
-    { nom:"Riz blanc", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Faire dégorger crabes, cuire 15 min.","Suer lard, oignons, ail, tomates.","Ajouter feuilles + gombos + bouillon, mijoter 30 min.","Crabes ajoutés, mijoter 15 min de plus, servir avec riz."] },
-
-{ id:"an10", nom:"Christophine farcie créole", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:75, difficulte:2,
-  ingredients:[
-    { nom:"Christophines (chayotes)", qte:6, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Bœuf haché", qte:400, unite:"g", rayon:"Boucherie" },
-    { nom:"Lard fumé", qte:100, unite:"g", rayon:"Boucherie" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Mie de pain", qte:80, unite:"g", rayon:"Boulangerie" },
-    { nom:"Lait", qte:10, unite:"cl", rayon:"Crèmerie" },
-    { nom:"Œuf", qte:1, unite:"pièce", rayon:"Crèmerie" },
-    { nom:"Persil + cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Chapelure", qte:50, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Gruyère râpé", qte:80, unite:"g", rayon:"Crèmerie" }
-  ],
-  etapes:["Cuire christophines 20 min, évider, écraser la chair.","Farce : oignons + ail + lard + bœuf + chair + mie + œuf + herbes.","Garnir, chapelure + fromage sur le dessus.","Four 30 min à 200°C."] },
-
-{ id:"an11", nom:"Lambi en fricassée", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:60, difficulte:2,
-  ingredients:[
-    { nom:"Lambis (conques) attendris", qte:800, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Tomates concassées", qte:40, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Thym", qte:2, unite:"branches", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:3, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Vin blanc", qte:15, unite:"cl", rayon:"Boissons" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Riz blanc", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Lambis en lanières, mariner citron vert + ail.","Suer oignons + ail + tomates 10 min.","Ajouter lambis, vin, thym, bois d'inde, mijoter 35 min.","Servir avec riz."] },
-
-{ id:"an12", nom:"Sauce chien (vinaigrette piquante créole)", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:15, difficulte:1,
-  ingredients:[
-    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Piment antillais", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Huile végétale", qte:8, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Eau bouillante", qte:5, unite:"cl", rayon:"Boissons" },
-    { nom:"Poisson grillé", qte:1.2, unite:"kg", rayon:"Poissonnerie" }
-  ],
-  etapes:["Hacher tout très fin.","Mélanger huile + citron + sel.","Verser eau bouillante dessus, laisser tiédir.","Sauce sur poisson grillé."] },
-
-{ id:"an13", nom:"Poulet boucané à la créole", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:60, difficulte:2,
-  ingredients:[
-    { nom:"Cuisses de poulet", qte:8, unite:"pièces", rayon:"Boucherie" },
-    { nom:"Citron vert", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:6, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Thym", qte:3, unite:"branches", rayon:"Fruits & Légumes" },
-    { nom:"Rhum agricole", qte:5, unite:"cl", rayon:"Boissons" },
-    { nom:"Miel de canne", qte:3, unite:"c. à soupe", rayon:"Épicerie sucrée" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Sauce soja", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner poulet 4h dans citron vert + ail + thym + rhum + miel + soja + piment.","Cuire à la plancha ou four 40 min à 200°C en badigeonnant.","Caraméliser sous le grill 5 min.","Riz blanc en accompagnement."] },
-
-{ id:"an14", nom:"Marlin grillé sauce chien", mode:"us", type:"diner", saison:["printemps","été","automne"], culture:"antillais", temps:25, difficulte:1,
-  ingredients:[
-    { nom:"Pavés de marlin (ou thon)", qte:800, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Citron vert", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Piment antillais", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Huile", qte:6, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Riz blanc", qte:400, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Bananes plantain", qte:4, unite:"pièces", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Mariner marlin 20 min citron vert + ail.","Sauce chien : oignon, cive, persil, citron, huile, piment + eau bouillante.","Griller marlin 4 min par face.","Bananes plantain frites, riz, napper de sauce chien."] },
-
-{ id:"an15", nom:"Daube de cochon créole", mode:"both", type:"diner", saison:["automne","hiver"], culture:"antillais", temps:150, difficulte:2,
-  ingredients:[
-    { nom:"Échine de porc en cubes", qte:1.2, unite:"kg", rayon:"Boucherie" },
-    { nom:"Oignons", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:6, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Tomates", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Thym + bois d'inde", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Rhum agricole", qte:5, unite:"cl", rayon:"Boissons" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Piment antillais", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Riz blanc", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner porc 2h citron vert + ail + thym + rhum.","Saisir, suer oignons, tomates, déglacer.","Couvrir d'eau + bois d'inde + piment, mijoter 2h.","Cive en fin, servir avec riz."] },
-
-{ id:"an16", nom:"Crevettes flambées au rhum", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:20, difficulte:1,
-  ingredients:[
-    { nom:"Crevettes décortiquées", qte:600, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Rhum agricole vieux", qte:8, unite:"cl", rayon:"Boissons" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Beurre", qte:50, unite:"g", rayon:"Crèmerie" },
-    { nom:"Cive", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Riz blanc", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Saisir crevettes au beurre + ail 2 min.","Flamber au rhum.","Citron vert, cive, piment.","Servir aussitôt sur riz."] },
-
-{ id:"an17", nom:"Cochon de lait en gigot créole", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:180, difficulte:3,
-  ingredients:[
-    { nom:"Épaule de cochon", qte:2, unite:"kg", rayon:"Boucherie" },
-    { nom:"Citron vert", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:1, unite:"tête", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Thym", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:5, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Rhum agricole", qte:10, unite:"cl", rayon:"Boissons" },
-    { nom:"Miel", qte:3, unite:"c. à soupe", rayon:"Épicerie sucrée" },
-    { nom:"Patates douces", qte:1.2, unite:"kg", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Piquer l'épaule, mariner 12h ail-citron-thym-rhum-miel.","Four 3h à 150°C, arroser souvent.","Patates douces rôties autour 40 min avant fin.","Croûte dorée, trancher fin."] },
-
-{ id:"an18", nom:"Pâté en pot martiniquais (soupe)", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:180, difficulte:3,
-  ingredients:[
-    { nom:"Viande de mouton (poitrine, collier)", qte:1, unite:"kg", rayon:"Boucherie" },
-    { nom:"Tripes", qte:300, unite:"g", rayon:"Boucherie" },
-    { nom:"Poireau", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Carottes", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Vermicelles fins", qte:80, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Thym", qte:3, unite:"branches", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:3, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Rhum vieux", qte:3, unite:"c. à soupe", rayon:"Boissons" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Mouton + tripes cuits 2h dans bouillon aromatisé.","Égoutter, hacher fin.","Remettre dans bouillon + légumes hachés + vermicelles 15 min.","Rhum + citron + piment en fin."] },
-
-{ id:"an19", nom:"Bokit garni (sandwich frit)", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:45, difficulte:2,
-  ingredients:[
-    { nom:"Farine", qte:500, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Levure boulangère", qte:1, unite:"sachet", rayon:"Crèmerie" },
-    { nom:"Sel + sucre", qte:1, unite:"portion", rayon:"Épicerie salée" },
-    { nom:"Eau tiède", qte:30, unite:"cl", rayon:"Boissons" },
-    { nom:"Huile de friture", qte:1, unite:"litre", rayon:"Épicerie salée" },
-    { nom:"Thon en boîte", qte:2, unite:"boîtes", rayon:"Épicerie salée" },
-    { nom:"Mayonnaise", qte:6, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Tomates", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Laitue", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Pâte : farine + levure + sel + sucre + eau, pétrir, lever 1h.","Diviser en boules, étaler, frire dans huile 180°C dorés.","Ouvrir, garnir thon-mayo-tomate-salade-citron.","Servir chaud."] },
-
-{ id:"an20", nom:"Migan de fruit à pain", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:60, difficulte:1,
-  ingredients:[
-    { nom:"Fruit à pain (ou pommes de terre)", qte:1.5, unite:"kg", rayon:"Fruits & Légumes" },
-    { nom:"Lardons fumés", qte:200, unite:"g", rayon:"Boucherie" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:2, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Beurre", qte:60, unite:"g", rayon:"Crèmerie" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Peler le fruit à pain, en cubes, cuire 30 min.","Lardons + oignons + ail revenus.","Écraser fruit à pain en purée grossière.","Mélanger avec lardons, beurre, cive, piment entier."] },
-
-{ id:"an21", nom:"Acras de crevettes", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:30, difficulte:2,
-  ingredients:[
-    { nom:"Crevettes décortiquées hachées", qte:400, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Farine", qte:200, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Levure chimique", qte:1, unite:"sachet", rayon:"Épicerie sucrée" },
-    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Lait", qte:20, unite:"cl", rayon:"Crèmerie" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Huile friture", qte:1, unite:"litre", rayon:"Épicerie salée" }
-  ],
-  etapes:["Pâte : farine + levure + œufs + lait.","Ajouter crevettes + cive + persil + piment hachés.","Frire à la cuillère à 180°C.","Égoutter sur papier, servir chaud."] },
-
-{ id:"an22", nom:"Riz aux crevettes créoles", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:35, difficulte:1,
-  ingredients:[
-    { nom:"Crevettes décortiquées", qte:500, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Riz long", qte:400, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Tomates concassées", qte:25, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Poivron rouge", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Thym", qte:2, unite:"branches", rayon:"Fruits & Légumes" },
-    { nom:"Bouillon", qte:80, unite:"cl", rayon:"Épicerie salée" }
-  ],
-  etapes:["Suer oignons + poivron + ail + tomates.","Nacrer le riz, verser bouillon brûlant, thym, cuire 18 min.","Ajouter crevettes 5 min avant fin.","Cive et citron vert en fin."] },
-
-{ id:"an23", nom:"Cabri massalé (curry caribéen)", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:90, difficulte:2,
-  ingredients:[
-    { nom:"Épaule d'agneau", qte:1, unite:"kg", rayon:"Boucherie" },
-    { nom:"Massalé en poudre", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Oignons", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Gingembre", qte:1, unite:"morceau (4cm)", rayon:"Fruits & Légumes" },
-    { nom:"Tomates concassées", qte:40, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Lait de coco", qte:25, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Coriandre", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Riz basmati", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Suer oignons, ajouter ail + gingembre + massalé.","Agneau en cubes, dorer, tomates.","Lait coco, mijoter 1h doux.","Citron vert + coriandre, riz."] },
-
-{ id:"an24", nom:"Crabe farci des Antilles", mode:"us", type:"diner", saison:["printemps","été","automne"], culture:"antillais", temps:60, difficulte:3,
-  ingredients:[
-    { nom:"Crabes cuits", qte:6, unite:"pièces", rayon:"Poissonnerie" },
-    { nom:"Mie de pain", qte:120, unite:"g", rayon:"Boulangerie" },
-    { nom:"Lait", qte:15, unite:"cl", rayon:"Crèmerie" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Beurre", qte:60, unite:"g", rayon:"Crèmerie" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Rhum", qte:3, unite:"c. à soupe", rayon:"Boissons" },
-    { nom:"Chapelure", qte:50, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Décortiquer crabes, garder les carapaces.","Mie trempée dans lait, suer oignons + ail + chair de crabe.","Cive, persil, piment, citron vert, rhum, lier.","Garnir carapaces, chapelure, four 15 min à 200°C."] },
-
-{ id:"an25", nom:"Féroce d'avocat à la morue", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:20, difficulte:1,
-  ingredients:[
-    { nom:"Avocats mûrs", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Morue dessalée cuite", qte:200, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Farine de manioc", qte:80, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Huile d'olive", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" }
-  ],
-  etapes:["Écraser avocats + jus de citron vert.","Émietter morue très fin.","Mélanger morue + avocat + oignon-ail-cive-piment hachés.","Saupoudrer farine de manioc, dresser au cercle."] },
-
-{ id:"an26", nom:"Chiquetaille de morue", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:25, difficulte:1,
-  ingredients:[
-    { nom:"Morue dessalée", qte:400, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:3, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Tomates", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Huile d'olive", qte:8, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Pain de campagne", qte:1, unite:"baguette", rayon:"Boulangerie" }
-  ],
-  etapes:["Pocher morue 8 min, effeuiller en lanières.","Mélanger avec oignons + ail + tomates en dés + cive + persil.","Citron vert + huile + piment.","Servir sur pain grillé."] },
-
-{ id:"an27", nom:"Poisson en court-bouillon créole", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:40, difficulte:1,
-  ingredients:[
-    { nom:"Daurade ou pageot", qte:1.2, unite:"kg", rayon:"Poissonnerie" },
-    { nom:"Tomates", qte:5, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde + thym", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Roucou", qte:1, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Riz blanc", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Citronner poisson 15 min.","Suer oignons + ail + tomates 10 min, eau + roucou + bois d'inde.","Pocher poisson 12 min doux.","Cive + citron vert + riz à part."] },
-
-{ id:"an28", nom:"Boudin créole d'auberge", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:45, difficulte:1,
-  ingredients:[
-    { nom:"Boudin créole", qte:1, unite:"kg", rayon:"Boucherie" },
-    { nom:"Bananes plantain", qte:6, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Patates douces", qte:1, unite:"kg", rayon:"Fruits & Légumes" },
-    { nom:"Huile", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Sauce chien", qte:1, unite:"portion", rayon:"Épicerie salée" }
-  ],
-  etapes:["Boudin poché 15 min ou grillé 5 min.","Patates douces vapeur 25 min.","Bananes plantain frites en rondelles.","Servir avec citron vert et sauce chien."] },
-
-{ id:"an29", nom:"Trempée martiniquaise (soupe au poisson)", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:45, difficulte:2,
-  ingredients:[
-    { nom:"Poisson mixte (vivaneau, capitaine)", qte:1, unite:"kg", rayon:"Poissonnerie" },
-    { nom:"Pommes de terre", qte:600, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Tomates", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde + thym", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Pain de campagne", qte:0.5, unite:"baguette", rayon:"Boulangerie" }
-  ],
-  etapes:["Suer oignons + ail + tomates, ajouter eau et pdt 15 min.","Bois d'inde + thym + piment.","Poisson en morceaux 10 min en fin.","Cive + citron, croûtons."] },
-
-{ id:"an30", nom:"Diri ak djon-djon (riz noir haïtien)", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:45, difficulte:2,
-  ingredients:[
-    { nom:"Riz long", qte:400, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Champignons noirs djon-djon (ou cèpes secs)", qte:30, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Pois d'angole (ou haricots verts)", qte:200, unite:"g", rayon:"Surgelés" },
-    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Lard fumé", qte:150, unite:"g", rayon:"Boucherie" },
-    { nom:"Thym", qte:2, unite:"branches", rayon:"Fruits & Légumes" },
-    { nom:"Clou de girofle", qte:2, unite:"pièces", rayon:"Épicerie salée" },
-    { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" }
-  ],
-  etapes:["Faire bouillir djon-djon dans 80cl d'eau 15 min, filtrer (jus noir).","Suer lard + oignon + ail, nacrer le riz.","Verser jus + pois + thym + girofle + sel.","Cuire 18 min couvert, beurre en fin."] },
-
-{ id:"an31", nom:"Pikliz (relish piquante haïtienne)", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:30, difficulte:1,
-  ingredients:[
-    { nom:"Chou blanc", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Carottes", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Échalotes", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Piment scotch bonnet", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Vinaigre blanc", qte:30, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Clous de girofle", qte:4, unite:"pièces", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Sel", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
-  ],
-  etapes:["Râper chou et carottes, émincer oignons et échalotes.","Piler avec piments, sel, clous.","Verser vinaigre + jus citron, mélanger.","Laisser mariner 24h, servir avec viande grillée."] },
-
-{ id:"an32", nom:"Griot de porc (porc frit haïtien)", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:120, difficulte:2,
-  ingredients:[
-    { nom:"Épaule de porc en cubes", qte:1, unite:"kg", rayon:"Boucherie" },
-    { nom:"Citron vert", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:6, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Échalotes", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Thym + persil", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Sauce soja", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Huile de friture", qte:50, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Pikliz", qte:1, unite:"portion", rayon:"Fruits & Légumes" },
-    { nom:"Bananes plantain", qte:4, unite:"pièces", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Mariner porc 12h citron + ail + oignons + soja + thym.","Cuire à couvert dans la marinade 1h.","Frire à 180°C jusqu'à doré.","Servir avec pikliz et bananes pesées (plantain pressées)."] },
-
-{ id:"an33", nom:"Soupe joumou (soupe au giraumon)", mode:"both", type:"diner", saison:["automne","hiver"], culture:"antillais", temps:90, difficulte:2,
-  ingredients:[
-    { nom:"Giraumon (courge butternut)", qte:1, unite:"kg", rayon:"Fruits & Légumes" },
-    { nom:"Bœuf à braiser", qte:600, unite:"g", rayon:"Boucherie" },
-    { nom:"Pommes de terre", qte:600, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Carottes", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Chou", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Pâtes (rigatoni)", qte:200, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde + thym", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Bœuf saisi puis bouilli 1h avec ail.","Giraumon + pdt + carottes 25 min.","Chou + pâtes 12 min en fin.","Mixer une partie pour onctuosité, citron vert."] },
-
-{ id:"an34", nom:"Lambi en colombo", mode:"us", type:"diner", saison:["printemps","été","automne"], culture:"antillais", temps:75, difficulte:2,
-  ingredients:[
-    { nom:"Lambis attendris", qte:800, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Poudre à colombo", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Pommes de terre", qte:600, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Christophine", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Aubergine", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Tomates", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Riz blanc", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Lambis en lanières, mariner citron + ail + colombo.","Suer oignons + ail + tomates, ajouter colombo restant.","Légumes + lambis + eau, mijoter 50 min.","Cive en fin, riz."] },
-
-{ id:"an35", nom:"Bananes pesées (plantain frites pressées)", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:25, difficulte:1,
-  ingredients:[
-    { nom:"Bananes plantain vertes", qte:6, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Huile végétale", qte:50, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Sel", qte:1, unite:"c. à café", rayon:"Épicerie salée" },
-    { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Peler bananes vertes, couper en tronçons de 3 cm.","Frire 5 min à 160°C, sortir et écraser à la presse.","Tremper dans eau salée et ail, refrire à 180°C jusqu'à dorés.","Saupoudrer sel, jus citron."] },
-
-{ id:"an36", nom:"Acras de légumes", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:35, difficulte:1,
-  ingredients:[
-    { nom:"Farine", qte:200, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Levure chimique", qte:1, unite:"sachet", rayon:"Épicerie sucrée" },
-    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Lait", qte:20, unite:"cl", rayon:"Crèmerie" },
-    { nom:"Christophine râpée", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Carotte râpée", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:3, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Huile friture", qte:50, unite:"cl", rayon:"Épicerie salée" }
-  ],
-  etapes:["Pâte épaisse : farine + levure + œufs + lait.","Ajouter légumes râpés, herbes, ail, piment.","Frire à la cuillère 180°C.","Égoutter, servir avec sauce chien."] },
-
-{ id:"an37", nom:"Civet de cochon créole", mode:"both", type:"diner", saison:["automne","hiver"], culture:"antillais", temps:120, difficulte:2,
-  ingredients:[
-    { nom:"Échine de porc en cubes", qte:1, unite:"kg", rayon:"Boucherie" },
-    { nom:"Sang frais (ou foie haché)", qte:200, unite:"g", rayon:"Boucherie" },
-    { nom:"Oignons", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Vin rouge", qte:25, unite:"cl", rayon:"Boissons" },
-    { nom:"Rhum vieux", qte:5, unite:"cl", rayon:"Boissons" },
-    { nom:"Cive + thym + bois d'inde", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Saisir porc, déglacer rhum.","Suer oignons + ail, vin rouge + bouquet + eau, mijoter 1h30.","Lier au sang (ou foie haché) hors feu.","Cive + citron, riz."] },
-
-{ id:"an38", nom:"Poulet créole au lait de coco", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:50, difficulte:1,
-  ingredients:[
-    { nom:"Cuisses de poulet", qte:6, unite:"pièces", rayon:"Boucherie" },
-    { nom:"Lait de coco", qte:40, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Tomates concassées", qte:25, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive + thym", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner poulet citron + ail.","Saisir, suer oignons, tomates + thym.","Lait coco + piment, mijoter 35 min.","Cive en fin, riz."] },
-
-{ id:"an39", nom:"Aubergines en daube créole", mode:"both", type:"diner", saison:["été","automne"], culture:"antillais", temps:50, difficulte:1,
-  ingredients:[
-    { nom:"Aubergines", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Lard fumé", qte:200, unite:"g", rayon:"Boucherie" },
-    { nom:"Tomates", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive + thym + bois d'inde", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Riz blanc", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Aubergines en cubes, dégorger 30 min au sel.","Lard + oignons + ail + tomates 10 min.","Aubergines + bouquet + piment, mijoter 30 min.","Cive, riz."] },
-
-{ id:"an40", nom:"Crevettes flambées au combava", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:20, difficulte:2,
-  ingredients:[
-    { nom:"Grosses crevettes décortiquées", qte:600, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Combava (ou citron vert)", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Rhum agricole", qte:6, unite:"cl", rayon:"Boissons" },
-    { nom:"Ail", qte:3, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Gingembre", qte:1, unite:"morceau", rayon:"Fruits & Légumes" },
-    { nom:"Beurre", qte:50, unite:"g", rayon:"Crèmerie" },
-    { nom:"Cive", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Crevettes au beurre + ail + gingembre, 2 min.","Flamber au rhum.","Zestes de combava, cive.","Servir aussitôt sur riz."] },
-
-{ id:"an41", nom:"Tassot de bœuf séché frit", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:75, difficulte:2,
-  ingredients:[
-    { nom:"Bavette de bœuf", qte:800, unite:"g", rayon:"Boucherie" },
-    { nom:"Citron vert", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Thym + cive", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Sauce soja", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Huile friture", qte:50, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Pikliz", qte:1, unite:"portion", rayon:"Fruits & Légumes" },
-    { nom:"Bananes pesées", qte:1, unite:"portion", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Trancher la viande très fine, mariner 4h.","Faire sécher 30 min au four à 100°C.","Frire à 180°C dorée et croustillante.","Servir avec pikliz et bananes pesées."] },
-
-{ id:"an42", nom:"Civet de poisson aux gros pois", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:75, difficulte:2,
-  ingredients:[
-    { nom:"Poisson en tronçons (vivaneau)", qte:1, unite:"kg", rayon:"Poissonnerie" },
-    { nom:"Gros pois (haricots blancs)", qte:300, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Tomates", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive + thym", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:2, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Pois cuits 1h.","Suer oignons + ail + tomates, ajouter pois.","Poisson 12 min en fin de cuisson.","Cive, riz."] },
-
-{ id:"an43", nom:"Beignets de morue antillais", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:30, difficulte:1,
-  ingredients:[
-    { nom:"Morue dessalée", qte:300, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Farine", qte:250, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Eau gazeuse", qte:25, unite:"cl", rayon:"Boissons" },
-    { nom:"Levure chimique", qte:1, unite:"sachet", rayon:"Épicerie sucrée" },
-    { nom:"Ail + cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Huile friture", qte:50, unite:"cl", rayon:"Épicerie salée" }
-  ],
-  etapes:["Pocher et émietter morue.","Pâte : farine + levure + œufs + eau gazeuse.","Morue + ail + cive + piment.","Frire à la cuillère, 180°C."] },
-
-{ id:"an44", nom:"Calalou de bœuf", mode:"both", type:"diner", saison:["printemps","été","automne"], culture:"antillais", temps:120, difficulte:2,
-  ingredients:[
-    { nom:"Bœuf à braiser", qte:800, unite:"g", rayon:"Boucherie" },
-    { nom:"Feuilles de calalou (épinards)", qte:600, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Gombos", qte:200, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Tomates", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Lard fumé", qte:200, unite:"g", rayon:"Boucherie" },
-    { nom:"Cive + thym + bois d'inde", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Saisir bœuf + lard, suer oignons + ail + tomates.","Couvrir d'eau + bouquet, mijoter 1h30.","Calalou + gombos en fin 20 min.","Piment, cive, riz."] },
-
-{ id:"an45", nom:"Poulet créole à la mangue", mode:"both", type:"diner", saison:["été","automne"], culture:"antillais", temps:45, difficulte:1,
-  ingredients:[
-    { nom:"Cuisses de poulet", qte:8, unite:"pièces", rayon:"Boucherie" },
-    { nom:"Mangues mûres", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Lait de coco", qte:25, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Gingembre", qte:1, unite:"morceau", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner poulet 30 min citron + ail + gingembre.","Saisir, suer oignons.","Mangue en cubes + lait coco, mijoter 25 min.","Cive, riz."] },
-
-{ id:"an46", nom:"Soudons (palourdes) au vin blanc créole", mode:"us", type:"diner", saison:["printemps","été","automne"], culture:"antillais", temps:25, difficulte:1,
-  ingredients:[
-    { nom:"Palourdes (soudons)", qte:1.5, unite:"kg", rayon:"Poissonnerie" },
-    { nom:"Vin blanc sec", qte:20, unite:"cl", rayon:"Boissons" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Échalotes", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Beurre", qte:50, unite:"g", rayon:"Crèmerie" },
-    { nom:"Pain", qte:1, unite:"baguette", rayon:"Boulangerie" }
-  ],
-  etapes:["Dégorger soudons 2h à l'eau salée.","Suer échalotes + ail au beurre.","Vin + piment + soudons couverts 5 min.","Herbes, citron, pain."] },
-
-{ id:"an47", nom:"Cari de cabri (réunionnais-antillais)", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:120, difficulte:2,
-  ingredients:[
-    { nom:"Épaule d'agneau", qte:1.2, unite:"kg", rayon:"Boucherie" },
-    { nom:"Tomates", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:6, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Gingembre", qte:1, unite:"morceau (5cm)", rayon:"Fruits & Légumes" },
-    { nom:"Curcuma + cumin", qte:2, unite:"c. à café (chaque)", rayon:"Épicerie salée" },
-    { nom:"Curry", qte:2, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Lait de coco", qte:25, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Riz basmati", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner viande citron + ail + gingembre + épices.","Saisir, oignons + tomates 15 min.","Lait coco + eau, mijoter 1h30.","Citron vert, riz."] },
-
-{ id:"an48", nom:"Salade créole de concombre & pikliz", mode:"both", type:"diner", saison:["printemps","été"], culture:"antillais", temps:20, difficulte:1,
-  ingredients:[
-    { nom:"Concombres", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Tomates", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignon rouge", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Avocat", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Huile d'olive", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Pain", qte:1, unite:"baguette", rayon:"Boulangerie" }
-  ],
-  etapes:["Concombres en rondelles fines, tomates et avocats en dés.","Vinaigrette : citron + huile + piment + herbes.","Mélanger, saupoudrer cive.","Servir avec pain grillé."] },
-
-{ id:"an49", nom:"Riz djondjon et pois rouges", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:60, difficulte:2,
-  ingredients:[
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Haricots rouges cuits", qte:300, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Champignons noirs séchés", qte:30, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Lardons", qte:150, unite:"g", rayon:"Boucherie" },
-    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Thym + bois d'inde", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Lait de coco", qte:15, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" }
-  ],
-  etapes:["Réhydrater champignons, filtrer jus.","Suer lardons + oignon + ail.","Riz nacré, ajouter jus champignons + lait coco + haricots + thym.","Cuire 18 min couvert, beurre en fin."] },
-
-{ id:"an50", nom:"Bananes plantain au four & sirop", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:35, difficulte:1,
-  ingredients:[
-    { nom:"Bananes plantain mûres", qte:6, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Sirop de canne", qte:6, unite:"c. à soupe", rayon:"Épicerie sucrée" },
-    { nom:"Beurre", qte:40, unite:"g", rayon:"Crèmerie" },
-    { nom:"Rhum (option)", qte:3, unite:"c. à soupe", rayon:"Boissons" },
-    { nom:"Cannelle", qte:1, unite:"c. à café", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Bananes pelées coupées en deux dans la longueur.","Beurre + sirop + cannelle + zeste + rhum dans un plat.","Disposer bananes, four 25 min à 180°C.","Servir tièdes."] },
-
-{ id:"an51", nom:"Poulet aux pois d'angole", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:75, difficulte:2,
-  ingredients:[
-    { nom:"Cuisses de poulet", qte:8, unite:"pièces", rayon:"Boucherie" },
-    { nom:"Pois d'angole (ou haricots verts)", qte:300, unite:"g", rayon:"Surgelés" },
-    { nom:"Tomates", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive + thym + bois d'inde", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Lait coco", qte:20, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Poulet mariné citron + ail, saisi.","Suer oignons + tomates, ajouter poulet.","Pois + lait coco + bouquet + piment, mijoter 45 min.","Riz à part."] },
-
-{ id:"an52", nom:"Daube de poulet créole", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:75, difficulte:1,
-  ingredients:[
-    { nom:"Poulet en morceaux", qte:1.5, unite:"kg", rayon:"Boucherie" },
-    { nom:"Pommes de terre", qte:600, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Carottes", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Tomates", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Vin blanc", qte:15, unite:"cl", rayon:"Boissons" },
-    { nom:"Cive + thym + bois d'inde", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Rhum", qte:3, unite:"c. à soupe", rayon:"Boissons" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner poulet citron + ail + thym.","Saisir, flamber rhum, suer oignons + tomates.","Vin + légumes + bouquet, mijoter 50 min.","Cive, citron, riz."] },
-
-{ id:"an53", nom:"Bouillon-z'habitant (poulet & légumes pays)", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:90, difficulte:2,
-  ingredients:[
-    { nom:"Poulet en morceaux", qte:1, unite:"kg", rayon:"Boucherie" },
-    { nom:"Igname (ou patate douce)", qte:500, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Christophine", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Banane plantain verte", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Carottes", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Poireau", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive + thym + bois d'inde", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Saisir poulet, ajouter eau + bouquet.","Cuire 30 min, ajouter légumes en gros morceaux.","45 min supplémentaires, piment entier 15 min en fin.","Citron, cive, servir bouillon brûlant."] },
-
-{ id:"an54", nom:"Acras de carottes & dachine", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:35, difficulte:1,
-  ingredients:[
-    { nom:"Carottes râpées", qte:300, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Patate douce (ou dachine) râpée", qte:300, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Farine", qte:200, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Levure chimique", qte:1, unite:"sachet", rayon:"Épicerie sucrée" },
-    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Cive + persil + thym", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:3, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Huile friture", qte:50, unite:"cl", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mélanger légumes râpés.","Pâte : farine + levure + œufs, ajouter aux légumes.","Herbes + ail + piment + citron.","Frire en cuillerées 180°C."] },
-
-{ id:"an55", nom:"Christophine au gratin", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:60, difficulte:1,
-  ingredients:[
-    { nom:"Christophines", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Lardons", qte:200, unite:"g", rayon:"Boucherie" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:3, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Crème fraîche", qte:25, unite:"cl", rayon:"Crèmerie" },
-    { nom:"Gruyère râpé", qte:150, unite:"g", rayon:"Crèmerie" },
-    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" }
-  ],
-  etapes:["Christophines cuites 25 min, écraser la chair.","Lardons + oignons + ail revenus, ajouter chair.","Œufs + crème + muscade + fromage.","Verser dans plat, four 30 min à 200°C."] },
-
-{ id:"an56", nom:"Salade de concombres au piment doux", mode:"both", type:"diner", saison:["printemps","été"], culture:"antillais", temps:15, difficulte:1,
-  ingredients:[
-    { nom:"Concombres", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignon rouge", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Huile d'olive", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Piment doux", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:1, unite:"gousse", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Concombre en rondelles fines, dégorger 15 min au sel.","Vinaigrette : citron + huile + ail + piment.","Mélanger avec oignon émincé.","Herbes ciselées."] },
-
-{ id:"an57", nom:"Daube de bœuf créole", mode:"both", type:"diner", saison:["automne","hiver"], culture:"antillais", temps:150, difficulte:2,
-  ingredients:[
-    { nom:"Bœuf à braiser", qte:1.2, unite:"kg", rayon:"Boucherie" },
-    { nom:"Tomates", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:6, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Vin rouge", qte:30, unite:"cl", rayon:"Boissons" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive + thym + bois d'inde", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Rhum vieux", qte:5, unite:"cl", rayon:"Boissons" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner bœuf 4h citron + ail + thym + rhum.","Saisir, suer oignons + tomates, déglacer vin rouge.","Bouquet + piment + eau, mijoter 2h.","Cive, riz."] },
-
-{ id:"an58", nom:"Poisson grillé au bois d'inde", mode:"us", type:"diner", saison:["printemps","été","automne"], culture:"antillais", temps:25, difficulte:1,
-  ingredients:[
-    { nom:"Vivaneau entier", qte:1.2, unite:"kg", rayon:"Poissonnerie" },
-    { nom:"Bois d'inde en branchettes", qte:6, unite:"branches", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Huile", qte:6, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Riz blanc", qte:400, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Bananes pesées", qte:1, unite:"portion", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Entailler le poisson, mariner citron + ail + huile 30 min.","Garnir le ventre de bois d'inde.","Griller 8 min par face au barbecue ou plancha.","Sauce chien à côté, riz et bananes."] },
-
-{ id:"an59", nom:"Patate sauce blanche créole", mode:"kids", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:40, difficulte:1,
-  ingredients:[
-    { nom:"Patates douces", qte:1.2, unite:"kg", rayon:"Fruits & Légumes" },
-    { nom:"Lait", qte:40, unite:"cl", rayon:"Crèmerie" },
-    { nom:"Beurre", qte:60, unite:"g", rayon:"Crèmerie" },
-    { nom:"Farine", qte:40, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Œufs durs", qte:6, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" },
-    { nom:"Gruyère râpé", qte:100, unite:"g", rayon:"Crèmerie" }
-  ],
-  etapes:["Patates douces cuites 25 min vapeur.","Béchamel : beurre + farine + lait + muscade + sel.","Patates en rondelles, œufs en quartiers, sauce sur le tout.","Fromage, four 15 min à 200°C."] },
-
-{ id:"an60", nom:"Poulet rôti au lait de coco & passion", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:75, difficulte:2,
-  ingredients:[
-    { nom:"Poulet fermier", qte:1.6, unite:"kg", rayon:"Boucherie" },
-    { nom:"Fruits de la passion", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Lait de coco", qte:30, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:6, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Gingembre", qte:1, unite:"morceau", rayon:"Fruits & Légumes" },
-    { nom:"Miel", qte:2, unite:"c. à soupe", rayon:"Épicerie sucrée" },
-    { nom:"Cive + thym", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Riz au coco", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner poulet jus passion + citron + ail + gingembre + miel 2h.","Rôtir 1h à 200°C en arrosant.","Déglacer lait coco, réduire en sauce.","Servir avec riz cuit au coco, cive."] }
-,
+  etapes:["Réchauffer gésiers à la poêle, poêler foies 2 min/face.","Toaster pain, frotter à l'ail.","Vinaigrette huile noix + Xérès + échalote.","Dresser mesclun, viandes chaudes, croûtons, noix."] },
 
 { id:"fq01", nom:"Tartines tomate-mozzarella-basilic", mode:"kids", type:"diner", saison:["printemps","été","automne"], culture:"français", temps:10, difficulte:1,
   ingredients:[
@@ -4328,8 +3439,7 @@ const RECIPES = [
     { nom:"Beurre", qte:40, unite:"g", rayon:"Crèmerie" },
     { nom:"Pommes de terre", qte:800, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Pdt sautées en parallèle.","Pavés 2 min par face.","Échalote, cognac, crème + roquefort fondu.","Napper, dresser."] }
-,
+  etapes:["Pdt sautées en parallèle.","Pavés 2 min par face.","Échalote, cognac, crème + roquefort fondu.","Napper, dresser."] },
 
 { id:"pd16", nom:"Pain perdu brioche aux fruits rouges", mode:"both", type:"petit-dej", saison:["printemps","été"], culture:"français", temps:15, difficulte:1,
   ingredients:[
@@ -4913,254 +4023,6 @@ const RECIPES = [
   ],
   etapes:["Saisir filets, refroidir.","Tapenade, envelopper de pâte.","Dorer, four 22 min à 200°C.","Ratatouille."] },
 
-{ id:"an61", nom:"Acras de potiron créoles", mode:"both", type:"diner", saison:["automne","hiver"], culture:"antillais", temps:30, difficulte:1,
-  ingredients:[
-    { nom:"Potiron râpé", qte:400, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Farine", qte:200, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Levure chimique", qte:1, unite:"sachet", rayon:"Épicerie sucrée" },
-    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:3, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Huile friture", qte:50, unite:"cl", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mélanger potiron râpé essoré.","Pâte : farine + levure + œufs.","Tout mélanger + herbes + ail.","Frire à 180°C."] },
-
-{ id:"an62", nom:"Cabri massalé express", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:45, difficulte:2,
-  ingredients:[
-    { nom:"Agneau en cubes", qte:800, unite:"g", rayon:"Boucherie" },
-    { nom:"Massalé", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Lait de coco", qte:25, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Tomates concassées", qte:25, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner agneau 15 min.","Saisir, ajouter oignons + tomates.","Lait coco, mijoter 35 min.","Riz."] },
-
-{ id:"an63", nom:"Salade créole d'avocat-crevettes", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:20, difficulte:1,
-  ingredients:[
-    { nom:"Avocats mûrs", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Crevettes cuites", qte:400, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Tomates", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Mayonnaise", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Piment doux", qte:1, unite:"pincée", rayon:"Épicerie salée" }
-  ],
-  etapes:["Avocat en dés citronné.","Crevettes + tomates.","Mayonnaise + cive + piment.","Servir frais."] },
-
-{ id:"an64", nom:"Beignets de patate douce", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:25, difficulte:1,
-  ingredients:[
-    { nom:"Patates douces râpées", qte:500, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Farine", qte:150, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Levure", qte:1, unite:"sachet", rayon:"Épicerie sucrée" },
-    { nom:"Cannelle", qte:1, unite:"c. à café", rayon:"Épicerie salée" },
-    { nom:"Sucre", qte:2, unite:"c. à soupe", rayon:"Épicerie sucrée" },
-    { nom:"Huile friture", qte:50, unite:"cl", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mélanger patate + farine + œufs + levure + sucre + cannelle.","Frire à 180°C en cuillerées.","Égoutter.","Saupoudrer sucre."] },
-
-{ id:"an65", nom:"Riz djondjon aux crevettes", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:40, difficulte:2,
-  ingredients:[
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Champignons noirs séchés", qte:30, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Crevettes", qte:400, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Bouillon", qte:60, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Cive", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Réhydrater champignons.","Suer oignons + ail.","Riz + jus champi + crevettes 18 min.","Cive."] },
-
-{ id:"an66", nom:"Salade thon-haricots verts créole", mode:"us", type:"diner", saison:["printemps","été"], culture:"antillais", temps:20, difficulte:1,
-  ingredients:[
-    { nom:"Thon en boîte", qte:240, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Haricots verts cuits", qte:400, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Œufs durs", qte:4, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Tomates", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Huile", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Haricots cuits 10 min.","Dresser tout.","Vinaigrette citron + huile.","Piment haché."] },
-
-{ id:"an67", nom:"Soupe de banane plantain", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:45, difficulte:1,
-  ingredients:[
-    { nom:"Bananes plantain", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Lard fumé", qte:150, unite:"g", rayon:"Boucherie" },
-    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:3, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Bouillon", qte:1, unite:"litres", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Suer lard + oignon + ail.","Bananes en rondelles + bouillon, 25 min.","Mixer.","Cive + citron."] },
-
-{ id:"an68", nom:"Aubergines farcies créoles", mode:"both", type:"diner", saison:["été","automne"], culture:"antillais", temps:60, difficulte:2,
-  ingredients:[
-    { nom:"Aubergines", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Bœuf haché", qte:400, unite:"g", rayon:"Boucherie" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Tomates", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Mie de pain", qte:60, unite:"g", rayon:"Boulangerie" },
-    { nom:"Chapelure", qte:40, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Évider aubergines, cuire pulpe avec viande + oignons + tomates.","Farce + mie + herbes.","Garnir + chapelure.","Four 35 min à 200°C."] },
-
-{ id:"an69", nom:"Acras de banane plantain", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:25, difficulte:1,
-  ingredients:[
-    { nom:"Bananes plantain mûres", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Farine", qte:150, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Œuf", qte:1, unite:"pièce", rayon:"Crèmerie" },
-    { nom:"Levure", qte:1, unite:"sachet", rayon:"Épicerie sucrée" },
-    { nom:"Cannelle", qte:1, unite:"c. à café", rayon:"Épicerie salée" },
-    { nom:"Sucre", qte:2, unite:"c. à soupe", rayon:"Épicerie sucrée" },
-    { nom:"Huile", qte:30, unite:"cl", rayon:"Épicerie salée" }
-  ],
-  etapes:["Écraser bananes.","Pâte avec œuf + farine + levure.","Frire en petites portions.","Sucre."] },
-
-{ id:"an70", nom:"Tarte au giraumon (courge)", mode:"both", type:"diner", saison:["automne","hiver"], culture:"antillais", temps:60, difficulte:1,
-  ingredients:[
-    { nom:"Pâte brisée", qte:1, unite:"rouleau", rayon:"Crèmerie" },
-    { nom:"Giraumon", qte:500, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Lait de coco", qte:20, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Œufs", qte:3, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Sucre brun", qte:3, unite:"c. à soupe", rayon:"Épicerie sucrée" },
-    { nom:"Cannelle", qte:1, unite:"c. à café", rayon:"Épicerie salée" },
-    { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" }
-  ],
-  etapes:["Giraumon cuit, écrasé.","Pâte foncée.","Mélanger purée + lait coco + œufs + sucre + épices.","Four 35 min à 180°C."] },
-
-{ id:"an71", nom:"Crabe de terre matoutou", mode:"us", type:"diner", saison:["printemps","été"], culture:"antillais", temps:90, difficulte:3,
-  ingredients:[
-    { nom:"Crabes de terre", qte:6, unite:"pièces", rayon:"Poissonnerie" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:6, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Tomates", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive + thym", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:3, unite:"feuilles", rayon:"Épicerie salée" }
-  ],
-  etapes:["Crabes cuits 15 min citron.","Suer oignons + ail + tomates.","Crabes + bouquet + eau, mijoter 30 min.","Riz à part."] },
-
-{ id:"an72", nom:"Poulet créole au massalé", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:60, difficulte:2,
-  ingredients:[
-    { nom:"Cuisses de poulet", qte:8, unite:"pièces", rayon:"Boucherie" },
-    { nom:"Massalé", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Tomates concassées", qte:40, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Lait de coco", qte:20, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Coriandre", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner poulet massalé + ail 30 min.","Saisir, oignons, tomates.","Mijoter 35 min, lait coco.","Coriandre, riz."] },
-
-{ id:"an73", nom:"Pâté créole guadeloupéen", mode:"us", type:"diner", saison:["automne","hiver"], culture:"antillais", temps:75, difficulte:2,
-  ingredients:[
-    { nom:"Pâte feuilletée", qte:2, unite:"rouleaux", rayon:"Crèmerie" },
-    { nom:"Bœuf haché", qte:500, unite:"g", rayon:"Boucherie" },
-    { nom:"Lard fumé", qte:100, unite:"g", rayon:"Boucherie" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:3, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive + thym + bois d'inde", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Œuf dorure", qte:1, unite:"pièce", rayon:"Crèmerie" }
-  ],
-  etapes:["Suer lard + oignons + ail + viande.","Herbes + piment, refroidir.","Foncer, garnir, recouvrir, dorer.","Four 45 min à 180°C."] },
-
-{ id:"an74", nom:"Riz aux haricots & viande boucanée", mode:"both", type:"diner", saison:["automne","hiver"], culture:"antillais", temps:60, difficulte:1,
-  ingredients:[
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Haricots rouges", qte:1, unite:"boîte", rayon:"Épicerie salée" },
-    { nom:"Lard fumé boucané", qte:200, unite:"g", rayon:"Boucherie" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:2, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Cive", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Suer lard + oignons + ail.","Riz + haricots + bouillon + bois d'inde.","Cuire 20 min.","Cive."] },
-
-{ id:"an75", nom:"Poisson grillé sauce piment doux", mode:"us", type:"diner", saison:["printemps","été","automne"], culture:"antillais", temps:30, difficulte:1,
-  ingredients:[
-    { nom:"Daurade entière", qte:1.2, unite:"kg", rayon:"Poissonnerie" },
-    { nom:"Piments doux", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Huile d'olive", qte:10, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner poisson citron + ail.","Griller 8 min par face.","Sauce piment doux + herbes + huile + citron.","Riz blanc."] },
-
-{ id:"an76", nom:"Bouillon à la queue de bœuf", mode:"us", type:"diner", saison:["automne","hiver"], culture:"antillais", temps:180, difficulte:2,
-  ingredients:[
-    { nom:"Queues de bœuf", qte:1, unite:"kg", rayon:"Boucherie" },
-    { nom:"Carottes", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Tomates", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde + thym", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Patate douce", qte:500, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Saisir queues + oignons.","Tomates + eau + bouquet, mijoter 2h.","Carottes + patate 30 min en fin.","Piment, servir avec bouillon."] },
-
-{ id:"an77", nom:"Salade de morue antillaise", mode:"us", type:"diner", saison:["printemps","été"], culture:"antillais", temps:25, difficulte:1,
-  ingredients:[
-    { nom:"Morue cuite émiettée", qte:300, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Pommes de terre vapeur", qte:500, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Œufs durs", qte:4, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Olives", qte:80, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Huile d'olive", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Pdt en cubes tièdes.","Morue émiettée + œufs.","Vinaigrette citron + huile + herbes.","Olives."] },
-
-{ id:"an78", nom:"Poulet à la mangue & coco", mode:"both", type:"diner", saison:["été","automne"], culture:"antillais", temps:40, difficulte:1,
-  ingredients:[
-    { nom:"Cuisses de poulet", qte:6, unite:"pièces", rayon:"Boucherie" },
-    { nom:"Mangues", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Lait de coco", qte:30, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:3, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Gingembre", qte:1, unite:"morceau", rayon:"Fruits & Légumes" },
-    { nom:"Coriandre", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner poulet ail + gingembre.","Saisir, oignon.","Mangues + lait coco, mijoter 25 min.","Coriandre + riz."] },
-
-{ id:"an79", nom:"Christophine vinaigrette créole", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:20, difficulte:1,
-  ingredients:[
-    { nom:"Christophines", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Jambon de Bayonne", qte:6, unite:"tranches", rayon:"Boucherie" },
-    { nom:"Œufs durs", qte:3, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Vinaigre", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Huile d'olive", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Cive", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Piment doux", qte:1, unite:"pincée", rayon:"Épicerie salée" }
-  ],
-  etapes:["Christophines cuites 15 min, refroidies.","Vinaigrette + cive + piment.","Tranches + œufs + jambon.","Servir frais."] },
-
-{ id:"an80", nom:"Riz au lait coco à la cannelle", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:30, difficulte:1,
-  ingredients:[
-    { nom:"Riz rond", qte:250, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Lait de coco", qte:60, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Lait", qte:40, unite:"cl", rayon:"Crèmerie" },
-    { nom:"Sucre brun", qte:5, unite:"c. à soupe", rayon:"Épicerie sucrée" },
-    { nom:"Cannelle", qte:1, unite:"bâton", rayon:"Épicerie salée" },
-    { nom:"Vanille", qte:1, unite:"gousse", rayon:"Épicerie sucrée" },
-    { nom:"Raisins secs", qte:60, unite:"g", rayon:"Épicerie sucrée" }
-  ],
-  etapes:["Riz + laits + sucre + épices.","Mijoter 25 min en remuant.","Raisins ajoutés 5 min en fin.","Servir tiède ou froid."] },
-
 { id:"bi61", nom:"Tartare de saumon mariné citron-aneth", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"bistronomie", temps:20, difficulte:2,
   ingredients:[
     { nom:"Filet de saumon extra-frais", qte:500, unite:"g", rayon:"Poissonnerie" },
@@ -5278,8 +4140,7 @@ const RECIPES = [
     { nom:"Persil", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Pommes vapeur", qte:800, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Mixer pistaches + mie + beurre + persil.","Bar côté peau saisi, croûte sur le dessus.","Four 10 min à 200°C.","Pdt vapeur, citron."] }
-,
+  etapes:["Mixer pistaches + mie + beurre + persil.","Bar côté peau saisi, croûte sur le dessus.","Four 10 min à 200°C.","Pdt vapeur, citron."] },
 
 { id:"fv01", nom:"Pot-au-feu express", mode:"both", type:"diner", saison:["automne","hiver"], culture:"français", temps:60, difficulte:1,
   ingredients:[
@@ -5785,17 +4646,6 @@ const RECIPES = [
   ],
   etapes:["Dessaler petit salé.","Cuire avec légumes + bouquet 1h.","Lentilles 25 min en parallèle.","Mélanger, vinaigre."] },
 
-{ id:"fv44", nom:"Boudin antillais aux pommes", mode:"both", type:"diner", saison:["automne","hiver"], culture:"antillais", temps:35, difficulte:1,
-  ingredients:[
-    { nom:"Boudin créole", qte:800, unite:"g", rayon:"Boucherie" },
-    { nom:"Pommes Reinette", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Beurre", qte:50, unite:"g", rayon:"Crèmerie" },
-    { nom:"Cannelle", qte:1, unite:"c. à café", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Patates douces", qte:800, unite:"g", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Patates vapeur.","Boudin poché 15 min.","Pommes sautées + cannelle.","Citron vert."] },
-
 { id:"fv45", nom:"Filet mignon, sauce camembert", mode:"both", type:"diner", saison:["automne","hiver"], culture:"français", temps:40, difficulte:2,
   ingredients:[
     { nom:"Filets mignons de porc", qte:2, unite:"pièces", rayon:"Boucherie" },
@@ -5864,248 +4714,6 @@ const RECIPES = [
     { nom:"Riz pilaf", qte:300, unite:"g", rayon:"Épicerie salée" }
   ],
   etapes:["Riz pilaf.","Beurre d'agrumes : zestes + jus + beurre.","Saumon côté peau 4+1 min.","Napper."] },
-
-{ id:"ax01", nom:"Riz aux pois rouges et porc", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:75, difficulte:1,
-  ingredients:[
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Haricots rouges", qte:1, unite:"boîte", rayon:"Épicerie salée" },
-    { nom:"Échine de porc", qte:500, unite:"g", rayon:"Boucherie" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde", qte:2, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Saisir porc en cubes.","Oignons + ail + bouillon + haricots, 40 min.","Riz + bouillon, 20 min.","Cive + citron."] },
-
-{ id:"ax02", nom:"Soupe joumou parents", mode:"both", type:"diner", saison:["automne","hiver"], culture:"antillais", temps:60, difficulte:2,
-  ingredients:[
-    { nom:"Giraumon", qte:1, unite:"kg", rayon:"Fruits & Légumes" },
-    { nom:"Bœuf à braiser", qte:500, unite:"g", rayon:"Boucherie" },
-    { nom:"Pommes de terre", qte:500, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Carottes", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Pâtes courtes", qte:150, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Bois d'inde + thym", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Bœuf en bouillon 45 min.","Légumes + giraumon 25 min.","Pâtes 12 min en fin.","Citron vert."] },
-
-{ id:"ax03", nom:"Crevettes au coco & citron vert", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:25, difficulte:1,
-  ingredients:[
-    { nom:"Crevettes décortiquées", qte:600, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Lait de coco", qte:30, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Coriandre", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Riz cuit.","Crevettes + ail + lait coco.","Mijoter 8 min.","Citron + coriandre."] },
-
-{ id:"ax04", nom:"Poulet vanille créole", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:45, difficulte:1,
-  ingredients:[
-    { nom:"Cuisses de poulet", qte:8, unite:"pièces", rayon:"Boucherie" },
-    { nom:"Vanille", qte:2, unite:"gousses", rayon:"Épicerie sucrée" },
-    { nom:"Lait de coco", qte:30, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Échalotes", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Saisir poulet.","Échalotes + vanille fendue + lait coco.","Mijoter 30 min.","Cive + citron."] },
-
-{ id:"ax05", nom:"Hareng grillé sauce chien", mode:"us", type:"diner", saison:["printemps","été","automne"], culture:"antillais", temps:25, difficulte:1,
-  ingredients:[
-    { nom:"Harengs entiers", qte:6, unite:"pièces", rayon:"Poissonnerie" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive + persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Huile", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Piment", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner 15 min.","Griller 6 min/face.","Sauce chien.","Riz."] },
-
-{ id:"ax06", nom:"Salade créole pomme-thon-avocat", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:15, difficulte:1,
-  ingredients:[
-    { nom:"Thon en boîte", qte:240, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Avocats", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Pommes", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Mayonnaise", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Coriandre", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Dés d'avocat + pomme citron.","Thon égoutté.","Mayo + citron + coriandre.","Mélanger."] },
-
-{ id:"ax07", nom:"Calalou de morue", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:60, difficulte:2,
-  ingredients:[
-    { nom:"Morue dessalée", qte:400, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Épinards", qte:500, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Gombos", qte:150, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Tomates", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Pocher morue, effeuiller.","Suer oignons + ail + tomates.","Épinards + gombos + morue, 20 min.","Citron + riz."] },
-
-{ id:"ax08", nom:"Soupe pois rouge", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:60, difficulte:1,
-  ingredients:[
-    { nom:"Haricots rouges secs", qte:400, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Lard fumé", qte:200, unite:"g", rayon:"Boucherie" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive + thym", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Riz", qte:300, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Haricots trempés.","Lard + oignons + ail + haricots, 45 min.","Mixer partiellement.","Riz à part, cive."] },
-
-{ id:"ax09", nom:"Cabri rôti au coco", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:120, difficulte:2,
-  ingredients:[
-    { nom:"Gigot d'agneau", qte:1.5, unite:"kg", rayon:"Boucherie" },
-    { nom:"Lait de coco", qte:30, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Ail", qte:1, unite:"tête", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Massalé", qte:2, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Patates douces", qte:1, unite:"kg", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Mariner gigot 4h.","Rôti 1h30 à 180°C.","Patates douces 50 min en fin.","Sauce coco."] },
-
-{ id:"ax10", nom:"Œufs créoles à la sauce tomate-piment", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:20, difficulte:1,
-  ingredients:[
-    { nom:"Œufs", qte:8, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Tomates concassées", qte:40, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:3, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Piment doux", qte:1, unite:"pincée", rayon:"Épicerie salée" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Suer oignon + ail + tomates 10 min.","Casser œufs dans la sauce.","Couvert 5 min.","Cive + riz."] },
-
-{ id:"ax11", nom:"Tarte à la noix de coco", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:60, difficulte:1,
-  ingredients:[
-    { nom:"Pâte brisée", qte:1, unite:"rouleau", rayon:"Crèmerie" },
-    { nom:"Noix de coco râpée", qte:200, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Œufs", qte:4, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Lait de coco", qte:20, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Sucre brun", qte:120, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Vanille", qte:1, unite:"gousse", rayon:"Épicerie sucrée" }
-  ],
-  etapes:["Foncer la pâte.","Mélanger œufs + sucre + lait + coco + vanille.","Four 35 min à 180°C.","Refroidir."] },
-
-{ id:"ax12", nom:"Lardons de morue salade créole", mode:"us", type:"diner", saison:["printemps","été"], culture:"antillais", temps:25, difficulte:1,
-  ingredients:[
-    { nom:"Morue", qte:400, unite:"g", rayon:"Poissonnerie" },
-    { nom:"Mesclun", qte:250, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Œufs durs", qte:4, unite:"pièces", rayon:"Crèmerie" },
-    { nom:"Tomates", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Avocat", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Huile", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" }
-  ],
-  etapes:["Morue cuite, lardons.","Dresser salade + œufs + tomates + avocat.","Vinaigrette citron vert.","Morue chaude."] },
-
-{ id:"ax13", nom:"Boeuf en daube créole rapide", mode:"both", type:"diner", saison:["automne","hiver"], culture:"antillais", temps:60, difficulte:2,
-  ingredients:[
-    { nom:"Bœuf en cubes", qte:800, unite:"g", rayon:"Boucherie" },
-    { nom:"Tomates concassées", qte:40, unite:"cl", rayon:"Épicerie salée" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Pdt", qte:600, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Cive + thym + bois d'inde", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Rhum", qte:3, unite:"cl", rayon:"Boissons" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner viande 20 min.","Saisir, oignons + tomates.","Pdt + eau + bouquet, 40 min.","Cive."] },
-
-{ id:"ax14", nom:"Poulet rôti épices créoles", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:75, difficulte:1,
-  ingredients:[
-    { nom:"Poulet entier", qte:1.5, unite:"kg", rayon:"Boucherie" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:6, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Massalé", qte:1, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Miel", qte:2, unite:"c. à soupe", rayon:"Épicerie sucrée" },
-    { nom:"Patates douces", qte:1, unite:"g", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Mariner poulet 2h.","Rôti 1h à 200°C avec patates.","Arroser souvent.","Découper."] },
-
-{ id:"ax15", nom:"Sauté de bœuf antillais", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:30, difficulte:1,
-  ingredients:[
-    { nom:"Bavette en lanières", qte:600, unite:"g", rayon:"Boucherie" },
-    { nom:"Poivrons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Sauce soja", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" },
-    { nom:"Piment", qte:0.5, unite:"pièce", rayon:"Fruits & Légumes" }
-  ],
-  etapes:["Mariner viande 15 min.","Wok poivrons + oignons + ail.","Bœuf 3 min vif.","Soja + citron + piment, riz."] },
-
-{ id:"ax16", nom:"Gratin de christophine au gruyère", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:60, difficulte:1,
-  ingredients:[
-    { nom:"Christophines", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Béchamel", qte:40, unite:"cl", rayon:"Crèmerie" },
-    { nom:"Gruyère", qte:200, unite:"g", rayon:"Crèmerie" },
-    { nom:"Lardons", qte:150, unite:"g", rayon:"Boucherie" },
-    { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" }
-  ],
-  etapes:["Christophines cuites 20 min.","Lardons sautés.","Plat : christophines + lardons + béchamel + muscade.","Fromage, four 25 min."] },
-
-{ id:"ax17", nom:"Daurade au four au citron vert", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:30, difficulte:1,
-  ingredients:[
-    { nom:"Daurade entière", qte:1.2, unite:"kg", rayon:"Poissonnerie" },
-    { nom:"Citron vert", qte:3, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Cive", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
-    { nom:"Huile d'olive", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Bois d'inde", qte:3, unite:"feuilles", rayon:"Épicerie salée" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Inciser, garnir citron + cive + ail.","Four 25 min à 200°C avec huile + bois d'inde.","Riz.","Citron + sauce chien."] },
-
-{ id:"ax18", nom:"Salade verte au boudin créole", mode:"us", type:"diner", saison:["printemps","été"], culture:"antillais", temps:20, difficulte:1,
-  ingredients:[
-    { nom:"Boudin créole", qte:500, unite:"g", rayon:"Boucherie" },
-    { nom:"Mesclun", qte:250, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Tomates cerises", qte:200, unite:"g", rayon:"Fruits & Légumes" },
-    { nom:"Avocat", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Huile d'olive", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Pain", qte:4, unite:"tranches", rayon:"Boulangerie" }
-  ],
-  etapes:["Griller boudin.","Salade + tomates + avocat.","Vinaigrette citron + huile.","Trancher boudin chaud."] },
-
-{ id:"ax19", nom:"Court-bouillon de bœuf antillais", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"antillais", temps:90, difficulte:1,
-  ingredients:[
-    { nom:"Bœuf à braiser", qte:800, unite:"g", rayon:"Boucherie" },
-    { nom:"Tomates", qte:4, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Ail", qte:5, unite:"gousses", rayon:"Fruits & Légumes" },
-    { nom:"Citron vert", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Cive + thym + bois d'inde", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
-    { nom:"Roucou", qte:1, unite:"c. à soupe", rayon:"Épicerie salée" },
-    { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" }
-  ],
-  etapes:["Mariner bœuf 30 min.","Saisir, oignons + tomates + roucou.","Eau + bouquet, 1h.","Cive + citron, riz."] },
-
-{ id:"ax20", nom:"Confiture coco-vanille pour ti-déj", mode:"both", type:"petit-dej", saison:["printemps","été","automne","hiver"], culture:"antillais", temps:30, difficulte:1,
-  ingredients:[
-    { nom:"Coco fraîche râpée", qte:300, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Sucre", qte:250, unite:"g", rayon:"Épicerie sucrée" },
-    { nom:"Lait", qte:20, unite:"cl", rayon:"Crèmerie" },
-    { nom:"Vanille", qte:1, unite:"gousse", rayon:"Épicerie sucrée" },
-    { nom:"Citron vert", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
-    { nom:"Pain de campagne", qte:8, unite:"tranches", rayon:"Boulangerie" },
-    { nom:"Beurre", qte:40, unite:"g", rayon:"Crèmerie" }
-  ],
-  etapes:["Coco + sucre + lait + vanille à feu doux 20 min.","Citron vert en fin.","Mettre en pots.","Tartines beurre + confiture."] },
 
 { id:"bx01", nom:"Asperges sauce mousseline", mode:"us", type:"diner", saison:["printemps"], culture:"bistronomie", temps:30, difficulte:2,
   ingredients:[
@@ -6328,6 +4936,422 @@ const RECIPES = [
     { nom:"Mâche", qte:100, unite:"g", rayon:"Fruits & Légumes" }
   ],
   etapes:["Pâte étalée, piquée, four 12 min à 200°C.","Asperges blanchies en biseau.","Disposer + parmesan, four 8 min.","Jambon, mâche, huile."] }
+,
+
+{ id:"kd01", nom:"Nuggets de poulet maison panés", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Aiguillettes de poulet", qte:700, unite:"g", rayon:"Boucherie" },
+    { nom:"Cornflakes émiettés", qte:120, unite:"g", rayon:"Épicerie sucrée" },
+    { nom:"Farine", qte:60, unite:"g", rayon:"Épicerie sucrée" },
+    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
+    { nom:"Paprika doux", qte:1, unite:"c. à café", rayon:"Épicerie salée" },
+    { nom:"Huile", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
+    { nom:"Ketchup + mayo", qte:1, unite:"portion", rayon:"Épicerie salée" },
+    { nom:"Frites au four", qte:1, unite:"g", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Couper aiguillettes en morceaux.","Farine → œuf battu → cornflakes-paprika.","Frire 4 min par face.","Ketchup-mayo, frites au four en parallèle."] },
+
+{ id:"kd02", nom:"Tarte flambée express (Flammekueche)", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Pâte fine à pizza", qte:1, unite:"rouleau", rayon:"Boulangerie" },
+    { nom:"Fromage blanc", qte:250, unite:"g", rayon:"Crèmerie" },
+    { nom:"Crème fraîche", qte:10, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Oignon", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
+    { nom:"Lardons fumés", qte:200, unite:"g", rayon:"Boucherie" },
+    { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" },
+    { nom:"Huile", qte:1, unite:"c. à soupe", rayon:"Épicerie salée" }
+  ],
+  etapes:["Étaler la pâte très fine.","Fromage blanc + crème + sel + muscade, étaler.","Oignons crus émincés + lardons.","Four 10 min à 250°C."] },
+
+{ id:"kd03", nom:"Spätzle express au gruyère", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:15, difficulte:1,
+  ingredients:[
+    { nom:"Spätzle frais", qte:600, unite:"g", rayon:"Crèmerie" },
+    { nom:"Beurre", qte:80, unite:"g", rayon:"Crèmerie" },
+    { nom:"Gruyère râpé", qte:200, unite:"g", rayon:"Crèmerie" },
+    { nom:"Lardons fumés", qte:150, unite:"g", rayon:"Boucherie" },
+    { nom:"Échalote", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
+    { nom:"Persil", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Lardons + échalote sautés.","Spätzle 2 min eau bouillante.","Mélanger avec beurre + lardons + gruyère.","Persil ciselé."] },
+
+{ id:"kd04", nom:"Hamburger express maison & frites au four", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Steaks hachés", qte:4, unite:"pièces", rayon:"Boucherie" },
+    { nom:"Buns à hamburger", qte:4, unite:"pièces", rayon:"Boulangerie" },
+    { nom:"Cheddar", qte:4, unite:"tranches", rayon:"Crèmerie" },
+    { nom:"Tomate", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
+    { nom:"Salade", qte:4, unite:"feuilles", rayon:"Fruits & Légumes" },
+    { nom:"Oignon rouge", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
+    { nom:"Ketchup + mayo + moutarde", qte:1, unite:"portion", rayon:"Épicerie salée" },
+    { nom:"Pommes de terre coupées", qte:1, unite:"g", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Frites au four 220°C 20 min.","Steaks 2 min/face, fromage en fin.","Toaster les buns.","Monter : sauce, salade, tomate, steak-fromage, oignon, bun."] },
+
+{ id:"kd05", nom:"Cordon bleu poulet-jambon-comté", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Escalopes de poulet fines", qte:4, unite:"pièces", rayon:"Boucherie" },
+    { nom:"Jambon", qte:4, unite:"tranches", rayon:"Boucherie" },
+    { nom:"Comté", qte:4, unite:"tranches", rayon:"Crèmerie" },
+    { nom:"Farine", qte:60, unite:"g", rayon:"Épicerie sucrée" },
+    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
+    { nom:"Chapelure", qte:150, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Beurre", qte:60, unite:"g", rayon:"Crèmerie" },
+    { nom:"Salade", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Aplatir escalopes, garnir jambon + comté, replier.","Paner : farine → œuf → chapelure.","Cuire au beurre 4 min/face.","Salade verte."] },
+
+{ id:"kd06", nom:"Hot-dogs maison chou-moutarde", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:15, difficulte:1,
+  ingredients:[
+    { nom:"Saucisses de Strasbourg", qte:6, unite:"pièces", rayon:"Boucherie" },
+    { nom:"Pains à hot-dog", qte:6, unite:"pièces", rayon:"Boulangerie" },
+    { nom:"Chou rouge râpé", qte:300, unite:"g", rayon:"Fruits & Légumes" },
+    { nom:"Vinaigre", qte:2, unite:"c. à soupe", rayon:"Épicerie salée" },
+    { nom:"Moutarde", qte:1, unite:"portion", rayon:"Épicerie salée" },
+    { nom:"Ketchup", qte:1, unite:"portion", rayon:"Épicerie salée" },
+    { nom:"Cornichons", qte:4, unite:"pièces", rayon:"Épicerie salée" }
+  ],
+  etapes:["Chou + vinaigre + sel 10 min.","Saucisses 5 min eau frémissante.","Toaster pains.","Garnir saucisse + chou + sauces + cornichons."] },
+
+{ id:"kd07", nom:"Mac and cheese gratiné au comté", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Macaroni", qte:500, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Comté râpé", qte:250, unite:"g", rayon:"Crèmerie" },
+    { nom:"Cheddar râpé", qte:150, unite:"g", rayon:"Crèmerie" },
+    { nom:"Lait", qte:50, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Beurre", qte:60, unite:"g", rayon:"Crèmerie" },
+    { nom:"Farine", qte:40, unite:"g", rayon:"Épicerie sucrée" },
+    { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" },
+    { nom:"Chapelure", qte:50, unite:"g", rayon:"Épicerie salée" }
+  ],
+  etapes:["Pâtes al dente.","Béchamel beurre + farine + lait + muscade.","Hors feu : fromages, mélanger aux pâtes.","Plat, chapelure, grill 8 min."] },
+
+{ id:"kd08", nom:"Coquillettes au jambon-béchamel", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Coquillettes", qte:500, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Jambon blanc", qte:6, unite:"tranches", rayon:"Boucherie" },
+    { nom:"Beurre", qte:50, unite:"g", rayon:"Crèmerie" },
+    { nom:"Farine", qte:30, unite:"g", rayon:"Épicerie sucrée" },
+    { nom:"Lait", qte:40, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Emmental râpé", qte:150, unite:"g", rayon:"Crèmerie" },
+    { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" }
+  ],
+  etapes:["Coquillettes 7 min.","Béchamel rapide.","Jambon en dés, mélanger pâtes + jambon + béchamel.","Fromage dessus, grill 5 min."] },
+
+{ id:"kd09", nom:"Gnocchis aux 4 fromages", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:15, difficulte:1,
+  ingredients:[
+    { nom:"Gnocchis frais", qte:600, unite:"g", rayon:"Crèmerie" },
+    { nom:"Crème", qte:25, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Gorgonzola", qte:80, unite:"g", rayon:"Crèmerie" },
+    { nom:"Comté", qte:80, unite:"g", rayon:"Crèmerie" },
+    { nom:"Mozza", qte:80, unite:"g", rayon:"Crèmerie" },
+    { nom:"Parmesan", qte:60, unite:"g", rayon:"Crèmerie" },
+    { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" }
+  ],
+  etapes:["Gnocchis 2 min eau bouillante.","Sauce : crème + gorgonzola + comté + mozza fondus.","Mélanger avec gnocchis.","Parmesan dessus."] },
+
+{ id:"kd10", nom:"Sloppy Joe au bun", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Bœuf haché", qte:600, unite:"g", rayon:"Boucherie" },
+    { nom:"Buns", qte:4, unite:"pièces", rayon:"Boulangerie" },
+    { nom:"Coulis de tomate", qte:30, unite:"cl", rayon:"Épicerie salée" },
+    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
+    { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" },
+    { nom:"Cheddar", qte:4, unite:"tranches", rayon:"Crèmerie" },
+    { nom:"Ketchup", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
+    { nom:"Sauce Worcestershire", qte:2, unite:"c. à café", rayon:"Épicerie salée" }
+  ],
+  etapes:["Suer oignon + ail.","Bœuf 5 min, ajouter tomate + ketchup + Worcester.","Mijoter 10 min.","Toaster bun, garnir + cheddar fondu."] },
+
+{ id:"kd11", nom:"Penne tomate-jambon-mozza", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:15, difficulte:1,
+  ingredients:[
+    { nom:"Penne", qte:500, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Coulis tomate", qte:40, unite:"cl", rayon:"Épicerie salée" },
+    { nom:"Jambon blanc", qte:4, unite:"tranches", rayon:"Boucherie" },
+    { nom:"Mozza billes", qte:200, unite:"g", rayon:"Crèmerie" },
+    { nom:"Basilic", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" },
+    { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" },
+    { nom:"Huile d'olive", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" }
+  ],
+  etapes:["Pâtes al dente.","Ail dans huile, coulis 5 min.","Jambon en dés ajouté.","Mélanger, mozza, basilic."] },
+
+{ id:"kd12", nom:"Cheeseburger sur pain brioché", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Steaks hachés", qte:4, unite:"pièces", rayon:"Boucherie" },
+    { nom:"Pains briochés à burger", qte:4, unite:"pièces", rayon:"Boulangerie" },
+    { nom:"Cheddar", qte:4, unite:"tranches", rayon:"Crèmerie" },
+    { nom:"Bacon", qte:4, unite:"tranches", rayon:"Boucherie" },
+    { nom:"Tomate", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
+    { nom:"Sauce burger", qte:1, unite:"portion", rayon:"Épicerie salée" },
+    { nom:"Salade iceberg", qte:4, unite:"feuilles", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Bacon grillé.","Steaks 2 min/face + cheddar fondu.","Buns toastés au beurre.","Monter : sauce, salade, steak-fromage, bacon, tomate."] },
+
+{ id:"kd13", nom:"Burrito bœuf-haricots-fromage", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Tortillas grandes", qte:6, unite:"pièces", rayon:"Boulangerie" },
+    { nom:"Bœuf haché", qte:500, unite:"g", rayon:"Boucherie" },
+    { nom:"Haricots rouges", qte:1, unite:"boîte", rayon:"Épicerie salée" },
+    { nom:"Cheddar râpé", qte:200, unite:"g", rayon:"Crèmerie" },
+    { nom:"Tomate", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
+    { nom:"Salade", qte:6, unite:"feuilles", rayon:"Fruits & Légumes" },
+    { nom:"Crème fraîche", qte:15, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Épices mexicaines", qte:1, unite:"sachet", rayon:"Épicerie salée" }
+  ],
+  etapes:["Bœuf + épices 8 min.","Haricots ajoutés 3 min.","Tortillas chauffées.","Garnir + fromage + tomate + salade + crème, rouler."] },
+
+{ id:"kd14", nom:"Pizza margherita express maison", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Pâte à pizza", qte:2, unite:"pièces", rayon:"Boulangerie" },
+    { nom:"Coulis tomate", qte:25, unite:"cl", rayon:"Épicerie salée" },
+    { nom:"Mozza", qte:300, unite:"g", rayon:"Crèmerie" },
+    { nom:"Basilic", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
+    { nom:"Huile d'olive", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
+    { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Étaler la pâte fine.","Coulis + ail haché + huile.","Mozza déchirée.","Four 8 min à 250°C, basilic en fin."] },
+
+{ id:"kd15", nom:"Quesadilla bœuf-fromage", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:18, difficulte:1,
+  ingredients:[
+    { nom:"Tortillas", qte:8, unite:"pièces", rayon:"Boulangerie" },
+    { nom:"Bœuf haché", qte:400, unite:"g", rayon:"Boucherie" },
+    { nom:"Cheddar râpé", qte:250, unite:"g", rayon:"Crèmerie" },
+    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
+    { nom:"Poivron rouge", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
+    { nom:"Crème fraîche", qte:10, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Paprika", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
+  ],
+  etapes:["Bœuf + oignon + poivron 8 min, paprika.","Garnir une tortilla : bœuf + fromage, recouvrir d'une autre.","Poêle sèche 2 min/face.","Couper en parts, crème à part."] },
+
+{ id:"kd16", nom:"Pâtes à la sauce milanaise (jambon de Parme)", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:18, difficulte:1,
+  ingredients:[
+    { nom:"Spaghetti", qte:500, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Jambon de Parme", qte:6, unite:"tranches", rayon:"Boucherie" },
+    { nom:"Coulis tomate", qte:30, unite:"cl", rayon:"Épicerie salée" },
+    { nom:"Crème", qte:15, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Parmesan", qte:80, unite:"g", rayon:"Crèmerie" },
+    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
+    { nom:"Basilic", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Pâtes al dente.","Suer oignon, coulis + crème.","Jambon en lanières.","Mélanger, parmesan, basilic."] },
+
+{ id:"kd17", nom:"Risotto crémeux jambon & petits pois", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Riz Arborio", qte:300, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Jambon blanc", qte:4, unite:"tranches", rayon:"Boucherie" },
+    { nom:"Petits pois surgelés", qte:300, unite:"g", rayon:"Surgelés" },
+    { nom:"Bouillon", qte:80, unite:"cl", rayon:"Épicerie salée" },
+    { nom:"Beurre", qte:50, unite:"g", rayon:"Crèmerie" },
+    { nom:"Parmesan", qte:80, unite:"g", rayon:"Crèmerie" },
+    { nom:"Échalote", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Suer échalote.","Nacrer riz, bouillon louche par louche 15 min.","Petits pois + jambon en dés 5 min en fin.","Beurre + parmesan."] },
+
+{ id:"kd18", nom:"Gratin de macaronis au jambon", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Macaroni", qte:500, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Jambon", qte:200, unite:"g", rayon:"Boucherie" },
+    { nom:"Crème", qte:40, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
+    { nom:"Emmental", qte:200, unite:"g", rayon:"Crèmerie" },
+    { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" }
+  ],
+  etapes:["Pâtes 7 min.","Crème + œufs + muscade + 100g fromage.","Plat : pâtes + jambon + appareil + fromage.","Four 12 min à 220°C grill."] },
+
+{ id:"kd19", nom:"Crêpes farcies poulet-béchamel", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Crêpes salées prêtes", qte:8, unite:"pièces", rayon:"Crèmerie" },
+    { nom:"Blancs de poulet cuits", qte:400, unite:"g", rayon:"Boucherie" },
+    { nom:"Champignons", qte:200, unite:"g", rayon:"Fruits & Légumes" },
+    { nom:"Béchamel rapide", qte:30, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Emmental", qte:150, unite:"g", rayon:"Crèmerie" }
+  ],
+  etapes:["Champignons sautés.","Mélanger poulet + champi + béchamel.","Garnir crêpes, rouler.","Fromage dessus, four 8 min grill."] },
+
+{ id:"kd20", nom:"Tortillas roulées poulet-cheddar", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:15, difficulte:1,
+  ingredients:[
+    { nom:"Tortillas", qte:6, unite:"pièces", rayon:"Boulangerie" },
+    { nom:"Blancs poulet", qte:400, unite:"g", rayon:"Boucherie" },
+    { nom:"Cheddar", qte:200, unite:"g", rayon:"Crèmerie" },
+    { nom:"Avocat", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
+    { nom:"Crème fraîche", qte:10, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Citron vert", qte:1, unite:"pièces", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Émincer poulet, sauter 5 min.","Avocat écrasé citron.","Garnir tortillas : poulet + cheddar + avocat + crème.","Rouler, snacker 2 min/face."] },
+
+{ id:"kd21", nom:"Poulet pané au cornflakes", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Blancs poulet", qte:600, unite:"g", rayon:"Boucherie" },
+    { nom:"Cornflakes", qte:150, unite:"g", rayon:"Épicerie sucrée" },
+    { nom:"Farine", qte:60, unite:"g", rayon:"Épicerie sucrée" },
+    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
+    { nom:"Huile", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" },
+    { nom:"Pommes vapeur", qte:800, unite:"g", rayon:"Fruits & Légumes" },
+    { nom:"Ketchup", qte:1, unite:"portion", rayon:"Épicerie salée" }
+  ],
+  etapes:["Aplatir poulet.","Panure cornflakes mixés + sel.","Cuire 4 min/face.","Pdt vapeur + ketchup."] },
+
+{ id:"kd22", nom:"Tartine méga raclette", mode:"kids", type:"diner", saison:["automne","hiver"], culture:"français", temps:15, difficulte:1,
+  ingredients:[
+    { nom:"Pain de campagne", qte:8, unite:"tranches", rayon:"Boulangerie" },
+    { nom:"Fromage à raclette", qte:400, unite:"g", rayon:"Crèmerie" },
+    { nom:"Jambon", qte:6, unite:"tranches", rayon:"Boucherie" },
+    { nom:"Bacon", qte:4, unite:"tranches", rayon:"Boucherie" },
+    { nom:"Cornichons", qte:100, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Salade", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Toaster pain.","Jambon + bacon + raclette en lamelles.","Grill 6 min jusqu'à fondu doré.","Cornichons + salade."] },
+
+{ id:"kd23", nom:"Cordon bleu de dinde", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Escalopes de dinde", qte:4, unite:"pièces", rayon:"Boucherie" },
+    { nom:"Jambon", qte:4, unite:"tranches", rayon:"Boucherie" },
+    { nom:"Emmental", qte:4, unite:"tranches", rayon:"Crèmerie" },
+    { nom:"Farine", qte:60, unite:"g", rayon:"Épicerie sucrée" },
+    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
+    { nom:"Chapelure", qte:150, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Beurre", qte:50, unite:"g", rayon:"Crèmerie" },
+    { nom:"Pommes vapeur", qte:800, unite:"g", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Inciser escalopes, garnir.","Paner.","Cuire 3 min/face.","Pdt vapeur."] },
+
+{ id:"kd24", nom:"Saucisses & purée express", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Saucisses fumées", qte:6, unite:"pièces", rayon:"Boucherie" },
+    { nom:"Pommes de terre", qte:1, unite:"kg", rayon:"Fruits & Légumes" },
+    { nom:"Lait", qte:20, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Beurre", qte:60, unite:"g", rayon:"Crèmerie" },
+    { nom:"Moutarde", qte:1, unite:"portion", rayon:"Épicerie salée" },
+    { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" }
+  ],
+  etapes:["Pdt cuites 20 min, écraser au lait + beurre + muscade.","Saucisses poêlées 10 min.","Servir ensemble.","Moutarde à côté."] },
+
+{ id:"kd25", nom:"Penne sauce tomate-saucisses", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Penne", qte:500, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Saucisses de Toulouse", qte:4, unite:"pièces", rayon:"Boucherie" },
+    { nom:"Coulis tomate", qte:40, unite:"cl", rayon:"Épicerie salée" },
+    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
+    { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" },
+    { nom:"Parmesan", qte:60, unite:"g", rayon:"Crèmerie" },
+    { nom:"Origan", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
+  ],
+  etapes:["Pâtes al dente.","Saucisses dépouillées, émiettées + oignon + ail.","Coulis + origan, 10 min.","Mélanger, parmesan."] },
+
+{ id:"kd26", nom:"Wraps frittés mozza-jambon", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:15, difficulte:1,
+  ingredients:[
+    { nom:"Tortillas", qte:6, unite:"pièces", rayon:"Boulangerie" },
+    { nom:"Mozza", qte:250, unite:"g", rayon:"Crèmerie" },
+    { nom:"Jambon de Parme", qte:6, unite:"tranches", rayon:"Boucherie" },
+    { nom:"Tomates séchées", qte:80, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Roquette", qte:100, unite:"g", rayon:"Fruits & Légumes" },
+    { nom:"Huile d'olive", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" }
+  ],
+  etapes:["Tortilla, mozza, jambon, tomates séchées, roquette.","Plier et fermer.","Snacker 2 min/face dans huile chaude.","Servir aussitôt."] },
+
+{ id:"kd27", nom:"Pâtes crémeuses au saumon", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:18, difficulte:1,
+  ingredients:[
+    { nom:"Tagliatelles", qte:500, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Saumon frais", qte:400, unite:"g", rayon:"Poissonnerie" },
+    { nom:"Crème", qte:25, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Échalote", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
+    { nom:"Citron", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
+    { nom:"Aneth", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" },
+    { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" }
+  ],
+  etapes:["Pâtes al dente.","Saumon en dés + échalote au beurre 5 min.","Crème + citron, mijoter 3 min.","Mélanger, aneth."] },
+
+{ id:"kd28", nom:"Bagel poulet-cheddar-cornichons", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:15, difficulte:1,
+  ingredients:[
+    { nom:"Bagels", qte:4, unite:"pièces", rayon:"Boulangerie" },
+    { nom:"Blancs poulet cuits", qte:400, unite:"g", rayon:"Boucherie" },
+    { nom:"Cheddar", qte:4, unite:"tranches", rayon:"Crèmerie" },
+    { nom:"Cornichons", qte:6, unite:"pièces", rayon:"Épicerie salée" },
+    { nom:"Salade", qte:4, unite:"feuilles", rayon:"Fruits & Légumes" },
+    { nom:"Mayonnaise", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
+    { nom:"Moutarde", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
+  ],
+  etapes:["Toaster bagels coupés en 2.","Mayo + moutarde, salade.","Poulet + cheddar + cornichons.","Refermer, servir."] },
+
+{ id:"kd29", nom:"Croque-monsieur XXL au comté", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:18, difficulte:1,
+  ingredients:[
+    { nom:"Pain de mie", qte:16, unite:"tranches", rayon:"Boulangerie" },
+    { nom:"Jambon blanc", qte:8, unite:"tranches", rayon:"Boucherie" },
+    { nom:"Comté râpé", qte:300, unite:"g", rayon:"Crèmerie" },
+    { nom:"Crème fraîche", qte:15, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
+    { nom:"Beurre", qte:40, unite:"g", rayon:"Crèmerie" },
+    { nom:"Salade", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Mélange crème + œufs + 2/3 fromage.","Monter pain-jambon-mélange-pain, beurrer.","Reste fromage dessus.","Four 12 min à 220°C grill, salade."] },
+
+{ id:"kd30", nom:"Naans poulet tikka simplifiés", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Naans", qte:4, unite:"pièces", rayon:"Boulangerie" },
+    { nom:"Blancs poulet en cubes", qte:500, unite:"g", rayon:"Boucherie" },
+    { nom:"Yaourt grec", qte:150, unite:"g", rayon:"Crèmerie" },
+    { nom:"Tomates concassées", qte:25, unite:"cl", rayon:"Épicerie salée" },
+    { nom:"Crème", qte:10, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Tikka masala", qte:1, unite:"sachet", rayon:"Épicerie salée" },
+    { nom:"Coriandre", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Mariner poulet yaourt + épices 10 min.","Saisir, tomates + crème, 8 min.","Naans tiédis.","Garnir, coriandre."] },
+
+{ id:"kd31", nom:"Tartiflette express", mode:"kids", type:"diner", saison:["automne","hiver"], culture:"français", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Pommes de terre déjà cuites", qte:1, unite:"g", rayon:"Fruits & Légumes" },
+    { nom:"Reblochon", qte:1, unite:"pièce", rayon:"Crèmerie" },
+    { nom:"Lardons", qte:250, unite:"g", rayon:"Boucherie" },
+    { nom:"Oignons", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
+    { nom:"Crème", qte:15, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Vin blanc", qte:5, unite:"cl", rayon:"Boissons" }
+  ],
+  etapes:["Pdt en rondelles si pas cuites, sinon directement.","Lardons + oignons + vin.","Plat : pdt + lardons + crème + reblochon.","Four 15 min à 220°C."] },
+
+{ id:"kd32", nom:"Empanadas express bœuf-fromage", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Pâte feuilletée", qte:2, unite:"rouleaux", rayon:"Crèmerie" },
+    { nom:"Bœuf haché", qte:400, unite:"g", rayon:"Boucherie" },
+    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
+    { nom:"Cheddar râpé", qte:150, unite:"g", rayon:"Crèmerie" },
+    { nom:"Olives noires", qte:60, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Œuf", qte:1, unite:"pièce", rayon:"Crèmerie" },
+    { nom:"Paprika", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
+  ],
+  etapes:["Bœuf + oignon + paprika 6 min.","Olives + fromage.","Découper cercles, garnir, fermer en chausson.","Dorer œuf, four 15 min à 200°C."] },
+
+{ id:"kd33", nom:"Cuisses de poulet rôties au four", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Cuisses de poulet", qte:6, unite:"pièces", rayon:"Boucherie" },
+    { nom:"Beurre", qte:40, unite:"g", rayon:"Crèmerie" },
+    { nom:"Ail", qte:4, unite:"gousses", rayon:"Fruits & Légumes" },
+    { nom:"Thym", qte:3, unite:"branches", rayon:"Fruits & Légumes" },
+    { nom:"Pdt vapeur", qte:800, unite:"g", rayon:"Fruits & Légumes" },
+    { nom:"Citron", qte:1, unite:"pièces", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Cuisses badigeonnées beurre + thym + ail.","Four 200°C 18 min sur plaque.","Pdt vapeur 15 min.","Citron à la sortie."] },
+
+{ id:"kd34", nom:"Gratin de pâtes thon-crème", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Coquillettes", qte:500, unite:"g", rayon:"Épicerie salée" },
+    { nom:"Thon", qte:2, unite:"boîtes", rayon:"Épicerie salée" },
+    { nom:"Crème", qte:30, unite:"cl", rayon:"Crèmerie" },
+    { nom:"Œufs", qte:2, unite:"pièces", rayon:"Crèmerie" },
+    { nom:"Gruyère", qte:150, unite:"g", rayon:"Crèmerie" },
+    { nom:"Tomates concassées", qte:20, unite:"cl", rayon:"Épicerie salée" },
+    { nom:"Persil", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Pâtes 7 min.","Mélanger thon + tomates + crème + œufs.","Plat : pâtes + sauce + gruyère.","Grill 8 min, persil."] },
+
+{ id:"kd35", nom:"Tortilla espagnole pdt-fromage", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"méditerranéen", temps:20, difficulte:1,
+  ingredients:[
+    { nom:"Œufs", qte:10, unite:"pièces", rayon:"Crèmerie" },
+    { nom:"Pommes de terre déjà cuites", qte:600, unite:"g", rayon:"Fruits & Légumes" },
+    { nom:"Oignon", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
+    { nom:"Comté râpé", qte:150, unite:"g", rayon:"Crèmerie" },
+    { nom:"Huile d'olive", qte:6, unite:"cl", rayon:"Épicerie salée" },
+    { nom:"Persil", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
+  ],
+  etapes:["Pdt en cubes + oignon revenu.","Œufs battus + fromage + sel.","Verser dans la poêle, cuire 5 min/face.","Persil."] }
 ];
 
 /* ===== Rituels base ========================================== */
