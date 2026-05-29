@@ -240,7 +240,7 @@ const RECIPES = [
     { nom:"Crème fraîche", qte:20, unite:"cl", rayon:"Crèmerie" },
     { nom:"Poivre noir", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
   ],
-  etapes:["Faire revenir les lardons sans matière grasse.","Cuire les pâtes al dente.","Battre œufs, crème, parmesan et poivre.","Hors feu, mélanger pâtes chaudes, lardons et sauce."] },
+  etapes:["Porter une grande casserole d'eau salée à grosse ébullition (10g de sel par litre).","Pendant ce temps : dans une très grande poêle ou sauteuse, faire revenir 200g de lardons fumés à sec à feu moyen 5 min jusqu'à dorés et croustillants. Pas d'huile, ils rendent leur gras.","Dans un bol, casser 4 œufs entiers. Ajouter 20cl de crème fraîche, 80g de parmesan râpé, sel léger (parmesan déjà salé), POIVRE GÉNÉREUX. Battre à la fourchette.","Plonger 500g de tagliatelles fraîches dans l'eau bouillante. Cuire 3 min (al dente).","Sortir la poêle des lardons du feu. Égoutter les pâtes en gardant 1 louche d'eau de cuisson.","VERSER LES PÂTES DANS LA POÊLE DES LARDONS HORS DU FEU. C'est essentiel : si le mélange œuf est ajouté sur feu vif, on obtient des œufs brouillés.","Mélanger énergiquement 30 sec, puis verser le mélange œuf-crème-parmesan.","Continuer à mélanger 1 min HORS FEU : la chaleur résiduelle cuit doucement les œufs et nappe les pâtes d'une sauce crémeuse.","Si la sauce est trop épaisse, ajouter 1 c. à soupe d'eau de cuisson.","Servir aussitôt dans des assiettes très chaudes. Donner un dernier tour de poivre et un peu de parmesan supplémentaire."] },
 
 { id:"dj03", nom:"Wraps poulet caesar", mode:"kids", type:"diner", saison:["printemps","été"], culture:"international", temps:20, difficulte:1,
   ingredients:[
@@ -576,7 +576,7 @@ const RECIPES = [
     { nom:"Parmesan", qte:60, unite:"g", rayon:"Crèmerie" },
     { nom:"Basilic", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Mélanger viande, chapelure, œuf, oignon haché, sel.","Former des boulettes, dorer à la poêle.","Ajouter coulis et ail, mijoter 20 min.","Cuire les spaghetti, dresser, basilic et parmesan."] },
+  etapes:["Préparer la farce : dans un saladier, mélanger 500g de bœuf haché avec 1 œuf, 1 oignon haché finement, 2 gousses d'ail écrasées, 50g de chapelure préalablement trempée dans 5cl de lait, 1 c. à café d'origan, sel, poivre.","Pétrir 2 min à la main pour bien lier. Former 24-30 boulettes de la taille d'une grosse noix.","Dans une grande poêle, chauffer 3 c. à soupe d'huile d'olive à feu moyen-vif. Y dorer les boulettes 2 min de chaque face (4 faces) en les retournant délicatement. Les réserver.","Dans la même poêle, ajouter 2 gousses d'ail écrasées et 1 oignon haché. Suer 3 min.","Verser 50cl de coulis de tomates, 2 c. à café d'origan, 1 c. à café de sucre, sel, poivre. Mijoter 5 min.","Remettre les boulettes dans la sauce. Couvrir, mijoter 20 min à feu doux. Elles vont absorber la sauce et devenir tendres.","Pendant ce temps, cuire 400g de spaghetti dans une grande casserole d'eau salée pour 1 min de moins que le paquet (al dente).","Égoutter les pâtes en gardant 1 louche d'eau de cuisson.","Verser un peu de sauce sur les pâtes pour les colorer, mélanger.","Servir les pâtes dans les assiettes, déposer 4-5 boulettes par assiette, napper de sauce. Parsemer généreusement de parmesan râpé et de basilic frais ciselé."] },
 
 { id:"dn06", nom:"Émincé de dinde & pommes de terre sautées", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:30, difficulte:1,
   ingredients:[
@@ -600,7 +600,7 @@ const RECIPES = [
     { nom:"Gruyère râpé", qte:100, unite:"g", rayon:"Crèmerie" },
     { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Cuire les pdt, écraser avec beurre et lait chaud.","Suer oignons et ail, ajouter viande, cuire.","Étaler la viande, recouvrir de purée.","Gruyère, four 20 min à 200°C."] },
+  etapes:["Préchauffer le four à 200°C (chaleur tournante).","Éplucher 1kg de pommes de terre, les couper en gros cubes. Les mettre dans une casserole d'eau froide salée, porter à ébullition, cuire 20 min jusqu'à ce qu'elles soient tendres (pointe de couteau).","Pendant que les pommes de terre cuisent : émincer 2 oignons et 2 gousses d'ail.","Dans une grande poêle, chauffer 2 c. à soupe d'huile à feu moyen. Suer oignons 5 min jusqu'à translucides, ajouter l'ail 1 min.","Ajouter 600g de bœuf haché. L'émietter à la spatule. Saler, poivrer, ajouter persil ciselé. Cuire 8 min en remuant.","Égoutter les pommes de terre. Les écraser au presse-purée (ou à la fourchette). Ajouter 50g de beurre + 20cl de lait chaud + sel + poivre + 1 pincée de muscade. Bien mélanger : la purée doit être souple mais pas liquide.","Dans un plat à gratin beurré, étaler le mélange viande au fond.","Recouvrir d'une couche régulière de purée à la spatule. Strier la surface à la fourchette (esthétique + meilleure dorure).","Parsemer 100g de gruyère râpé.","Enfourner 20 min : le dessus doit être bien doré et bouillonnant aux bords.","Laisser tiédir 5 min avant de servir. Avec une salade verte vinaigrette."] },
 
 { id:"dn08", nom:"Blanquette de veau & riz", mode:"kids", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:90, difficulte:2,
   ingredients:[
@@ -971,7 +971,7 @@ const RECIPES = [
     { nom:"Parmesan râpé", qte:80, unite:"g", rayon:"Crèmerie" },
     { nom:"Huile d'olive", qte:2, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Cuire les pâtes al dente.","Couper les tomates cerises en deux, les faire revenir 3 min à l'huile.","Égoutter les pâtes, mélanger avec le pesto et les tomates.","Servir aussitôt, parmesan râpé sur le dessus."] },
+  etapes:["Porter une grande casserole d'eau salée à grosse ébullition (10g de sel par litre).","Pendant ce temps, laver les tomates cerises et les couper en deux dans le sens de la hauteur.","Plonger 500g de pâtes (penne ou fusilli) dans l'eau bouillante. Cuire selon le paquet (généralement 9-11 min) en mode al dente : sortir 1 min avant la fin indiquée.","Dans une grande sauteuse, chauffer 2 c. à soupe d'huile d'olive à feu vif. Y déposer les tomates cerises côté coupe vers le bas.","Ne pas bouger 2 min (elles caramélisent), puis remuer et cuire encore 3 min jusqu'à ce qu'elles éclatent légèrement et rendent leur jus. Saler, poivrer.","Baisser le feu à doux. Égoutter les pâtes en gardant 1 louche d'eau de cuisson.","Verser les pâtes dans la sauteuse avec les tomates. Ajouter le pot entier de pesto et 2 c. à soupe d'eau de cuisson.","Mélanger délicatement 30 sec sur feu doux : tout doit être enrobé.","Servir dans des assiettes chaudes, parsemer généreusement de parmesan râpé et finir d'un tour de poivre."] },
 
 { id:"qk02", nom:"Spaghetti ail, huile & piment doux", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:12, difficulte:1,
   ingredients:[
@@ -982,7 +982,7 @@ const RECIPES = [
     { nom:"Persil plat", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Parmesan râpé", qte:60, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Cuire les pâtes al dente, garder un peu d'eau.","Émincer l'ail, le faire blondir doucement dans l'huile + piment.","Verser les pâtes, ajouter un peu d'eau de cuisson, mélanger.","Persil ciselé et parmesan à la fin."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition (10g/L).","Pendant que l'eau chauffe : éplucher 6 gousses d'ail. Les émincer en lamelles fines (pas haché, c'est important pour la texture).","Plonger 500g de spaghetti dans l'eau bouillante. Cuire al dente (1 min de moins que le paquet).","Dans une grande sauteuse, verser 8 c. à soupe d'huile d'olive. Chauffer DOUCEMENT à feu doux. Y déposer l'ail émincé.","Faire blondir l'ail 3-4 min à feu doux SANS qu'il ne brûle (très important : s'il brunit, il devient amer). Il doit juste blondir et embaumer.","Hors du feu, ajouter 1 c. à café de piment en flocons.","Égoutter les spaghetti en gardant 1 louche d'eau de cuisson. Les verser directement dans la sauteuse.","Mélanger énergiquement avec 2 c. à soupe d'eau de cuisson : la sauce doit napper, brillante.","Hors feu, ajouter 60g de parmesan râpé et le persil ciselé.","Servir aussitôt dans des assiettes très chaudes."] },
 
 { id:"qk03", nom:"Penne saumon, courgettes & crème", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:25, difficulte:1,
   ingredients:[
@@ -1019,7 +1019,7 @@ const RECIPES = [
     { nom:"Bouillon de légumes", qte:75, unite:"cl", rayon:"Épicerie salée" },
     { nom:"Huile d'olive", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Tout mettre dans une grande sauteuse : pâtes, tomates, oignon, ail, bouillon, huile.","Porter à ébullition puis cuire 12 min en remuant.","Quand les pâtes sont al dente et le jus presque absorbé, couper la mozza en dés et la fondre dedans.","Basilic ciselé sur le dessus."] },
+  etapes:["Émincer 1 oignon, écraser 3 gousses d'ail.","Dans une très grande sauteuse (assez pour contenir tous les ingrédients), verser 3 c. à soupe d'huile d'olive.","Tout mettre en même temps : 500g de pâtes courtes, l'oignon, l'ail, 500g de tomates cerises entières, 75cl de bouillon de légumes BRÛLANT, 1 c. à café de sel, du poivre, 4-5 feuilles de basilic.","Porter à ébullition à feu vif, puis baisser à feu moyen-vif. Cuire 10-12 min en remuant souvent à la spatule.","Le bouillon doit être presque entièrement absorbé et les pâtes al dente. Si trop sec, ajouter un peu d'eau bouillante.","Pendant les dernières 2 min, couper 250g de mozzarella en dés.","Quand les pâtes sont prêtes, COUPER LE FEU et ajouter la mozzarella en dés. Mélanger délicatement : elle va fondre dans la chaleur résiduelle.","Ajouter le reste du basilic frais déchiré, un filet d'huile d'olive et servir aussitôt dans la sauteuse à table."] },
 
 { id:"qk06", nom:"Penne au gorgonzola & noix", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"italien", temps:15, difficulte:1,
   ingredients:[
@@ -1400,7 +1400,7 @@ const RECIPES = [
     { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" },
     { nom:"Gruyère râpé (option)", qte:80, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Frotter le plat avec l'ail, beurrer.","Trancher les pdt fines, disposer en couches.","Faire bouillir crème + lait + ail + muscade, verser sur les pdt.","Four 75 min à 160°C, doré sur le dessus."] },
+  etapes:["Préchauffer le four à 160°C (chaleur tournante).","Frotter l'intérieur d'un plat à gratin avec 1 gousse d'ail coupée en deux. Beurrer généreusement.","Éplucher 1,5kg de pommes de terre Charlotte. Les trancher en rondelles régulières de 3mm (mandoline si possible, sinon couteau bien aiguisé).","NE PAS LAVER les pommes de terre tranchées : leur amidon est nécessaire pour que la crème prenne.","Dans une casserole, verser 40cl de crème fraîche entière + 30cl de lait + 3 gousses d'ail écrasées + 1 pincée généreuse de muscade râpée + sel + poivre.","Porter à frémissement (pas bouillir). Quand ça fume, ajouter les rondelles de pommes de terre. Cuire 5 min en remuant doucement : la crème va s'infuser dans les pommes de terre.","Transférer délicatement dans le plat beurré, en formant des couches régulières. Verser toute la crème par-dessus.","Optionnel : parsemer 80g de gruyère râpé (recette puriste : pas de fromage).","Enfourner 1h15. La pointe du couteau doit pénétrer sans résistance. Le dessus doit être bien doré.","Laisser reposer 10 min hors du four avant de servir (la crème se raffermit). Servir avec une viande rôtie ou simplement une salade verte."] },
 
 { id:"fr13", nom:"Salade lyonnaise frisée, lardons & œuf poché", mode:"both", type:"diner", saison:["printemps","automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -2843,7 +2843,7 @@ const RECIPES = [
     { nom:"Crème", qte:10, unite:"cl", rayon:"Crèmerie" },
     { nom:"Basilic", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Cuire pâtes al dente, garder eau.","Faire fondre beurre + crème + zeste citron.","Pâtes + jus citron + parmesan + eau de cuisson.","Basilic en fin."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition. Y cuire 500g de linguine pour 1 min de moins que le paquet (al dente, finition à la poêle).","Pendant ce temps : râper le zeste de 2 citrons (uniquement la partie jaune, l'amère blanche est à éviter). Presser le jus.","Râper 100g de parmesan au fur et à mesure.","Dans une grande sauteuse, faire fondre 80g de beurre à feu doux. Ajouter 10cl de crème, ne pas faire bouillir.","Égoutter les pâtes en gardant 1 louche d'eau de cuisson. Les verser dans la sauteuse.","Ajouter le jus de citron, le zeste, 80g de parmesan, 3 c. à soupe d'eau de cuisson. Mélanger énergiquement 1 min : la sauce nappe les pâtes.","Hors feu, ajouter le basilic ciselé et le reste de parmesan.","Servir aussitôt dans des assiettes très chaudes. Tour de poivre du moulin."] },
 
 { id:"fq08", nom:"Pâtes au jambon & petits pois", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:18, difficulte:1,
   ingredients:[
@@ -2879,7 +2879,7 @@ const RECIPES = [
     { nom:"Moutarde", qte:2, unite:"c. à café", rayon:"Épicerie salée" },
     { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Mélanger crème + moutarde + 2/3 du fromage.","Monter pain-jambon-mélange-pain, beurrer dessus.","Recouvrir de fromage.","Four 10 min à 220°C grill."] },
+  etapes:["Préchauffer le four en mode grill à 220°C.","Dans un bol, mélanger 15cl de crème fraîche, 2 c. à café de moutarde, et 150g de comté râpé. Saler très légèrement (jambon et fromage le sont déjà), poivrer.","Beurrer légèrement un côté de 12 tranches de pain de mie. Disposer 4 tranches beurre vers le BAS sur une plaque tapissée de papier cuisson.","Sur chaque tranche, étaler une couche du mélange crémeux. Déposer 1 tranche de jambon repliée. Étaler à nouveau du mélange.","Recouvrir avec une seconde tranche de pain (beurre vers le haut). On obtient 4 croques montés.","Étaler généreusement le reste du mélange crémeux sur les dessus.","Parsemer du reste de comté râpé sur le dessus.","Enfourner au grill 10 min en surveillant : le dessus doit être bien doré.","Servir aussitôt avec une salade verte vinaigrette. Astuce : on peut ajouter un œuf au plat dessus pour un croque-madame."] },
 
 { id:"fq11", nom:"Croque-jambon-tomate", mode:"kids", type:"diner", saison:["printemps","été","automne"], culture:"français", temps:15, difficulte:1,
   ingredients:[
@@ -4949,7 +4949,7 @@ const RECIPES = [
     { nom:"Ketchup + mayo", qte:1, unite:"portion", rayon:"Épicerie salée" },
     { nom:"Frites au four", qte:1, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Couper aiguillettes en morceaux.","Farine → œuf battu → cornflakes-paprika.","Frire 4 min par face.","Ketchup-mayo, frites au four en parallèle."] },
+  etapes:["Préparer 3 assiettes creuses : une avec la farine (60g + 1 c. à café de sel), une avec les 2 œufs battus à la fourchette, une avec les cornflakes finement écrasés (mettre dans un sac congélation et écraser au rouleau) mélangés au paprika.","Couper les aiguillettes de poulet en morceaux de 4-5 cm. Les éponger avec du papier absorbant pour qu'ils soient bien secs (sinon la panure n'adhère pas).","Préchauffer le four à 220°C (chaleur tournante) et y enfourner directement les frites surgelées sur une plaque pour qu'elles cuisent en parallèle 25 min.","Paner chaque morceau : d'abord dans la farine (bien tapoter pour ôter l'excès), puis dans l'œuf battu (tremper complètement), puis dans les cornflakes (presser fermement pour les faire adhérer).","Chauffer 4 c. à soupe d'huile dans une grande poêle à feu moyen-vif. L'huile est prête quand un morceau de pain y dore en 30 sec.","Déposer les nuggets sans les serrer (en 2 fournées si besoin). Cuire 3-4 min sans toucher jusqu'à belle coloration dorée, retourner avec une pince, encore 3-4 min de l'autre côté.","Égoutter sur du papier absorbant pour ôter l'excédent de gras.","Servir aussitôt avec les frites brûlantes, ketchup et mayonnaise. Compter 6-8 nuggets par personne."] },
 
 { id:"kd02", nom:"Tarte flambée express (Flammekueche)", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -4961,7 +4961,7 @@ const RECIPES = [
     { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" },
     { nom:"Huile", qte:1, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Étaler la pâte très fine.","Fromage blanc + crème + sel + muscade, étaler.","Oignons crus émincés + lardons.","Four 10 min à 250°C."] },
+  etapes:["Préchauffer le four à 250°C (le plus fort possible, chaleur tournante si disponible).","Émincer les 2 oignons en rondelles très fines (mandoline si possible). Important : ils restent CRUS, c'est ce qui fait la signature.","Dans un bol, mélanger 250g de fromage blanc, 10cl de crème fraîche, 1 pincée de muscade, sel et poivre. La crème doit être fluide mais pas liquide.","Étaler la pâte à pizza directement sur la plaque tapissée de papier cuisson, en cherchant à l'avoir LA PLUS FINE possible (presque transparente).","Badigeonner toute la pâte de la crème, sans laisser de bord vide.","Répartir les oignons crus de manière homogène, puis parsemer les lardons fumés.","Enfourner 10-12 min : la pâte doit dorer aux bords et devenir croustillante, les oignons doivent commencer à brunir.","Sortir, laisser tiédir 2 min (la pâte se raffermit). Couper en parts au couteau ou à la roulette.","Servir avec une salade verte vinaigrette à part. Idéalement accompagné d'un Riesling ou d'un Gewurztraminer."] },
 
 { id:"kd03", nom:"Spätzle express au gruyère", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:15, difficulte:1,
   ingredients:[
@@ -4972,7 +4972,7 @@ const RECIPES = [
     { nom:"Échalote", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
     { nom:"Persil", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Lardons + échalote sautés.","Spätzle 2 min eau bouillante.","Mélanger avec beurre + lardons + gruyère.","Persil ciselé."] },
+  etapes:["Porter une grande casserole d'eau salée (10g de sel par litre) à grosse ébullition.","Pendant que l'eau chauffe : dans une grande poêle, faire revenir 150g de lardons fumés à sec (sans matière grasse) pendant 5 min jusqu'à dorés et croustillants. Ajouter 1 échalote ciselée, cuire 2 min.","Plonger les spätzle dans l'eau bouillante. Ils sont cuits dès qu'ils remontent à la surface (1-2 min seulement). Égoutter.","Verser les spätzle directement dans la poêle des lardons. Ajouter 80g de beurre en parcelles, remuer 1 min pour bien enrober.","Hors du feu, saupoudrer généreusement de 200g de gruyère râpé. Mélanger pour le faire fondre dans la chaleur résiduelle.","Servir dans des assiettes chaudes. Parsemer de persil ciselé et donner un tour de poivre du moulin.","Astuce : on peut remplacer les lardons par des champignons sautés pour une version végé."] },
 
 { id:"kd04", nom:"Hamburger express maison & frites au four", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
   ingredients:[
@@ -4985,7 +4985,7 @@ const RECIPES = [
     { nom:"Ketchup + mayo + moutarde", qte:1, unite:"portion", rayon:"Épicerie salée" },
     { nom:"Pommes de terre coupées", qte:1, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Frites au four 220°C 20 min.","Steaks 2 min/face, fromage en fin.","Toaster les buns.","Monter : sauce, salade, tomate, steak-fromage, oignon, bun."] },
+  etapes:["Préchauffer le four à 220°C (chaleur tournante). Couper les pommes de terre en bâtonnets épais comme un doigt. Les éponger soigneusement au torchon (très important pour qu'elles soient croustillantes).","Étaler les frites en une seule couche sur une plaque tapissée de papier cuisson. Verser 3 c. à soupe d'huile, saler, mélanger à la main pour bien enrober. Enfourner 25 min en retournant à mi-cuisson.","Pendant que les frites cuisent : sortir les steaks hachés du frigo 10 min avant pour qu'ils soient à température ambiante. Émincer 1 oignon rouge en fines rondelles. Couper la tomate en 4 rondelles épaisses. Laver et essorer la salade.","Préparer les sauces dans 3 ramequins : ketchup, mayonnaise, moutarde.","À 5 min de la fin des frites, chauffer une poêle (idéalement en fonte) à feu vif sans matière grasse. Saler généreusement les steaks juste avant cuisson.","Déposer les steaks dans la poêle bien chaude. NE PAS LES BOUGER pendant 2 min (une croûte se forme, c'est ce qui donne le goût).","Retourner les steaks. Déposer aussitôt une tranche de cheddar sur chaque steak. Cuire encore 2 min (le fromage commence à fondre).","Pendant les 2 dernières minutes : ouvrir les buns et les toaster légèrement dans une autre poêle ou directement dans le grille-pain.","Monter chaque burger : base + sauce + 1 feuille de salade + steak-cheddar + rondelles d'oignon + rondelle de tomate + chapeau du bun.","Servir IMMÉDIATEMENT avec les frites brûlantes, salières et sauces sur la table."] },
 
 { id:"kd05", nom:"Cordon bleu poulet-jambon-comté", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -4998,7 +4998,7 @@ const RECIPES = [
     { nom:"Beurre", qte:60, unite:"g", rayon:"Crèmerie" },
     { nom:"Salade", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Aplatir escalopes, garnir jambon + comté, replier.","Paner : farine → œuf → chapelure.","Cuire au beurre 4 min/face.","Salade verte."] },
+  etapes:["Aplatir les escalopes de poulet avec un rouleau à pâtisserie (entre 2 feuilles de papier cuisson) jusqu'à 5-6 mm d'épaisseur uniforme.","Saler et poivrer légèrement chaque face. Au centre de chaque escalope, poser 1 tranche de jambon repliée puis 1 tranche de comté.","Replier l'escalope en deux pour enfermer la garniture. Sceller les bords en appuyant ou avec un cure-dent (à retirer avant de servir).","Préparer 3 assiettes : farine (60g, salée), 2 œufs battus, 150g chapelure.","Paner : farine (tapoter) → œuf (tremper complètement) → chapelure (presser fermement, double passage pour plus de croquant).","Dans une grande poêle, faire fondre 60g de beurre à feu moyen. Quand il mousse, ajouter les cordons bleus.","Cuire 4 min de chaque côté jusqu'à belle coloration dorée. Si la panure brunit trop vite, baisser le feu.","Vérifier la cuisson : le poulet doit être cuit à cœur (entailler discrètement pour vérifier qu'il n'est plus rosé).","Servir avec une salade verte vinaigrette ou des légumes vapeur. Quartier de citron sur la table."] },
 
 { id:"kd06", nom:"Hot-dogs maison chou-moutarde", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:15, difficulte:1,
   ingredients:[
@@ -5010,7 +5010,7 @@ const RECIPES = [
     { nom:"Ketchup", qte:1, unite:"portion", rayon:"Épicerie salée" },
     { nom:"Cornichons", qte:4, unite:"pièces", rayon:"Épicerie salée" }
   ],
-  etapes:["Chou + vinaigre + sel 10 min.","Saucisses 5 min eau frémissante.","Toaster pains.","Garnir saucisse + chou + sauces + cornichons."] },
+  etapes:["Râper le chou rouge très finement (au couteau ou robot). Le mettre dans un saladier avec 1 c. à café de sel et 2 c. à soupe de vinaigre. Bien mélanger et laisser dégorger 10 min : il devient plus tendre et perd son amertume.","Pendant ce temps, porter une casserole d'eau à ébullition (sans bouillir fort). Plonger les saucisses de Strasbourg 5 min en eau frémissante (PAS bouillante, sinon elles éclatent).","Préchauffer le four à 180°C. Mettre les pains à hot-dog directement dans le four 3 min pour les tiédir et les ouvrir légèrement.","Égoutter le chou en le pressant entre les mains pour ôter l'excès d'eau.","Sortir les pains et les inciser sur le dessus. Tartiner l'intérieur de moutarde.","Y déposer une saucisse, puis une bonne cuillère de chou rouge mariné.","Finir avec un trait de ketchup en zigzag et 2-3 rondelles de cornichons.","Servir aussitôt avec des chips ou une salade verte. Compter 1 à 2 hot-dogs par personne."] },
 
 { id:"kd07", nom:"Mac and cheese gratiné au comté", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
   ingredients:[
@@ -5023,7 +5023,7 @@ const RECIPES = [
     { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" },
     { nom:"Chapelure", qte:50, unite:"g", rayon:"Épicerie salée" }
   ],
-  etapes:["Pâtes al dente.","Béchamel beurre + farine + lait + muscade.","Hors feu : fromages, mélanger aux pâtes.","Plat, chapelure, grill 8 min."] },
+  etapes:["Porter une grande casserole d'eau salée (10g/L) à ébullition. Y cuire les macaronis 9 minutes (1 min de moins que le paquet, ils finiront au four).","Pendant ce temps, préparer la béchamel : faire fondre 60g de beurre à feu moyen dans une casserole. Ajouter 40g de farine en une fois, remuer 1 min jusqu'à obtenir un roux blond.","Verser 50cl de lait froid en plusieurs fois, en fouettant énergiquement après chaque ajout pour éviter les grumeaux.","Continuer à feu moyen en remuant au fouet jusqu'à épaississement (3-4 min). Ajouter sel, poivre, 1 belle pincée de muscade râpée.","Hors du feu, ajouter 200g de comté râpé et 100g de cheddar râpé en remuant jusqu'à ce qu'ils fondent. Garder 50g de chaque pour gratiner.","Égoutter les pâtes (garder 2 c. à soupe d'eau de cuisson). Les mélanger délicatement à la sauce dans un plat à gratin beurré.","Préchauffer le four position grill à 220°C.","Parsemer le dessus du reste de fromage et de 50g de chapelure pour une croûte croustillante.","Enfourner sous le grill 8 min : la surface doit être bien dorée et grésillante.","Laisser tiédir 5 min hors du four avant de servir (la béchamel se raffermit)."] },
 
 { id:"kd08", nom:"Coquillettes au jambon-béchamel", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -5035,7 +5035,7 @@ const RECIPES = [
     { nom:"Emmental râpé", qte:150, unite:"g", rayon:"Crèmerie" },
     { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" }
   ],
-  etapes:["Coquillettes 7 min.","Béchamel rapide.","Jambon en dés, mélanger pâtes + jambon + béchamel.","Fromage dessus, grill 5 min."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition. Y plonger les coquillettes pour 7 min (al dente, elles finiront au four).","Pendant ce temps, faire fondre 50g de beurre dans une casserole à feu moyen.","Ajouter 30g de farine et remuer 1 min pour un roux.","Verser 40cl de lait froid d'un coup, fouetter énergiquement, porter à frémissement en remuant. Cuire 3 min jusqu'à épaississement crémeux.","Ajouter sel, poivre, 1 pincée de muscade. Couper le feu.","Couper les 6 tranches de jambon blanc en lanières (1 cm de large).","Égoutter les pâtes. Les mélanger à la béchamel dans le plat à gratin beurré. Ajouter le jambon.","Parsemer 150g d'emmental râpé sur le dessus.","Enfourner sous le grill (220°C) 8 min jusqu'à dorée bouillonnant.","Laisser tiédir 3 min avant de servir."] },
 
 { id:"kd09", nom:"Gnocchis aux 4 fromages", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:15, difficulte:1,
   ingredients:[
@@ -5047,7 +5047,7 @@ const RECIPES = [
     { nom:"Parmesan", qte:60, unite:"g", rayon:"Crèmerie" },
     { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Gnocchis 2 min eau bouillante.","Sauce : crème + gorgonzola + comté + mozza fondus.","Mélanger avec gnocchis.","Parmesan dessus."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition.","Pendant ce temps, dans une sauteuse à feu doux, verser 25cl de crème liquide. Ne pas faire bouillir.","Couper le gorgonzola, le comté et la mozzarella en petits dés. Les ajouter dans la crème tiède.","Remuer doucement à la spatule, le fromage va fondre en 3-4 min en sauce onctueuse.","Si la sauce épaissit trop, ajouter 2 c. à soupe de lait. Saler très légèrement (les fromages sont déjà salés). Poivrer généreusement.","Plonger les gnocchis frais dans l'eau bouillante. Ils sont cuits dès qu'ils remontent (1-2 min).","Les égoutter avec une écumoire et les verser directement dans la sauteuse de sauce. Mélanger délicatement 30 sec.","Servir aussitôt dans des assiettes chaudes. Parsemer généreusement de parmesan râpé et donner un tour de poivre."] },
 
 { id:"kd10", nom:"Sloppy Joe au bun", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
   ingredients:[
@@ -5060,7 +5060,7 @@ const RECIPES = [
     { nom:"Ketchup", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Sauce Worcestershire", qte:2, unite:"c. à café", rayon:"Épicerie salée" }
   ],
-  etapes:["Suer oignon + ail.","Bœuf 5 min, ajouter tomate + ketchup + Worcester.","Mijoter 10 min.","Toaster bun, garnir + cheddar fondu."] },
+  etapes:["Émincer finement 1 oignon et 2 gousses d'ail.","Dans une grande poêle ou sauteuse, chauffer 2 c. à soupe d'huile à feu moyen. Suer l'oignon 3 min jusqu'à translucide, ajouter l'ail 1 min.","Ajouter 600g de bœuf haché. L'écraser à la spatule pour qu'il s'émiette. Cuire 5 min en remuant souvent jusqu'à ce qu'il soit bien doré.","Verser 30cl de coulis de tomate, 3 c. à soupe de ketchup, 2 c. à café de Worcestershire, sel, poivre, 1 c. à café de paprika fumé si vous en avez.","Mijoter à feu doux 10-12 min. La sauce doit s'épaissir et devenir onctueuse (pas liquide).","Toaster les buns dans le grille-pain ou une poêle sèche 1 min de chaque côté.","Ouvrir chaque bun, déposer une grosse cuillère du mélange bœuf-sauce qui dépasse abondamment.","Poser une tranche de cheddar par-dessus, refermer avec le chapeau du bun.","Servir tout de suite avec des serviettes en papier : c'est gras, ça coule, c'est le but ! Idéal avec des chips ou de la salade de chou."] },
 
 { id:"kd11", nom:"Penne tomate-jambon-mozza", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:15, difficulte:1,
   ingredients:[
@@ -5072,7 +5072,7 @@ const RECIPES = [
     { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" },
     { nom:"Huile d'olive", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Pâtes al dente.","Ail dans huile, coulis 5 min.","Jambon en dés ajouté.","Mélanger, mozza, basilic."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition. Y cuire les penne 9 min (al dente, vérifier 1 min avant la fin du paquet).","Pendant ce temps, émincer finement 1 oignon et 2 gousses d'ail. Couper les 4 tranches de jambon en petits dés (1cm).","Dans une grande sauteuse, chauffer 3 c. à soupe d'huile d'olive à feu moyen. Faire blondir l'oignon 3 min, ajouter l'ail 1 min.","Verser 40cl de coulis de tomate, 1 c. à café d'origan séché, sel, poivre. Mijoter 8 min : la sauce s'épaissit légèrement.","Ajouter les dés de jambon dans la sauce, mélanger 1 min.","Égoutter les pâtes en gardant 2 c. à soupe d'eau de cuisson. Les verser dans la sauteuse, mélanger 30 sec.","Ajouter 200g de billes de mozzarella (égouttées) coupées en deux. Mélanger délicatement hors feu pour qu'elles commencent à fondre mais restent fondantes.","Servir aussitôt dans des assiettes chaudes. Parsemer de basilic frais ciselé et de parmesan râpé."] },
 
 { id:"kd12", nom:"Cheeseburger sur pain brioché", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
   ingredients:[
@@ -5084,7 +5084,7 @@ const RECIPES = [
     { nom:"Sauce burger", qte:1, unite:"portion", rayon:"Épicerie salée" },
     { nom:"Salade iceberg", qte:4, unite:"feuilles", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Bacon grillé.","Steaks 2 min/face + cheddar fondu.","Buns toastés au beurre.","Monter : sauce, salade, steak-fromage, bacon, tomate."] },
+  etapes:["Préchauffer le four à 220°C pour les frites en parallèle (25 min).","Faire griller les 4 tranches de bacon dans une poêle à sec à feu moyen 5 min jusqu'à croustillantes. Réserver sur papier absorbant.","Couper la tomate en rondelles épaisses, laver la salade iceberg.","Dans la même poêle (chaude, avec le gras du bacon), saler les steaks juste avant de les déposer. Cuire 2 min sans bouger à feu vif.","Retourner les steaks, déposer aussitôt 1 tranche de cheddar sur chacun. Cuire 2 min de plus.","Pendant ce temps, ouvrir les pains briochés. Les beurrer légèrement et les toaster côté mie dans une autre poêle 1 min.","Préparer chaque burger : base brioche + sauce burger + salade iceberg + steak-cheddar + bacon croustillant + rondelle de tomate + chapeau.","Servir aussitôt, le brioché doit être encore tiède et les frites brûlantes."] },
 
 { id:"kd13", nom:"Burrito bœuf-haricots-fromage", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
   ingredients:[
@@ -5097,7 +5097,7 @@ const RECIPES = [
     { nom:"Crème fraîche", qte:15, unite:"cl", rayon:"Crèmerie" },
     { nom:"Épices mexicaines", qte:1, unite:"sachet", rayon:"Épicerie salée" }
   ],
-  etapes:["Bœuf + épices 8 min.","Haricots ajoutés 3 min.","Tortillas chauffées.","Garnir + fromage + tomate + salade + crème, rouler."] },
+  etapes:["Émincer 1 oignon, couper 2 tomates en petits dés, laver et essorer la salade.","Égoutter et rincer 1 boîte de haricots rouges.","Dans une grande poêle, chauffer 2 c. à soupe d'huile à feu moyen. Suer l'oignon 3 min, ajouter 500g de bœuf haché émietté.","Cuire en remuant 5 min jusqu'à doré. Ajouter 1 sachet d'épices mexicaines (ou : 1 c. à café cumin + 1 c. à café paprika + 0,5 c. à café piment), sel, poivre. Cuire 1 min.","Ajouter les haricots rouges égouttés, mélanger 3 min. La préparation doit être épaisse, pas liquide. Si elle l'est, prolonger la cuisson.","Chauffer les 6 tortillas dans une poêle sèche 30 sec par face OU 20 sec au micro-ondes sous un torchon humide.","Sur chaque tortilla, étaler 1 c. à soupe de crème fraîche au centre. Ajouter une portion de mélange bœuf-haricots, 1 c. à soupe de cheddar râpé, dés de tomate, salade en lanières.","Rouler en repliant d'abord les deux côtés vers l'intérieur puis en roulant du bas vers le haut, comme un cigare fermé.","Servir aussitôt avec le reste de cheddar et crème à part."] },
 
 { id:"kd14", nom:"Pizza margherita express maison", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:20, difficulte:1,
   ingredients:[
@@ -5108,7 +5108,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Étaler la pâte fine.","Coulis + ail haché + huile.","Mozza déchirée.","Four 8 min à 250°C, basilic en fin."] },
+  etapes:["Préchauffer le four à 250°C (température MAX). Si vous avez une pierre à pizza, l'y mettre dès maintenant.","Saupoudrer le plan de travail de farine. Étaler chaque pâte à pizza au rouleau ou aux mains en disque de 30 cm, le PLUS FIN possible.","Émincer 2 gousses d'ail très finement.","Étaler 25cl de coulis de tomate en couche fine sur les 2 pâtes (laisser 1 cm de bord). Parsemer l'ail et arroser de 3 c. à soupe d'huile d'olive.","Saler légèrement le coulis. Disposer 150g de mozzarella par pizza, en morceaux déchirés à la main (pas tranchés, c'est meilleur).","Enfourner directement (sur pierre ou plaque) 8-10 min : les bords doivent gonfler et brunir, le fromage doit bouillonner.","Sortir, parsemer de basilic frais déchiré à la main (pas couper, sinon il noircit), un filet d'huile d'olive et un tour de poivre.","Couper en 8 parts à la roulette, servir aussitôt."] },
 
 { id:"kd15", nom:"Quesadilla bœuf-fromage", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:18, difficulte:1,
   ingredients:[
@@ -5120,7 +5120,7 @@ const RECIPES = [
     { nom:"Crème fraîche", qte:10, unite:"cl", rayon:"Crèmerie" },
     { nom:"Paprika", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
   ],
-  etapes:["Bœuf + oignon + poivron 8 min, paprika.","Garnir une tortilla : bœuf + fromage, recouvrir d'une autre.","Poêle sèche 2 min/face.","Couper en parts, crème à part."] },
+  etapes:["Émincer 1 oignon et couper 1 poivron rouge en petits dés.","Dans une grande poêle, chauffer 2 c. à soupe d'huile à feu moyen. Faire revenir oignon et poivron 5 min.","Ajouter 400g de bœuf haché. L'émietter à la spatule. Saupoudrer 1 c. à café de paprika doux, sel, poivre. Cuire 6 min en remuant jusqu'à doré.","Préparer chaque quesadilla : poser 1 tortilla sur le plan de travail, sur la moitié étaler de la garniture bœuf, parsemer de cheddar râpé (30g par quesadilla). Refermer en pliant en deux comme un croissant.","Dans une poêle SÈCHE bien chaude, déposer 1 quesadilla pliée. Cuire 2 min sans toucher, retourner avec une pince ou large spatule, encore 2 min. La tortilla doit être dorée et le fromage doit avoir fondu.","Renouveler avec les autres quesadillas. Garder au chaud sous une feuille d'alu pendant les suivantes.","Couper chaque quesadilla en 3 parts (comme une pizza).","Servir avec de la crème fraîche en pot et éventuellement une salade de tomates en accompagnement."] },
 
 { id:"kd16", nom:"Pâtes à la sauce milanaise (jambon de Parme)", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:18, difficulte:1,
   ingredients:[
@@ -5282,7 +5282,7 @@ const RECIPES = [
     { nom:"Beurre", qte:40, unite:"g", rayon:"Crèmerie" },
     { nom:"Salade", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Mélange crème + œufs + 2/3 fromage.","Monter pain-jambon-mélange-pain, beurrer.","Reste fromage dessus.","Four 12 min à 220°C grill, salade."] },
+  etapes:["Préchauffer le four à 220°C (mode grill ou chaleur tournante grill).","Râper 300g de comté à la main pour des copeaux qui fondent bien (éviter le pré-râpé sous sachet qui contient de l'anti-mottant).","Dans un bol, mélanger 15cl de crème fraîche + 2 œufs battus + 200g du comté râpé + sel + poivre + 1 pincée de muscade.","Beurrer légèrement un côté de 8 tranches de pain de mie. Les disposer beurre vers le BAS sur la plaque du four.","Sur chacune, étaler une bonne cuillère du mélange crémeux au fromage. Déposer 1 tranche de jambon blanc replié en deux.","Étaler à nouveau du mélange. Refermer avec les 8 tranches restantes de pain (côté beurré vers le HAUT).","Étaler généreusement le reste du mélange sur le dessus de chaque croque. Parsemer du reste de comté râpé.","Enfourner au grill 10-12 min : surveiller car ça brûle vite. Le dessus doit être bien doré, presque caramélisé.","Sortir, laisser tiédir 2 min (le fromage est lave). Servir avec une salade verte vinaigrette à part."] },
 
 { id:"kd30", nom:"Naans poulet tikka simplifiés", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
   ingredients:[
@@ -5305,7 +5305,7 @@ const RECIPES = [
     { nom:"Crème", qte:15, unite:"cl", rayon:"Crèmerie" },
     { nom:"Vin blanc", qte:5, unite:"cl", rayon:"Boissons" }
   ],
-  etapes:["Pdt en rondelles si pas cuites, sinon directement.","Lardons + oignons + vin.","Plat : pdt + lardons + crème + reblochon.","Four 15 min à 220°C."] },
+  etapes:["Préchauffer le four à 220°C.","Émincer 2 oignons en rondelles fines.","Si vos pommes de terre sont crues : les éplucher et trancher en rondelles de 5mm puis cuire 12 min vapeur. Si déjà cuites (la veille ou en vente sous vide), passer à l'étape suivante directement.","Dans une grande poêle, faire revenir 250g de lardons 4 min à sec, ajouter les oignons, cuire 5 min jusqu'à fondants.","Déglacer avec 5cl de vin blanc, gratter le fond pour récupérer les sucs. Laisser évaporer.","Beurrer un plat à gratin. Disposer une couche de pommes de terre, une couche de lardons-oignons, recommencer.","Verser 15cl de crème fraîche sur toute la surface, saler et poivrer.","Couper le reblochon ENTIER en 2 dans le sens de l'épaisseur (croûte vers le haut). Déposer les 2 demi-reblochon, croûte au-dessus, sur le gratin.","Enfourner 15-20 min : le reblochon doit avoir totalement fondu et le dessus doit dorer.","Servir immédiatement avec une salade verte ou un vin blanc savoyard."] },
 
 { id:"kd32", nom:"Empanadas express bœuf-fromage", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
   ingredients:[
