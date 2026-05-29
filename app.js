@@ -5557,6 +5557,18 @@ const State = {
     delete d.servings;
     if (!('householdCode' in d)) d.householdCode = null;
     if (!('lastSyncedAt' in d)) d.lastSyncedAt = 0;
+    if (d.swaps && typeof d.swaps === 'object') {
+      const userIds = new Set((d.userRecipes || []).map(r => r.id));
+      const validId = (id) => userIds.has(id) || RECIPES.some(r => r.id === id);
+      for (const wkKey of Object.keys(d.swaps)) {
+        const wk = d.swaps[wkKey];
+        if (!wk || typeof wk !== 'object') { delete d.swaps[wkKey]; continue; }
+        for (const slot of Object.keys(wk)) {
+          if (!validId(wk[slot])) delete wk[slot];
+        }
+        if (Object.keys(wk).length === 0) delete d.swaps[wkKey];
+      }
+    }
     d.v = 4;
     return d;
   },
@@ -5650,8 +5662,8 @@ function generateWeek(weekKey, mode, saison) {
   const pdPool = shuffleSeeded(eligible('petit-dej', mode, saison), rng);
   DAYS.forEach((day, idx) => {
     const slotKey = day.key + '-petit-dej';
-    let chosenId;
-    if (swaps[slotKey]) {
+    let chosenId = null;
+    if (swaps[slotKey] && findRecipe(swaps[slotKey])) {
       chosenId = swaps[slotKey];
     } else {
       let pick = pdPool.find(r => !usedIds.has(r.id));
@@ -5672,8 +5684,8 @@ function generateWeek(weekKey, mode, saison) {
 
     slots.forEach(slot => {
       const slotKey = day.key + '-' + slot;
-      let chosenId;
-      if (swaps[slotKey]) {
+      let chosenId = null;
+      if (swaps[slotKey] && findRecipe(swaps[slotKey])) {
         chosenId = swaps[slotKey];
       } else if (!isWeekend) {
         let pick = quickDiner.find(r => !usedIds.has(r.id));
