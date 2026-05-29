@@ -2990,7 +2990,7 @@ const RECIPES = [
     { nom:"Riz", qte:400, unite:"g", rayon:"Épicerie salée" },
     { nom:"Piment d'Espelette", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
   ],
-  etapes:["Suer poivrons + oignon 8 min.","Aiguillettes + tomates 6 min.","Ail + espelette.","Riz à part."] },
+  etapes:["Préchauffer le four à 200°C.","Couper 2 poivrons rouges et 1 poivron vert en lanières. Émincer 1 oignon.","Dans une grande poêle, chauffer 3 c. à soupe d'huile à feu moyen. Faire revenir poivrons + oignon 8 min.","Ajouter 600g d'aiguillettes de poulet, cuire 6 min à feu vif en remuant.","Verser 25cl de tomates concassées, 1 c. à café de piment d'Espelette, sel. Mijoter 5 min.","Cuire 400g de riz basmati en parallèle 12 min.","Hacher 3 gousses d'ail et 1 botte de persil pour la persillade en fin.","Servir : riz + sauce basquaise + persillade."] },
 
 { id:"fq21", nom:"Poêlée pdt-lardons-fromage", mode:"kids", type:"diner", saison:["automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -3000,7 +3000,7 @@ const RECIPES = [
     { nom:"Comté râpé", qte:150, unite:"g", rayon:"Crèmerie" },
     { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Pdt en dés sautés 18 min.","Lardons + oignon ajoutés 5 min en fin.","Fromage par-dessus, fondre.","Persil ciselé."] },
+  etapes:["Éplucher 1kg de pommes de terre, les couper en dés de 2cm. Bien éponger.","Dans une grande poêle, chauffer 2 c. à soupe d'huile à feu moyen. Sauter les pdt 18 min en remuant.","Émincer 1 oignon.","À la fin de la cuisson des pdt, ajouter 250g de lardons + oignon. Cuire 5 min jusqu'à lardons dorés.","Hors feu, parsemer 150g de comté râpé sur le tout. Couvrir 1 min : le fromage fond.","Parsemer persil ciselé. Servir directement de la poêle."] },
 
 { id:"fq22", nom:"Galettes de pdt râpées au gruyère", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -3011,7 +3011,7 @@ const RECIPES = [
     { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Huile", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Râper pdt, essorer.","Mélanger avec œufs, fromage, échalote, persil.","Cuire en galettes 4 min par face.","Servir chaudes."] },
+  etapes:["Éplucher 1kg de pommes de terre, les râper grossièrement. Mettre dans un torchon, essorer fortement au-dessus de l'évier.","Ciseler 1 échalote et 1 botte de persil.","Dans un saladier, mélanger pdt + 2 œufs + 150g de gruyère râpé + échalote + persil + sel + poivre.","Dans une grande poêle, chauffer 2 c. à soupe d'huile à feu moyen.","Former 8 galettes à la cuillère, tasser dans la poêle.","Cuire 4 min par face jusqu'à dorées et croustillantes. Renouveler en 2 fournées.","Servir aussitôt avec une salade verte."] },
 
 { id:"fq23", nom:"Quiche express tomate-feta", mode:"both", type:"diner", saison:["printemps","été","automne"], culture:"méditerranéen", temps:20, difficulte:1,
   ingredients:[
@@ -3022,7 +3022,7 @@ const RECIPES = [
     { nom:"Crème", qte:20, unite:"cl", rayon:"Crèmerie" },
     { nom:"Origan", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
   ],
-  etapes:["Foncer moule, piquer.","Tomates + féta émiettée.","Battre œufs + crème + origan, verser.","Four 18 min à 200°C grill."] },
+  etapes:["Préchauffer le four à 200°C grill.","Étaler la pâte brisée dans un moule à tarte, piquer le fond.","Couper 400g de tomates cerises en deux. Émietter 200g de féta.","Disposer tomates + féta sur la pâte.","Battre 4 œufs + 20cl de crème + 1 c. à café d'origan + sel + poivre.","Verser sur la garniture.","Enfourner 18 min jusqu'à pâte dorée et tarte prise.","Tiédir 5 min avant de couper. Servir avec une salade verte."] },
 
 { id:"fq24", nom:"Tarte fine champignons-thym", mode:"us", type:"diner", saison:["automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -3033,7 +3033,7 @@ const RECIPES = [
     { nom:"Thym", qte:3, unite:"branches", rayon:"Fruits & Légumes" },
     { nom:"Parmesan", qte:60, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Étaler pâte, piquer.","Champignons + ail sautés 5 min.","Étaler crème, champignons, parmesan, thym.","Four 18 min à 200°C."] },
+  etapes:["Préchauffer le four à 200°C.","Étaler la pâte feuilletée sur sa plaque, piquer.","Couper 400g de champignons en lamelles. Émincer 2 gousses d'ail.","Dans une poêle, chauffer 2 c. à soupe d'huile. Sauter champignons + ail 5 min à feu vif jusqu'à rendus leur eau et redorés.","Étaler 15cl de crème sur la pâte, parsemer champignons + thym effeuillé.","Saupoudrer 60g de parmesan.","Enfourner 18 min jusqu'à pâte dorée.","Servir tiède."] },
 
 { id:"fq25", nom:"Soupe à l'oignon express", mode:"both", type:"diner", saison:["automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -3066,7 +3066,7 @@ const RECIPES = [
     { nom:"Crème", qte:15, unite:"cl", rayon:"Crèmerie" },
     { nom:"Ciboulette", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Suer poireaux émincés au beurre 5 min.","Pdt en dés + bouillon, 15 min.","Mixer, crémer.","Ciboulette."] },
+  etapes:["Éplucher 1kg de poireaux (garder les blancs et début du vert). Les couper en rondelles, bien les rincer (souvent terreux).","Éplucher 400g de pommes de terre, couper en cubes.","Dans une casserole, faire fondre 40g de beurre. Suer les poireaux 5 min sans coloration.","Ajouter pdt + 1L de bouillon. Saler, poivrer.","Mijoter 15 min jusqu'à pdt tendres.","Mixer au mixeur plongeant. Ajouter 15cl de crème.","Servir avec ciboulette ciselée."] },
 
 { id:"fq28", nom:"Œufs cocotte rapides aux herbes", mode:"both", type:"diner", saison:["printemps","automne","hiver"], culture:"français", temps:18, difficulte:1,
   ingredients:[
@@ -3077,7 +3077,7 @@ const RECIPES = [
     { nom:"Comté râpé", qte:80, unite:"g", rayon:"Crèmerie" },
     { nom:"Pain", qte:0.5, unite:"baguette", rayon:"Boulangerie" }
   ],
-  etapes:["Beurrer ramequins.","Sel + poivre + 1 œuf + 1 c. crème + fromage + herbes.","Bain-marie 8 min à 180°C four.","Mouillettes de pain."] },
+  etapes:["Préchauffer le four à 180°C.","Beurrer 4 ramequins. Hacher 1 botte d'herbes mélangées.","Dans chaque ramequin : 1 c. à soupe de crème + 2 œufs + 20g de comté + herbes + sel + poivre.","Mettre les ramequins dans un plat, verser de l'eau chaude jusqu'à mi-hauteur (bain-marie).","Enfourner 8 min : blanc pris, jaune coulant.","Servir avec mouillettes de pain grillées et beurrées."] },
 
 { id:"fq29", nom:"Salade niçoise express", mode:"both", type:"diner", saison:["printemps","été"], culture:"méditerranéen", temps:20, difficulte:1,
   ingredients:[
@@ -3089,7 +3089,7 @@ const RECIPES = [
     { nom:"Anchois", qte:6, unite:"filets", rayon:"Épicerie salée" },
     { nom:"Huile d'olive", qte:6, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Œufs durs 9 min.","Couper tomates et œufs.","Dresser sur salade, thon, olives, anchois.","Huile d'olive."] },
+  etapes:["Cuire 4 œufs durs 9 min, refroidir, écaler.","Couper 4 tomates en quartiers. Couper 1 poivron en lanières.","Sur un grand plat, dresser de la salade. Disposer thon égoutté, œufs en quartiers, tomates, poivron, olives, anchois.","Parsemer basilic ciselé.","Arroser de 6 c. à soupe d'huile d'olive vierge, sel, poivre. Pas de vinaigre (puriste : la vraie niçoise n'en a pas)."] },
 
 { id:"fq30", nom:"Salade fenouil-orange-olives", mode:"us", type:"diner", saison:["hiver","printemps"], culture:"méditerranéen", temps:15, difficulte:1,
   ingredients:[
@@ -3100,7 +3100,7 @@ const RECIPES = [
     { nom:"Fleur de sel", qte:1, unite:"pincée", rayon:"Épicerie salée" },
     { nom:"Menthe", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Fenouil en lamelles fines mandoline.","Suprêmes d'oranges.","Olives, mélanger.","Huile, fleur de sel, menthe."] },
+  etapes:["Émincer 2 bulbes de fenouil très finement (mandoline si possible).","Suprêmer 3 oranges : peler à vif, sortir les segments en passant le couteau entre les membranes.","Disposer fenouil et suprêmes dans un saladier.","Ajouter 100g d'olives noires.","Arroser de 4 c. à soupe d'huile d'olive et du jus d'1 citron. Saler avec fleur de sel.","Mélanger délicatement, parsemer menthe ciselée. Servir frais."] },
 
 { id:"fq31", nom:"Salade lentilles-vinaigrette-fines herbes", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -3123,7 +3123,7 @@ const RECIPES = [
     { nom:"Huile de noix", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Vinaigre balsamique", qte:2, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Toaster pain, chèvre dessus, grill 3 min.","Pommes en tranches.","Vinaigrette huile noix + balsamique.","Mesclun, crottins, pommes, noix."] },
+  etapes:["Préchauffer le four à 220°C.","Toaster 4 tranches de pain. Déposer 1 demi-crottin sur chaque, arroser de 1/2 c. à café de miel.","Enfourner 4 min jusqu'à doré.","Pendant ce temps, éplucher et couper 2 pommes en quartiers, puis en tranches.","Dans une poêle, faire revenir 1 c. à soupe d'huile + pommes 3 min jusqu'à dorées.","Mélanger 4 c. à soupe d'huile de noix + 2 c. à soupe de balsamique.","Sur un lit de mesclun, dresser : crottins chauds + pommes tièdes + noix concassées.","Arroser de vinaigrette. Servir aussitôt."] },
 
 { id:"fq33", nom:"Spaghetti tomate-basilic frais", mode:"kids", type:"diner", saison:["printemps","été"], culture:"italien", temps:15, difficulte:1,
   ingredients:[
@@ -3134,7 +3134,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:6, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Parmesan", qte:80, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Pâtes al dente.","Tomates en dés + ail dans huile 6 min.","Mélanger pâtes-sauce, basilic.","Parmesan."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition.","Couper 800g de tomates en cubes. Émincer 3 gousses d'ail.","Cuire 500g de spaghetti 8 min al dente.","Dans une grande sauteuse, chauffer 6 c. à soupe d'huile d'olive. Suer ail 1 min, ajouter tomates en cubes 6 min jusqu'à compote.","Égoutter les pâtes, les verser dans la sauce. Mélanger 30 sec.","Hors feu, ajouter le basilic frais en feuilles + parmesan.","Servir aussitôt."] },
 
 { id:"fq34", nom:"Pâtes pesto rosso (tomates séchées)", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:15, difficulte:1,
   ingredients:[
@@ -3146,7 +3146,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:6, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Basilic", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Pâtes al dente.","Mixer tomates + pignons + ail + huile en pesto.","Mélanger avec pâtes.","Parmesan, basilic."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition.","Cuire 500g de penne 9 min al dente.","Pendant ce temps, mixer 150g de tomates séchées + 60g de pignons + 2 gousses d'ail + 6 c. à soupe d'huile d'olive en pesto rouge épais.","Égoutter les pâtes en gardant 1 louche d'eau.","Mélanger les pâtes au pesto rouge + 2 c. à soupe d'eau de cuisson.","Parsemer parmesan + basilic. Servir."] },
 
 { id:"fq35", nom:"Linguine aux courgettes & menthe", mode:"both", type:"diner", saison:["printemps","été"], culture:"italien", temps:18, difficulte:1,
   ingredients:[
@@ -3158,7 +3158,7 @@ const RECIPES = [
     { nom:"Parmesan", qte:80, unite:"g", rayon:"Crèmerie" },
     { nom:"Ail", qte:2, unite:"gousses", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Pâtes al dente.","Courgettes en rubans, sauter ail 5 min.","Mélanger pâtes + courgettes + zeste + jus citron.","Menthe, parmesan."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition.","Pendant ce temps, couper 3 courgettes en rubans à l'économe.","Cuire 500g de linguine 8 min al dente.","Dans une grande sauteuse, chauffer 5 c. à soupe d'huile d'olive. Suer 2 gousses d'ail 1 min, ajouter rubans de courgettes 5 min.","Zester et presser 1 citron.","Égoutter les pâtes, les verser dans la sauteuse avec zeste + jus + 2 c. à soupe d'eau de cuisson.","Hors feu, ajouter menthe ciselée + 80g de parmesan. Servir."] },
 
 { id:"fq36", nom:"Wraps poulet-pesto-roquette", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:15, difficulte:1,
   ingredients:[
@@ -3169,7 +3169,7 @@ const RECIPES = [
     { nom:"Tomates", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
     { nom:"Mozza fraîche", qte:150, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Réchauffer tortillas 30s.","Étaler pesto, ajouter poulet, mozza, tomate, roquette.","Rouler serré.","Couper en 2."] },
+  etapes:["Réchauffer les tortillas 30 sec au micro-ondes sous un torchon humide OU 1 min dans une poêle sèche.","Étaler 1 c. à soupe de pesto sur chaque tortilla.","Émincer 400g de poulet cuit. Couper 2 tomates en dés. Couper 150g de mozza en lamelles.","Sur chaque tortilla : poulet + mozza + tomate + roquette.","Rouler serré. Servir aussitôt ou snacker 1 min par face dans poêle sèche pour le fromage fondu."] },
 
 { id:"fq37", nom:"Wraps thon-maïs-mayo", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:10, difficulte:1,
   ingredients:[
@@ -3180,7 +3180,7 @@ const RECIPES = [
     { nom:"Salade", qte:8, unite:"feuilles", rayon:"Fruits & Légumes" },
     { nom:"Citron", qte:1, unite:"pièces", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Mélanger thon + maïs + mayo + citron.","Étaler sur tortillas.","Salade, rouler.","Couper et servir."] },
+  etapes:["Dans un bol, mélanger 240g de thon en boîte (égoutté) + 1 boîte de maïs (égouttée) + 5 c. à soupe de mayonnaise + jus d'1 citron + sel + poivre.","Réchauffer les tortillas 30 sec au micro-ondes.","Sur chaque tortilla : 2 feuilles de salade + une louche de mélange thon.","Rouler serré. Couper en 2 en biais. Servir."] },
 
 { id:"fq38", nom:"Bagels saumon-fromage frais", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:10, difficulte:1,
   ingredients:[
@@ -3191,7 +3191,7 @@ const RECIPES = [
     { nom:"Aneth", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Câpres", qte:2, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Toaster bagels.","Étaler fromage frais.","Saumon fumé, aneth, câpres.","Citron pressé."] },
+  etapes:["Couper les bagels en 2 et les toaster (4 min au grill ou grille-pain).","Sur chaque demi-bagel, étaler généreusement le fromage frais.","Disposer 50g de saumon fumé replié.","Parsemer aneth ciselé, câpres, tour de poivre.","Arroser de quelques gouttes de citron. Servir aussitôt."] },
 
 { id:"fq39", nom:"Pita kebab poulet maison", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"méditerranéen", temps:20, difficulte:1,
   ingredients:[
@@ -3203,7 +3203,7 @@ const RECIPES = [
     { nom:"Salade", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
     { nom:"Cumin + paprika", qte:2, unite:"c. à café", rayon:"Épicerie salée" }
   ],
-  etapes:["Mariner poulet épices + huile 10 min, sauter 5 min.","Yaourt + citron en sauce.","Tomates + salade en lanières.","Garnir pita."] },
+  etapes:["Émincer 500g d'émincés de poulet. Les mariner 10 min dans 2 c. à café de cumin + 2 c. à café de paprika + 2 c. à soupe d'huile + sel.","Dans une poêle, saisir le poulet 5 min à feu vif.","Mélanger 200g de yaourt grec + 1 c. à soupe de jus de citron + sel pour la sauce.","Couper 2 tomates en dés, laver et émincer la salade.","Tiédir les 4 pains pita au four ou grille-pain 1 min.","Ouvrir chaque pita en demi-poche. Garnir : salade + tomates + poulet + sauce yaourt.","Servir aussitôt avec quartier de citron."] },
 
 { id:"fq40", nom:"Bowl saumon fumé-quinoa", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
   ingredients:[
@@ -3215,7 +3215,7 @@ const RECIPES = [
     { nom:"Citron", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
     { nom:"Huile d'olive", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Cuire quinoa 12 min.","Couper avocat, concombre, saumon.","Bowl : quinoa, pousses, saumon, avocat, concombre.","Citron + huile."] },
+  etapes:["Cuire 400g de quinoa : 1 volume quinoa / 2 volumes d'eau salée, 12 min couvert, repos 5 min.","Couper 300g de saumon fumé en lanières. Couper 2 avocats en dés (avec citron pour éviter qu'ils noircissent). Couper 1 concombre en dés. Effeuiller 100g de pousses d'épinards.","Dans 4 bols, disposer quinoa au fond.","Dresser harmonieusement : pousses d'épinards + saumon + avocat + concombre.","Mélanger 4 c. à soupe d'huile d'olive + jus d'1 citron + sel + poivre. Arroser chaque bol.","Servir frais."] },
 
 { id:"fq41", nom:"Œuf mollet, mouillettes, salade", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:15, difficulte:1,
   ingredients:[
@@ -3226,7 +3226,7 @@ const RECIPES = [
     { nom:"Vinaigrette", qte:1, unite:"portion", rayon:"Épicerie salée" },
     { nom:"Sel + poivre", qte:1, unite:"portion", rayon:"Épicerie salée" }
   ],
-  etapes:["Œufs mollets 6 min, écaler.","Toaster pain, beurrer en mouillettes.","Salade vinaigrette.","Œuf cassé sur la salade, mouillettes."] },
+  etapes:["Préparer une casserole d'eau bouillante salée. Plonger 6 œufs, cuire 6 min EXACTEMENT.","Refroidir aussitôt dans bain glacé, écaler.","Toaster 6 tranches de pain de campagne, beurrer généreusement (40g de beurre demi-sel).","Couper en mouillettes (bâtonnets de 2cm).","Laver et essorer une belle salade verte. Vinaigrette : 1 c. à café moutarde + 1 c. à soupe vinaigre + 3 c. à soupe huile.","Dans des assiettes : salade + œuf mollet décoiffé.","Mouillettes à part. Saler, poivrer. Servir aussitôt."] },
 
 { id:"fq42", nom:"Poêlée poulet-courgettes-tomates", mode:"both", type:"diner", saison:["printemps","été","automne"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -3238,7 +3238,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Riz", qte:300, unite:"g", rayon:"Épicerie salée" }
   ],
-  etapes:["Poulet en dés, sauter 5 min.","Courgettes + ail 5 min.","Tomates + herbes 5 min.","Riz à part."] },
+  etapes:["Cuire 300g de riz basmati en parallèle.","Couper 500g de blancs de poulet en cubes. Couper 2 courgettes en cubes. Couper 300g de tomates cerises en deux.","Dans une grande poêle, chauffer 4 c. à soupe d'huile d'olive. Saisir le poulet 5 min en remuant.","Ajouter courgettes + 3 gousses d'ail, cuire 5 min.","Ajouter tomates + 1 c. à café d'herbes de Provence + sel + poivre. Cuire 5 min.","Servir sur le riz."] },
 
 { id:"fq43", nom:"Riz aux légumes & lardons", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -3250,7 +3250,7 @@ const RECIPES = [
     { nom:"Bouillon", qte:0.8, unite:"litres", rayon:"Épicerie salée" },
     { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Suer oignon + carottes + lardons.","Nacrer riz, ajouter bouillon brûlant.","Petits pois 5 min avant fin.","Beurre."] },
+  etapes:["Cuire 400g de riz : 1 volume riz / 1,5 volume bouillon, 12 min couvert.","Pendant ce temps, émincer 1 oignon, couper 2 carottes en petits dés.","Dans une poêle, chauffer 1 c. à soupe d'huile + 200g de lardons à sec 3 min. Ajouter oignon + carottes, suer 5 min.","Décongeler 200g de petits pois au micro-ondes ou les ajouter directement aux dernières minutes.","Mélanger riz cuit + légumes + lardons + 30g de beurre.","Servir bien chaud."] },
 
 { id:"fq44", nom:"Tortilla espagnole pdt-oignon", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"méditerranéen", temps:20, difficulte:1,
   ingredients:[
@@ -3260,7 +3260,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:10, unite:"cl", rayon:"Épicerie salée" },
     { nom:"Sel", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
   ],
-  etapes:["Pdt en rondelles fines, oignons émincés.","Cuire à l'huile 12 min, égoutter.","Mélanger aux œufs battus.","Cuire 5 min par face."] },
+  etapes:["Éplucher 600g de pdt, couper en rondelles fines. Émincer 2 oignons.","Dans une grande poêle anti-adhésive, chauffer 10cl d'huile d'olive. Cuire pdt + oignons + sel 12 min à couvert, en remuant souvent.","Dans un grand bol, battre 8 œufs avec sel.","Égoutter les pdt sur passoire pour évacuer l'huile en excès.","Mélanger pdt aux œufs.","Reverser dans la poêle huilée à feu moyen. Cuire 4 min jusqu'à doré dessous.","Faire glisser sur une assiette, retourner la tortilla dans la poêle pour cuire l'autre face 4 min.","Faire glisser sur planche, couper en parts. Servir tiède ou froid."] },
 
 { id:"fq45", nom:"Quiche express jambon-fromage", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -3271,7 +3271,7 @@ const RECIPES = [
     { nom:"Crème", qte:25, unite:"cl", rayon:"Crèmerie" },
     { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" }
   ],
-  etapes:["Foncer moule, piquer.","Jambon en lanières + fromage.","Œufs + crème + muscade, verser.","Four 18 min à 200°C grill."] },
+  etapes:["Préchauffer le four à 200°C grill.","Foncer un moule à tarte de pâte brisée. Piquer.","Couper 6 tranches de jambon en lanières. Parsemer + 200g de gruyère râpé.","Battre 4 œufs + 25cl de crème + sel + poivre + muscade.","Verser sur le jambon.","Enfourner 18 min jusqu'à doré et pris.","Servir tiède avec salade."] },
 
 { id:"fq46", nom:"Pâtes au saumon fumé & crème", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:15, difficulte:1,
   ingredients:[
@@ -3283,7 +3283,7 @@ const RECIPES = [
     { nom:"Citron", qte:1, unite:"pièces", rayon:"Fruits & Légumes" },
     { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Pâtes al dente.","Échalote au beurre, crème 3 min.","Saumon en lanières, citron.","Mélanger aux pâtes, aneth."] },
+  etapes:["Porter une casserole d'eau salée à ébullition. Cuire 500g de tagliatelles 9 min al dente.","Pendant ce temps, émincer 1 échalote. Couper 200g de saumon fumé en lanières.","Dans une grande sauteuse, faire fondre 30g de beurre. Suer l'échalote 2 min.","Ajouter 25cl de crème, mijoter 3 min.","Ajouter saumon fumé + jus d'1 citron, mélanger.","Égoutter les pâtes, les verser dans la sauteuse. Mélanger 30 sec.","Aneth ciselé. Servir."] },
 
 { id:"fq47", nom:"Pâtes ail-huile-piment-anchois", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:15, difficulte:1,
   ingredients:[
@@ -3294,7 +3294,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:8, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Pâtes al dente.","Fondre ail + anchois dans huile.","Piment, sortir du feu.","Pâtes + persil."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition. Cuire 500g de spaghetti 8 min al dente.","Dans une grande sauteuse, verser 8 c. à soupe d'huile à feu doux. Ajouter 8 filets d'anchois à l'huile, écraser à la spatule jusqu'à fondus (2 min).","Ajouter 6 gousses d'ail émincées, faire blondir 1 min SANS brûler.","Sortir du feu, ajouter 1 c. à café de piment doux.","Égoutter les pâtes, les verser dans la sauteuse. Mélanger énergiquement.","Persil ciselé. Servir."] },
 
 { id:"fq48", nom:"Crêpes salées roulées jambon-béchamel", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -3304,7 +3304,7 @@ const RECIPES = [
     { nom:"Emmental râpé", qte:150, unite:"g", rayon:"Crèmerie" },
     { nom:"Champignons", qte:200, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Champignons sautés 5 min.","Béchamel chaude.","Garnir chaque crêpe : jambon + champi + béchamel, rouler.","Fromage, four 8 min."] },
+  etapes:["Préchauffer le four à 200°C grill.","Préparer 30cl de béchamel : faire fondre 30g de beurre, ajouter 25g farine + 30cl lait en fouettant. Cuire 3 min.","Couper 200g de champignons en lamelles, sauter 5 min dans 1 c. à soupe d'huile.","Sur chaque crêpe : 1 tranche de jambon + champi + 1 c. à soupe de béchamel. Rouler.","Disposer dans un plat à gratin beurré. Verser le reste de béchamel.","Parsemer 150g d'emmental râpé.","Enfourner 12 min jusqu'à doré bouillonnant. Servir."] },
 
 { id:"fq49", nom:"Soupe vermicelle-poulet", mode:"kids", type:"diner", saison:["automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -3315,7 +3315,7 @@ const RECIPES = [
     { nom:"Cive", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Citron", qte:1, unite:"pièces", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Bouillon + carottes en dés, 10 min.","Vermicelles + poulet effiloché 5 min.","Cive ciselée.","Citron à part."] },
+  etapes:["Porter 1,5L de bouillon de volaille à frémissement.","Couper 2 carottes en petits dés.","Ajouter carottes au bouillon, cuire 10 min.","Ajouter 200g de vermicelles + 300g de poulet cuit effiloché. Cuire 5 min.","Cive ciselée en fin.","Servir bien chaud avec quartier de citron à part."] },
 
 { id:"fq50", nom:"Velouté champignons-crème", mode:"both", type:"diner", saison:["automne","hiver"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -3326,7 +3326,7 @@ const RECIPES = [
     { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" },
     { nom:"Persil", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Suer échalotes au beurre.","Champignons + bouillon 12 min.","Mixer, crémer.","Persil."] },
+  etapes:["Émincer 2 échalotes, couper 600g de champignons en lamelles.","Dans une casserole, faire fondre 30g de beurre. Suer échalotes 2 min.","Ajouter champignons, cuire 8 min à feu vif jusqu'à rendus leur eau.","Verser 1L de bouillon, mijoter 5 min.","Mixer au mixeur plongeant.","Ajouter 20cl de crème, persil ciselé. Servir."] },
 
 { id:"fq51", nom:"Tortilla wraps mexicaine express", mode:"kids", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:20, difficulte:1,
   ingredients:[
@@ -3338,7 +3338,7 @@ const RECIPES = [
     { nom:"Tomates", qte:2, unite:"pièces", rayon:"Fruits & Légumes" },
     { nom:"Épices tex-mex", qte:1, unite:"sachet", rayon:"Épicerie salée" }
   ],
-  etapes:["Bœuf + épices 10 min.","Ajouter maïs et haricots, 5 min.","Tortillas chaudes.","Garnir : bœuf, fromage, tomate, rouler."] },
+  etapes:["Émincer 1 oignon, couper 1 poivron en dés.","Dans une poêle, chauffer 2 c. à soupe d'huile. Saisir 500g de bœuf haché + épices tex-mex 6 min.","Ajouter 1 boîte de maïs + 1 boîte de haricots rouges, mélanger 3 min.","Tiédir 6 tortillas. Couper 2 tomates en dés.","Garnir chaque tortilla : bœuf + fromage + tomate + crudités. Rouler.","Servir aussitôt."] },
 
 { id:"fq52", nom:"Œufs brouillés saumon fumé", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"international", temps:10, difficulte:1,
   ingredients:[
@@ -3349,7 +3349,7 @@ const RECIPES = [
     { nom:"Ciboulette", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Pain", qte:6, unite:"tranches", rayon:"Boulangerie" }
   ],
-  etapes:["Pain grillé, beurré.","Œufs battus + crème + sel.","Cuire doucement, brouiller crémeux.","Saumon en lanières, ciboulette."] },
+  etapes:["Toaster 6 tranches de pain de campagne.","Casser 10 œufs dans un bol. Battre avec 10cl de crème, sel.","Dans une poêle à feu DOUX, faire fondre 40g de beurre. Verser les œufs.","Brouiller doucement à la spatule, ils doivent rester crémeux (3 min).","Hors feu, ajouter 200g de saumon fumé en lanières.","Servir aussitôt sur les tartines beurrées. Ciboulette ciselée."] },
 
 { id:"fq53", nom:"Polenta crémeuse aux herbes", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"italien", temps:15, difficulte:1,
   ingredients:[
@@ -3360,7 +3360,7 @@ const RECIPES = [
     { nom:"Beurre", qte:60, unite:"g", rayon:"Crèmerie" },
     { nom:"Herbes", qte:1, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Lait + bouillon bouillants, polenta en pluie.","Cuire 5 min en remuant.","Parmesan + beurre + herbes.","Servir crémeux."] },
+  etapes:["Porter 60cl de lait + 40cl de bouillon à frémissement.","Verser 300g de polenta précuite EN PLUIE en fouettant énergiquement.","Cuire 5 min à feu doux en remuant constamment : la polenta doit épaissir.","Hors feu, ajouter 60g de beurre + 100g de parmesan + 1 botte d'herbes ciselées.","Mélanger jusqu'à crémeux.","Servir aussitôt (la polenta fige rapidement)."] },
 
 { id:"fq54", nom:"Penne aux brocolis & ricotta", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:18, difficulte:1,
   ingredients:[
@@ -3372,7 +3372,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Piment doux", qte:1, unite:"pincée", rayon:"Épicerie salée" }
   ],
-  etapes:["Pâtes 7 min + brocolis 5 min dans la même eau.","Ail dans huile, ajouter pâtes-brocolis.","Ricotta + eau de cuisson en sauce.","Parmesan, piment."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition.","Couper 500g de brocolis en bouquets.","Cuire 500g de penne 7 min puis ajouter brocolis 5 min dans la même eau.","Pendant ce temps, dans une sauteuse, chauffer 5 c. à soupe d'huile + 3 gousses d'ail haché 1 min.","Égoutter pâtes + brocolis. Verser dans la sauteuse.","Hors feu, ajouter 250g de ricotta + 80g de parmesan + 1 pincée de piment + un peu d'eau de cuisson.","Mélanger jusqu'à crémeux. Servir."] },
 
 { id:"fq55", nom:"Salade pâtes-poulet-tomates", mode:"kids", type:"diner", saison:["printemps","été"], culture:"international", temps:20, difficulte:1,
   ingredients:[
@@ -3383,7 +3383,7 @@ const RECIPES = [
     { nom:"Basilic", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Vinaigrette balsamique", qte:1, unite:"portion", rayon:"Épicerie salée" }
   ],
-  etapes:["Cuire pâtes al dente, refroidir.","Tomates, mozza, poulet en dés.","Mélanger tout.","Vinaigrette + basilic."] },
+  etapes:["Cuire 400g de penne 10 min al dente. Refroidir sous l'eau froide.","Couper 400g de poulet cuit, 300g de tomates cerises en 2, 200g de mozza en billes coupées en 2.","Mélanger dans un saladier.","Vinaigrette balsamique : 4 c. à soupe d'huile d'olive + 2 c. à soupe de balsamique + sel + poivre.","Mélanger à la salade. Basilic ciselé.","Mettre au frais 15 min. Servir."] },
 
 { id:"fq56", nom:"Soupe minute légumes surgelés", mode:"kids", type:"diner", saison:["automne","hiver"], culture:"français", temps:15, difficulte:1,
   ingredients:[
@@ -3394,7 +3394,7 @@ const RECIPES = [
     { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" },
     { nom:"Persil", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Oignon au beurre.","Légumes + bouillon 12 min.","Mixer, crémer.","Persil."] },
+  etapes:["Émincer 1 oignon.","Dans une casserole, chauffer 1 c. à soupe d'huile + oignon 3 min.","Ajouter 800g de mélange légumes surgelés + 1,2L de bouillon. Cuire 12 min.","Mixer au mixeur plongeant.","Ajouter 15cl de crème.","Servir avec persil ciselé."] },
 
 { id:"fq57", nom:"Pâtes fraîches au beurre & sauge", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"italien", temps:10, difficulte:1,
   ingredients:[
@@ -3404,7 +3404,7 @@ const RECIPES = [
     { nom:"Parmesan", qte:100, unite:"g", rayon:"Crèmerie" },
     { nom:"Noisettes", qte:40, unite:"g", rayon:"Épicerie sucrée" }
   ],
-  etapes:["Pâtes 3 min eau bouillante.","Beurre noisette + feuilles de sauge 1 min.","Pâtes dans le beurre.","Parmesan + noisettes."] },
+  etapes:["Porter une grande casserole d'eau salée à ébullition.","Cuire 500g de pâtes fraîches 3 min.","Pendant ce temps, dans une sauteuse, faire fondre 100g de beurre demi-sel à feu moyen jusqu'à coloration noisette.","Ajouter 1/2 botte de sauge fraîche, faire frire 30 sec.","Égoutter les pâtes, les verser dans la sauteuse.","Mélanger avec 100g de parmesan.","Concasser 40g de noisettes torréfiées, parsemer. Servir."] },
 
 { id:"fq58", nom:"Tartare de tomates au basilic", mode:"us", type:"diner", saison:["été"], culture:"méditerranéen", temps:15, difficulte:1,
   ingredients:[
