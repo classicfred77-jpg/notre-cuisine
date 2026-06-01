@@ -1251,7 +1251,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:8, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Basilic", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Couper tous les légumes en cubes réguliers.","Faire revenir séparément aubergines, courgettes, poivrons.","Suer oignons et ail, ajouter tomates concassées, herbes.","Réunir tous les légumes, mijoter 40 min couvert, basilic à la fin."] },
+  etapes:["Couper 3 aubergines, 4 courgettes, 2 poivrons en cubes de 2cm. Émincer 2 oignons. Hacher 4 gousses d'ail. Couper 6 tomates en quartiers.","Cuire séparément CHAQUE légume (10 min) dans une grande poêle avec 2 c. à soupe d'huile par lot : aubergines, puis courgettes, puis poivrons.","Dans une cocotte, suer oignons + ail. Ajouter tomates + 1 c. à soupe d'herbes de Provence.","Quand les tomates sont compotées, réunir TOUS les légumes pré-cuits.","Mijoter 40 min couvert à feu doux. La ratatouille doit être moelleuse.","En fin, basilic ciselé. Servir tiède ou froid en accompagnement."] },
 
 { id:"fr02", nom:"Soupe au pistou provençale", mode:"both", type:"diner", saison:["été","printemps"], culture:"français", temps:60, difficulte:2,
   ingredients:[
@@ -1266,7 +1266,7 @@ const RECIPES = [
     { nom:"Parmesan râpé", qte:100, unite:"g", rayon:"Crèmerie" },
     { nom:"Huile d'olive", qte:15, unite:"cl", rayon:"Épicerie salée" }
   ],
-  etapes:["Cuire séparément haricots blancs 30 min, puis ajouter légumes en cubes 20 min.","Ajouter vermicelles 7 min avant la fin.","Pistou au mortier : ail, basilic, parmesan, huile d'olive.","Servir la soupe brûlante, pistou dilué dans chaque assiette."] },
+  etapes:["Tremper 300g de haricots blancs frais 12h. Cuire 30 min dans eau salée.","Couper 300g de haricots verts, 2 courgettes en cubes, 3 pdt en dés.","Ajouter aux haricots blancs avec 3 tomates en quartiers, cuire 20 min.","Ajouter 100g de vermicelles, cuire 7 min de plus.","Pistou au mortier (ou robot) : 6 gousses d'ail + 1 gros bouquet de basilic + 100g de parmesan + 15cl d'huile d'olive.","Servir la soupe brûlante, le pistou à part : chacun en met dans son bol."] },
 
 { id:"fr03", nom:"Daube provençale au vin rouge", mode:"both", type:"diner", saison:["automne","hiver"], culture:"français", temps:180, difficulte:2,
   ingredients:[
@@ -1281,7 +1281,7 @@ const RECIPES = [
     { nom:"Zeste d'orange", qte:1, unite:"orange", rayon:"Fruits & Légumes" },
     { nom:"Tagliatelles", qte:400, unite:"g", rayon:"Épicerie salée" }
   ],
-  etapes:["Mariner le bœuf au vin rouge avec oignons, carottes, herbes 12h.","Faire revenir lardons, viande, déglacer au vin.","Mijoter 3h à couvert avec zeste d'orange et bouquet garni.","Ajouter olives 15 min avant fin, servir sur tagliatelles."] },
+  etapes:["LA VEILLE : mariner 1,2kg de bœuf en cubes dans 75cl de vin rouge + oignons + carottes + bouquet 12h.","Jour J : sortir, sécher. Garder marinade.","Saisir 200g de lardons + bœuf 5 min dans cocotte.","Filtrer marinade, ajouter à la cocotte avec bouquet garni et zeste d'orange.","Mijoter 3h à feu doux ou four 150°C.","Ajouter 150g d'olives 15 min avant la fin.","Cuire 400g de tagliatelles. Servir."] },
 
 { id:"fr04", nom:"Petits farcis provençaux", mode:"both", type:"diner", saison:["été","automne"], culture:"français", temps:75, difficulte:2,
   ingredients:[
@@ -1297,7 +1297,7 @@ const RECIPES = [
     { nom:"Persil", qte:1, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Riz cuit", qte:200, unite:"g", rayon:"Épicerie salée" }
   ],
-  etapes:["Évider les légumes, conserver les chapeaux.","Farce : viandes, oignons revenus, mie trempée, œufs, ail, persil.","Garnir les légumes, ajouter le riz autour.","Four 50 min à 180°C, recouvrir des chapeaux à mi-cuisson."] },
+  etapes:["Évider 6 courgettes rondes et 6 tomates en gardant les chapeaux. Garder la pulpe.","Émincer 3 oignons, suer dans 3 c. à soupe d'huile 5 min.","Ajouter 500g de chair à saucisse + 300g de bœuf haché, cuire 5 min.","Mélanger avec mie trempée dans lait, 2 œufs, ail + persil hachés.","Cuire 200g de riz à part 12 min.","Garnir tomates et courgettes. Disposer sur lit de riz dans plat.","Four 50 min à 180°C en remettant les chapeaux à mi-cuisson."] },
 
 { id:"fr05", nom:"Pissaladière niçoise", mode:"both", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:90, difficulte:2,
   ingredients:[
@@ -1324,7 +1324,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:30, unite:"cl", rayon:"Épicerie salée" },
     { nom:"Citron", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Aïoli : piler ail au mortier, ajouter jaunes, monter à l'huile d'olive comme une mayonnaise.","Pocher le poisson 8 min.","Cuire séparément les légumes (vapeur), œufs durs 9 min.","Dresser sur grand plat, aïoli au centre."] },
+  etapes:["Cuire 1kg de pdt + 6 carottes + 1 chou-fleur en bouquets + 400g de haricots verts SÉPARÉMENT à la vapeur.","Cuire 6 œufs durs 9 min, écaler.","Pocher 800g de cabillaud 8 min eau frémissante.","Aïoli : piler 8 gousses d'ail au mortier, ajouter 2 jaunes, monter en mayo épaisse avec 30cl d'huile d'olive.","Citron, sel.","Dresser le tout sur un grand plat : aïoli au centre."] },
 
 { id:"fr07", nom:"Tian de légumes à la provençale", mode:"both", type:"diner", saison:["été","printemps","automne"], culture:"français", temps:60, difficulte:1,
   ingredients:[
@@ -1337,7 +1337,7 @@ const RECIPES = [
     { nom:"Thym & romarin", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
     { nom:"Parmesan râpé", qte:80, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Suer oignons et ail dans le plat à gratin.","Trancher les légumes en rondelles fines, alterner en quinconce.","Huile d'olive, herbes, sel.","Four 45 min à 180°C, parmesan dernières 10 min."] },
+  etapes:["Préchauffer le four à 180°C.","Émincer 2 oignons, 3 gousses d'ail. Suer dans le plat à gratin avec huile.","Trancher 3 courgettes, 2 aubergines, 4 tomates en rondelles fines.","Alterner les rondelles en quinconce sur les oignons.","Arroser d'huile + thym + romarin + sel.","Four 45 min à 180°C.","Parsemer 80g de parmesan 10 min avant la fin.","Servir tiède."] },
 
 { id:"fr08", nom:"Brandade de morue à la nîmoise", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:90, difficulte:2,
   ingredients:[
@@ -1350,7 +1350,7 @@ const RECIPES = [
     { nom:"Citron", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
     { nom:"Pain de campagne", qte:1, unite:"baguette", rayon:"Boulangerie" }
   ],
-  etapes:["Pocher la morue 10 min dans le lait, l'effeuiller.","Cuire les pdt à l'eau, écraser.","Travailler morue + huile d'olive tiède + ail haché, monter en émulsion.","Incorporer pdt et crème, citron, servir avec pain grillé."] },
+  etapes:["Pocher 600g de morue dessalée dans lait 10 min. L'effeuiller à la fourchette.","Éplucher 500g de pdt, cuire à l'eau salée 20 min, écraser.","Travailler la morue avec ail haché + huile d'olive tiède (25cl) en émulsion à la spatule.","Incorporer la purée de pdt + 15cl de crème + citron.","Saler, rectifier. Servir avec pain de campagne grillé."] },
 
 { id:"fr09", nom:"Bourride sétoise", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:60, difficulte:3,
   ingredients:[
@@ -1364,7 +1364,7 @@ const RECIPES = [
     { nom:"Poireau", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
     { nom:"Pain de campagne", qte:0.5, unite:"baguette", rayon:"Boulangerie" }
   ],
-  etapes:["Pocher la lotte dans le fumet aromatique 15 min.","Aïoli : ail, jaunes, huile en émulsion serrée.","Lier le fumet réduit avec l'aïoli hors feu (bourride).","Servir poisson, pdt, légumes, nappage, croûtons aillés."] },
+  etapes:["Pocher 800g de lotte dans 1L de fumet 15 min.","Aïoli : 6 gousses d'ail au mortier + 3 jaunes, monter à l'huile d'olive (20cl) en émulsion serrée.","Lier le fumet réduit avec l'aïoli HORS FEU (sinon ça tranche).","Cuire 600g de pdt, carottes, poireaux à part.","Dresser : poisson + légumes + sauce + croûtons aillés."] },
 
 { id:"fr10", nom:"Anchoïade de Provence et crudités", mode:"us", type:"diner", saison:["printemps","été"], culture:"français", temps:20, difficulte:1,
   ingredients:[
@@ -1375,7 +1375,7 @@ const RECIPES = [
     { nom:"Crudités (fenouil, céleri, radis, endives)", qte:1.2, unite:"kg", rayon:"Fruits & Légumes" },
     { nom:"Pain", qte:1, unite:"baguette", rayon:"Boulangerie" }
   ],
-  etapes:["Mixer anchois, ail, vinaigre, huile en sauce épaisse.","Trancher légumes en bâtonnets.","Toaster le pain.","Tremper crudités et pain dans l'anchoïade."] },
+  etapes:["Mixer 200g d'anchois + 4 gousses d'ail + 1 c. à soupe de vinaigre + 15cl d'huile d'olive en sauce épaisse.","Couper 1,2kg de crudités (fenouil, céleri, radis, endives) en bâtonnets.","Toaster 1 baguette en tranches.","Servir : sauce au centre, crudités et pain autour. Chacun trempe."] },
 
 { id:"fr11", nom:"Quenelles de brochet sauce Nantua", mode:"us", type:"diner", saison:["automne","hiver"], culture:"français", temps:60, difficulte:3,
   ingredients:[
@@ -1388,7 +1388,7 @@ const RECIPES = [
     { nom:"Vin blanc sec", qte:10, unite:"cl", rayon:"Boissons" },
     { nom:"Riz pilaf", qte:300, unite:"g", rayon:"Épicerie salée" }
   ],
-  etapes:["Suer échalotes, déglacer cognac et vin blanc.","Ajouter beurre d'écrevisses, crème, concentré, réduire 10 min.","Quenelles dans la sauce, four 20 min à 180°C (elles gonflent).","Servir avec riz pilaf."] },
+  etapes:["Suer 2 échalotes ciselées dans 50g de beurre.","Flamber 5cl de cognac + 10cl de vin blanc.","Ajouter 80g de beurre d'écrevisses + 1 c. à soupe de concentré de tomate + 30cl de crème.","Réduire 10 min en sauce.","Poser 8 quenelles dans plat à gratin, napper de sauce.","Four 20 min à 180°C : elles gonflent.","Cuire 300g de riz pilaf. Servir."] },
 
 { id:"fr12", nom:"Gratin dauphinois traditionnel", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:90, difficulte:1,
   ingredients:[
@@ -1425,7 +1425,7 @@ const RECIPES = [
     { nom:"Huile de friture", qte:1, unite:"litre", rayon:"Épicerie salée" },
     { nom:"Muscade", qte:1, unite:"pincée", rayon:"Épicerie salée" }
   ],
-  etapes:["Purée de pdt très ferme.","Pâte à choux : eau + beurre + farine, dessécher, ajouter œufs un à un.","Mélanger purée + pâte à choux, muscade.","Former petites quenelles, frire à 180°C jusqu'à dorées."] },
+  etapes:["Cuire 1kg de pdt à l'eau salée 25 min, écraser en purée très ferme avec sel + muscade.","Pâte à choux : porter 25cl d'eau + 100g de beurre + sel à ébullition. Hors feu, verser 150g de farine d'un coup, mélanger.","Remettre 1 min sur feu pour dessécher (la pâte se détache des bords).","Hors feu, ajouter 4 œufs un à un en mélangeant entre chaque.","Mélanger purée + pâte à choux.","Chauffer 1L d'huile à 180°C.","Former petites quenelles à 2 cuillères, frire 4 min dorées.","Égoutter, servir aussitôt."] },
 
 { id:"fr15", nom:"Cervelle de canut (fromage frais herbes)", mode:"us", type:"diner", saison:["printemps","été","automne"], culture:"français", temps:10, difficulte:1,
   ingredients:[
@@ -2326,7 +2326,7 @@ const RECIPES = [
     { nom:"Œuf", qte:1, unite:"pièce", rayon:"Crèmerie" },
     { nom:"Salade verte", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Blettes blanchies, hachées avec ail et persil.","Mélanger avec chair + foies hachés + œuf.","Former boulettes, envelopper de crépine.","Four 45 min à 180°C, servir avec salade."] },
+  etapes:["Effeuiller et hacher 600g de blettes (vertes uniquement).","Sauter 4 gousses d'ail hachées dans 2 c. à soupe d'huile.","Mélanger 500g de chair à saucisse + 200g de foies de volaille hachés + blettes + 1 œuf + sel.","Étendre la crépine, former 12 boulettes, envelopper chacune.","Disposer dans plat à gratin, four 45 min à 180°C.","Servir avec salade verte."] },
 
 { id:"bi26", nom:"Vichyssoise (soupe froide poireaux-pdt)", mode:"us", type:"diner", saison:["été","printemps"], culture:"bistronomie", temps:40, difficulte:1,
   ingredients:[
@@ -2337,7 +2337,7 @@ const RECIPES = [
     { nom:"Beurre", qte:40, unite:"g", rayon:"Crèmerie" },
     { nom:"Ciboulette", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Suer blancs de poireaux, ajouter pdt + bouillon, 20 min.","Mixer fin, passer au chinois.","Crémer, refroidir.","Servir bien froid, ciboulette."] },
+  etapes:["Émincer 6 blancs de poireaux. Éplucher 500g de pdt en cubes.","Dans une casserole, suer poireaux dans 40g de beurre 5 min.","Ajouter pdt + 80cl de bouillon. Mijoter 20 min.","Mixer fin, passer au chinois.","Ajouter 30cl de crème, rectifier.","Refroidir, servir BIEN FROID avec ciboulette ciselée."] },
 
 { id:"bi27", nom:"Tatin d'endives au comté", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"bistronomie", temps:50, difficulte:1,
   ingredients:[
@@ -2349,7 +2349,7 @@ const RECIPES = [
     { nom:"Jambon de Bayonne", qte:200, unite:"g", rayon:"Boucherie" },
     { nom:"Mâche", qte:150, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Endives coupées en 2, beurre + sucre dans moule, dorer 15 min.","Comté en lamelles, recouvrir de pâte.","Four 25 min à 200°C, retourner sur plat.","Servir avec jambon et mâche."] },
+  etapes:["Préchauffer le four à 200°C.","Couper 8 endives en deux. Dans un moule beurré, fondre 60g de beurre + 3 c. à soupe de sucre.","Caraméliser les endives côté coupe 15 min sur le feu.","Trancher 200g de comté en lamelles. Disposer sur les endives.","Recouvrir de pâte feuilletée, rentrer les bords.","Enfourner 25 min jusqu'à pâte dorée.","Retourner sur un plat. Servir avec jambon de Bayonne + mâche."] },
 
 { id:"bi28", nom:"Quiche aux poireaux & saumon", mode:"both", type:"diner", saison:["printemps","automne","hiver"], culture:"bistronomie", temps:55, difficulte:1,
   ingredients:[
@@ -2362,7 +2362,7 @@ const RECIPES = [
     { nom:"Beurre", qte:30, unite:"g", rayon:"Crèmerie" },
     { nom:"Aneth", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Fondue de poireaux au beurre 15 min.","Saumon en dés crus.","Foncer le moule, garnir poireaux + saumon, appareil œufs-crème-lait-aneth.","Four 40 min à 180°C."] },
+  etapes:["Préchauffer le four à 180°C.","Foncer un moule de pâte brisée, piquer.","Émincer 4 poireaux. Fondre dans 40g de beurre 15 min jusqu'à compote.","Couper 400g de saumon en cubes crus.","Battre 4 œufs + 25cl de crème + 15cl de lait + aneth.","Étaler poireaux + saumon, verser appareil.","Enfourner 40 min. Servir tiède."] },
 
 { id:"bi29", nom:"Brochette de Saint-Jacques à la plancha", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"bistronomie", temps:25, difficulte:2,
   ingredients:[
@@ -2374,7 +2374,7 @@ const RECIPES = [
     { nom:"Riz à risotto crémeux", qte:300, unite:"g", rayon:"Épicerie salée" },
     { nom:"Bouillon", qte:80, unite:"cl", rayon:"Épicerie salée" }
   ],
-  etapes:["Enrouler chaque Saint-Jacques dans une demi-tranche de lard, embrocher.","Risotto blanc en parallèle, 18 min.","Brochettes à la plancha 2 min par face.","Citron, romarin, dresser."] },
+  etapes:["Risotto blanc en parallèle : suer 1 échalote, nacrer 300g de riz, vin blanc, bouillon louche par louche 18 min. Mantecare.","Enrouler chaque Saint-Jacques dans 1/2 tranche de lard fumé, embrocher (3 par brochette).","Plancha bien chaude, brochettes 2 min par face.","Citron, romarin. Servir avec risotto."] },
 
 { id:"bi30", nom:"Filet de bœuf en croûte (Wellington)", mode:"us", type:"diner", saison:["automne","hiver"], culture:"bistronomie", temps:90, difficulte:3,
   ingredients:[
@@ -2388,7 +2388,7 @@ const RECIPES = [
     { nom:"Beurre", qte:60, unite:"g", rayon:"Crèmerie" },
     { nom:"Pommes Anna", qte:1, unite:"kg", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Saisir filet 2 min toutes faces, badigeonner moutarde, refroidir.","Duxelles : champignons + échalotes hachés, sec.","Disposer jambon sur film + duxelles, enrouler le bœuf, replier en pâte.","Dorer, four 25 min à 220°C, repos 10 min, trancher."] },
+  etapes:["Saisir 1kg de filet de bœuf 2 min toutes faces. Saler, badigeonner moutarde, refroidir.","Hacher 500g de champignons + 3 échalotes très fin. Sauter à sec jusqu'à évaporation (duxelles).","Étaler 8 tranches de jambon de Parme sur film, étaler la duxelles.","Enrouler la viande dans le jambon + duxelles. Envelopper dans pâte feuilletée.","Dorer à l'œuf battu, four 25 min à 220°C. Repos 10 min.","Pommes Anna en accompagnement. Trancher, servir."] },
 
 { id:"bi31", nom:"Cuisses de canard confites maison", mode:"both", type:"diner", saison:["automne","hiver"], culture:"bistronomie", temps:180, difficulte:2,
   ingredients:[
@@ -2400,7 +2400,7 @@ const RECIPES = [
     { nom:"Pommes sarladaises", qte:1, unite:"kg", rayon:"Fruits & Légumes" },
     { nom:"Salade frisée", qte:1, unite:"pièce", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Saler les cuisses 12h, rincer, sécher.","Confire dans graisse + ail + herbes à 90°C 2h30.","Conserver dans graisse 1 semaine ou utiliser immédiatement.","Croustiller au four 15 min à 200°C, servir avec sarladaises et salade."] },
+  etapes:["Saler 6 cuisses de canard 12h au gros sel (200g) avec ail + thym. Rincer, sécher.","Couvrir de 1kg de graisse de canard fondue dans cocotte.","Confire 90°C 2h30 : la viande doit tomber de l'os.","Sortir, garder dans la graisse 1 semaine MAX au frigo.","Pour servir : four 15 min à 200°C côté peau pour croustiller.","Pommes sarladaises + salade frisée."] },
 
 { id:"bi32", nom:"Pluma de cochon ibérique, purée de panais", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"bistronomie", temps:35, difficulte:2,
   ingredients:[
@@ -2412,7 +2412,7 @@ const RECIPES = [
     { nom:"Fleur de sel", qte:1, unite:"pincée", rayon:"Épicerie salée" },
     { nom:"Huile d'olive", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Panais en cubes, cuits dans lait + eau, mixés en purée avec beurre.","Pluma saisie 3 min par face, romarin.","Repos 5 min, trancher fin.","Dresser sur purée, fleur de sel."] },
+  etapes:["Éplucher 800g de panais, couper en cubes. Cuire dans 30cl de lait + eau 20 min jusqu'à tendres.","Égoutter, mixer en purée avec 60g de beurre. Saler.","Saisir 800g de pluma de cochon 3 min par face dans poêle bien chaude avec romarin. Repos.","Trancher fin. Dresser sur purée. Fleur de sel."] },
 
 { id:"bi33", nom:"Selle d'agneau, légumes glacés", mode:"us", type:"diner", saison:["printemps","été"], culture:"bistronomie", temps:60, difficulte:3,
   ingredients:[
@@ -2426,7 +2426,7 @@ const RECIPES = [
     { nom:"Bouillon de volaille", qte:50, unite:"cl", rayon:"Épicerie salée" },
     { nom:"Thym", qte:3, unite:"branches", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Saisir la selle, four 20 min à 180°C (rosé), repos 10 min.","Légumes glacés : eau + beurre + sucre + sel, réduire.","Petits pois 3 min en fin.","Trancher selle, dresser avec légumes brillants."] },
+  etapes:["Préchauffer le four à 180°C.","Saisir 1,2kg de selle d'agneau désossée 5 min toutes faces. Enfourner 20 min (rosé). Repos 10 min sous alu.","Pendant ce temps, glacer les légumes : 8 carottes + 6 navets + 200g d'oignons + eau + 80g de beurre + 2 c. à soupe de sucre + sel. Cuire couvert puis à découvert pour caraméliser.","Ajouter 300g de petits pois en fin 3 min.","Trancher selle, dresser avec légumes."] },
 
 { id:"bi34", nom:"Saumon en croûte de sel", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"bistronomie", temps:45, difficulte:2,
   ingredients:[
@@ -2438,7 +2438,7 @@ const RECIPES = [
     { nom:"Pommes vapeur", qte:1, unite:"kg", rayon:"Fruits & Légumes" },
     { nom:"Beurre blanc", qte:1, unite:"portion", rayon:"Crèmerie" }
   ],
-  etapes:["Mélanger sel + blancs en pâte.","Garnir le ventre du saumon d'aneth et citron.","Recouvrir entièrement de sel, four 30 min à 200°C.","Casser la croûte à table, beurre blanc à part."] },
+  etapes:["Mélanger 2kg de gros sel + 4 blancs d'œufs en pâte.","Vider le saumon. Garnir le ventre d'aneth, citron en quartiers.","Sur plaque, étaler une couche de sel, déposer poisson, couvrir entièrement.","Four 30 min à 200°C.","À table, casser la croûte au manche de couteau.","Lever les filets en évitant la peau. Servir avec pdt vapeur + beurre blanc."] },
 
 { id:"bi35", nom:"Rougets en escabèche", mode:"us", type:"diner", saison:["printemps","été","automne"], culture:"bistronomie", temps:40, difficulte:2,
   ingredients:[
@@ -2452,7 +2452,7 @@ const RECIPES = [
     { nom:"Thym & laurier", qte:1, unite:"bouquet", rayon:"Fruits & Légumes" },
     { nom:"Pain de campagne", qte:1, unite:"baguette", rayon:"Boulangerie" }
   ],
-  etapes:["Saisir rougets, déposer dans un plat.","Suer légumes, ajouter vinaigre, vin, huile, herbes, 5 min.","Verser bouillant sur le poisson, refroidir.","Servir tiède ou froid avec pain grillé."] },
+  etapes:["Saisir 8 rougets 3 min par face dans 1 c. à soupe d'huile. Réserver.","Émincer 3 carottes en rondelles, 2 oignons rouges en quartiers, 4 gousses d'ail.","Dans la même poêle, suer les légumes 5 min. Ajouter 15cl de vinaigre + 15cl de vin blanc + 10cl d'huile + thym.","Verser bouillant sur les poissons.","Refroidir, servir tiède ou froid avec pain grillé."] },
 
 { id:"bi36", nom:"Œuf mollet, mouillettes d'asperges & jambon cru", mode:"us", type:"diner", saison:["printemps"], culture:"bistronomie", temps:25, difficulte:2,
   ingredients:[
@@ -2463,7 +2463,7 @@ const RECIPES = [
     { nom:"Fleur de sel", qte:1, unite:"pincée", rayon:"Épicerie salée" },
     { nom:"Pain de campagne", qte:0.5, unite:"baguette", rayon:"Boulangerie" }
   ],
-  etapes:["Œufs mollets 6 min, écaler.","Asperges 5 min vapeur.","Pain grillé.","Dresser œuf cassé, asperges, jambon, huile, fleur de sel."] },
+  etapes:["Pocher 6 œufs mollets 6 min, refroidir, écaler.","Cuire 600g d'asperges 5 min vapeur.","Toaster 0,5 baguette en tranches.","Dans des assiettes : œuf mollet décoiffé + asperges + lanières de jambon Serrano + pain.","Filet d'huile d'olive + fleur de sel. Servir aussitôt."] },
 
 { id:"bi37", nom:"Filet de turbot, sauce hollandaise", mode:"us", type:"diner", saison:["printemps","automne","hiver"], culture:"bistronomie", temps:35, difficulte:3,
   ingredients:[
@@ -2474,7 +2474,7 @@ const RECIPES = [
     { nom:"Vinaigre blanc", qte:1, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Asperges blanches", qte:600, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Cuire asperges 12 min, garder croquantes.","Hollandaise : jaunes au bain-marie + vinaigre, monter au beurre clarifié + citron.","Turbot 4 min par face dans beurre.","Dresser, napper hollandaise."] },
+  etapes:["Cuire 600g d'asperges blanches 12 min vapeur.","Hollandaise : monter 3 jaunes au bain-marie avec 1 c. à soupe de vinaigre, puis 200g de beurre clarifié en filet, fouetter en sauce épaisse. Citron + sel.","Saisir 4 filets de turbot 4 min par face dans 30g de beurre.","Servir : asperges + turbot + nappage hollandaise."] },
 
 { id:"bi38", nom:"Médaillons de lotte, beurre safrané", mode:"us", type:"diner", saison:["automne","hiver","printemps"], culture:"bistronomie", temps:30, difficulte:2,
   ingredients:[
@@ -2487,7 +2487,7 @@ const RECIPES = [
     { nom:"Fenouil", qte:1, unite:"bulbe", rayon:"Fruits & Légumes" },
     { nom:"Riz pilaf", qte:300, unite:"g", rayon:"Épicerie salée" }
   ],
-  etapes:["Médaillons de lotte saisis 3 min par face.","Échalote, vin réduit, safran, crème, monter au beurre.","Fenouil rôti à part.","Dresser, sauce safranée, riz."] },
+  etapes:["Réhydrater 1 dose de safran dans 1 c. à soupe d'eau chaude.","Couper 800g de lotte en médaillons de 2cm. Saler.","Saisir 3 min par face dans 30g de beurre.","Couper 1 fenouil en quartiers, rôtir à part 20 min à 200°C.","Dans la poêle du poisson, suer 2 échalotes ciselées + 10cl de vin blanc, réduire de moitié.","Ajouter 10cl de crème + safran. Monter au beurre.","Cuire 300g de riz pilaf en parallèle.","Servir : riz + lotte + sauce safranée + fenouil."] },
 
 { id:"bi39", nom:"Côtelettes de chevreuil, sauce grand veneur", mode:"us", type:"diner", saison:["automne","hiver"], culture:"bistronomie", temps:45, difficulte:3,
   ingredients:[
@@ -2501,7 +2501,7 @@ const RECIPES = [
     { nom:"Purée de marrons", qte:500, unite:"g", rayon:"Épicerie salée" },
     { nom:"Poivre noir", qte:1, unite:"c. à café", rayon:"Épicerie salée" }
   ],
-  etapes:["Saisir côtelettes 2 min par face, repos.","Échalotes, vin réduit, fond, gelée, crème : sauce grand veneur.","Purée de marrons réchauffée.","Dresser, napper de sauce, poivre concassé."] },
+  etapes:["Saisir 8 côtelettes de chevreuil 2 min par face dans poêle bien chaude. Repos.","Suer 3 échalotes. Verser 30cl de vin rouge + 25cl de fond de gibier + 3 c. à soupe de gelée de groseilles + 10cl de crème. Réduire 10 min.","Réchauffer 500g de purée de marrons.","Servir : marrons + côtelettes + sauce + poivre concassé."] },
 
 { id:"bi40", nom:"Pintade aux pruneaux & polenta crémeuse", mode:"us", type:"diner", saison:["automne","hiver"], culture:"bistronomie", temps:75, difficulte:2,
   ingredients:[
@@ -2515,7 +2515,7 @@ const RECIPES = [
     { nom:"Lait", qte:50, unite:"cl", rayon:"Crèmerie" },
     { nom:"Parmesan", qte:60, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Pruneaux trempés dans armagnac 1h.","Saisir pintade, échalotes, déglacer vin + bouillon + pruneaux, mijoter 50 min.","Polenta crémeuse au lait + parmesan.","Dresser, sauce nappante."] },
+  etapes:["Tremper 250g de pruneaux dans armagnac 1h.","Saisir 1,3kg de pintade en morceaux dans 30g de beurre 5 min.","Émincer 3 échalotes, suer 3 min.","Déglacer 25cl de vin rouge + 30cl de bouillon. Ajouter pruneaux. Mijoter 50 min.","Pour la polenta : 50cl de lait bouillant, verser 200g de polenta en pluie, cuire 5 min en remuant. Ajouter 60g de parmesan.","Servir : pintade + sauce + polenta crémeuse."] },
 
 { id:"bi41", nom:"Œufs Bénédicte au saumon fumé", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"bistronomie", temps:30, difficulte:3,
   ingredients:[
@@ -2528,7 +2528,7 @@ const RECIPES = [
     { nom:"Vinaigre blanc", qte:2, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Aneth", qte:0.3, unite:"botte", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Hollandaise : jaunes au bain-marie, monter au beurre + citron.","Pocher 8 œufs dans eau vinaigrée 3 min.","Toaster muffins, saumon fumé dessus.","Œuf poché par-dessus, napper hollandaise, aneth."] },
+  etapes:["Hollandaise : monter 3 jaunes au bain-marie, ajouter 150g de beurre clarifié + citron.","Pocher 8 œufs 3 min eau vinaigrée frémissante.","Toaster 4 muffins anglais coupés en deux.","Sur chaque demi-muffin : saumon fumé + œuf poché + cuillère de hollandaise + aneth.","Servir aussitôt."] },
 
 { id:"bi42", nom:"Tarte fine pomme-andouille de Vire", mode:"us", type:"diner", saison:["automne","hiver"], culture:"bistronomie", temps:35, difficulte:2,
   ingredients:[
@@ -2540,7 +2540,7 @@ const RECIPES = [
     { nom:"Calvados", qte:3, unite:"c. à soupe", rayon:"Boissons" },
     { nom:"Mâche", qte:150, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Étaler la pâte, étaler moutarde.","Disposer rondelles de pomme et fines tranches d'andouille.","Four 25 min à 200°C.","Calvados arrosé, salade de mâche."] },
+  etapes:["Préchauffer le four à 200°C.","Étaler la pâte feuilletée, étaler 2 c. à soupe de moutarde sur le fond.","Trancher 3 pommes en rondelles fines. Disposer.","Trancher 200g d'andouille en lamelles fines. Disposer sur les pommes.","Enfourner 25 min jusqu'à pâte dorée.","Arroser de 3 c. à soupe de calvados juste avant de servir.","Salade de mâche à côté."] },
 
 { id:"bi43", nom:"Mille-feuille de saumon & avocat", mode:"us", type:"diner", saison:["printemps","été"], culture:"bistronomie", temps:25, difficulte:2,
   ingredients:[
@@ -2552,7 +2552,7 @@ const RECIPES = [
     { nom:"Mélange salade", qte:200, unite:"g", rayon:"Fruits & Légumes" },
     { nom:"Pain au levain grillé", qte:8, unite:"tranches", rayon:"Boulangerie" }
   ],
-  etapes:["Trancher saumon en lamelles fines.","Écraser avocat avec citron vert.","Monter au cercle : saumon, avocat, saumon, avocat.","Aneth, huile d'olive, salade autour, pain grillé."] },
+  etapes:["Trancher 400g de saumon extra-frais en lamelles très fines au congélateur (15 min avant).","Écraser 3 avocats à la fourchette avec jus de citron vert.","Au cercle : 1 couche saumon + 1 couche avocat + 1 couche saumon + 1 couche avocat.","Aneth + 1 filet d'huile d'olive + fleur de sel.","Servir aussitôt avec pain au levain grillé."] },
 
 { id:"bi44", nom:"Filet de canette aux cerises", mode:"us", type:"diner", saison:["été","printemps"], culture:"bistronomie", temps:35, difficulte:2,
   ingredients:[
@@ -2564,7 +2564,7 @@ const RECIPES = [
     { nom:"Beurre", qte:40, unite:"g", rayon:"Crèmerie" },
     { nom:"Polenta crémeuse", qte:1, unite:"portion", rayon:"Épicerie salée" }
   ],
-  etapes:["Filets côté peau 5 min, côté chair 3 min, repos.","Sauce : porto + balsamique + sucre + cerises, réduire 8 min.","Monter au beurre.","Trancher canette, napper, polenta."] },
+  etapes:["Polenta crémeuse : 50cl de lait bouillant, verser 200g de polenta en pluie, cuire 5 min en remuant. Beurre + parmesan.","Saler 4 filets de canette. Cuire côté peau 5 min, côté chair 3 min. Repos.","Dans la poêle, sauce : 5cl de porto + 4 c. à soupe de balsamique + 2 c. à soupe de sucre + 300g de cerises. Réduire 8 min.","Monter au beurre.","Trancher canette, servir sur polenta avec cerises."] },
 
 { id:"bi45", nom:"Brochettes de cailles laquées au miel", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"bistronomie", temps:35, difficulte:2,
   ingredients:[
@@ -2577,7 +2577,7 @@ const RECIPES = [
     { nom:"Polenta", qte:200, unite:"g", rayon:"Épicerie salée" },
     { nom:"Salade", qte:200, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Mariner cailles 30 min miel-soja-ail-gingembre.","Embrocher, four 18 min à 200°C en badigeonnant.","Polenta crémeuse.","Dresser, glaçage caramelisé, salade."] },
+  etapes:["Mariner 6 cailles désossées 30 min : 4 c. à soupe de miel + 3 c. à soupe de sauce soja + 2 c. à soupe de balsamique + ail + gingembre.","Embrocher.","Four 18 min à 200°C en badigeonnant régulièrement de marinade.","Polenta crémeuse en parallèle.","Salade verte vinaigrée. Servir aussitôt, glaçage caramélisé."] },
 
 { id:"bi46", nom:"Cabillaud en croûte d'amandes, fenouil", mode:"both", type:"diner", saison:["printemps","automne","hiver"], culture:"bistronomie", temps:35, difficulte:2,
   ingredients:[
@@ -2589,7 +2589,7 @@ const RECIPES = [
     { nom:"Citron", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
     { nom:"Huile d'olive", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Fenouil en quartiers, huile, four 25 min à 200°C.","Croûte : amandes + mie + beurre fondu.","Cabillaud sur plaque, croûte sur le dessus, four 12 min.","Citron, dresser sur fenouil."] },
+  etapes:["Préchauffer le four à 200°C.","Quartiers de 3 bulbes de fenouil, huile, rôtir 25 min.","Mixer 120g d'amandes effilées + 50g de mie + 50g de beurre fondu en croûte.","Cabillaud sur plaque. Étaler la croûte en couche épaisse.","Four 12 min à 200°C.","Citron + fenouil rôti à côté. Servir."] },
 
 { id:"bi47", nom:"Suprême de pintade au cidre", mode:"both", type:"diner", saison:["automne","hiver"], culture:"bistronomie", temps:50, difficulte:2,
   ingredients:[
@@ -2602,7 +2602,7 @@ const RECIPES = [
     { nom:"Calvados", qte:5, unite:"cl", rayon:"Boissons" },
     { nom:"Pommes de terre", qte:800, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Suprêmes saisis 4 min côté peau, retourner 3 min, four 8 min.","Échalotes, calva flambé, cidre réduit, crème.","Pommes en quartiers sautées au beurre.","Dresser, napper, écrasé de pdt à côté."] },
+  etapes:["Saisir 4 suprêmes de pintade côté peau 4 min + côté chair 3 min dans 30g de beurre.","Four 8 min à 180°C pour finir la cuisson.","Suer 3 échalotes, flamber 5cl de calvados.","Déglacer 40cl de cidre, réduire de moitié. Ajouter 25cl de crème, mijoter 3 min.","Couper 3 pommes Reinette en quartiers, sauter à part dans 30g de beurre 5 min.","Servir : suprême + sauce + pommes + écrasé de pdt."] },
 
 { id:"bi48", nom:"Tagliatelles aux truffes & jambon", mode:"us", type:"diner", saison:["automne","hiver"], culture:"bistronomie", temps:20, difficulte:1,
   ingredients:[
@@ -2613,7 +2613,7 @@ const RECIPES = [
     { nom:"Parmesan 24 mois", qte:100, unite:"g", rayon:"Crèmerie" },
     { nom:"Fleur de sel", qte:1, unite:"pincée", rayon:"Épicerie salée" }
   ],
-  etapes:["Cuire pâtes al dente, garder eau.","Beurre mousseux + eau de cuisson.","Enrober pâtes + parmesan + jambon en lamelles.","Râper truffe sur le dessus, fleur de sel."] },
+  etapes:["Cuire 500g de tagliatelles fraîches 3 min.","Dans une grande sauteuse, faire fondre 100g de beurre demi-sel + 2 c. à soupe d'eau de cuisson en émulsion brillante.","Égoutter pâtes, mélanger au beurre.","Ajouter 100g de parmesan + jambon en lamelles. Mélanger.","Râper la truffe (15-20g) directement dans les assiettes.","Fleur de sel + tour de poivre. Servir aussitôt."] },
 
 { id:"bi49", nom:"Tatin de tomates au chèvre", mode:"both", type:"diner", saison:["été","automne"], culture:"bistronomie", temps:40, difficulte:1,
   ingredients:[
@@ -2625,7 +2625,7 @@ const RECIPES = [
     { nom:"Thym frais", qte:3, unite:"branches", rayon:"Fruits & Légumes" },
     { nom:"Huile d'olive", qte:3, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Tomates en moitiés, sucre + balsamique + huile.","Dorer dans la poêle, transférer dans moule.","Chèvre émietté dessus, recouvrir de pâte.","Four 25 min à 200°C, retourner, thym."] },
+  etapes:["Préchauffer le four à 200°C.","Couper 6 tomates en deux. Dans une poêle, faire fondre 30g de beurre + 3 c. à soupe de sucre + 2 c. à soupe de balsamique. Dorer les tomates côté coupe 5 min.","Transférer dans un moule. Émietter 200g de chèvre frais dessus.","Recouvrir de pâte feuilletée, rentrer les bords.","Enfourner 25 min jusqu'à pâte dorée.","Retourner sur un plat. Thym + filet d'huile d'olive.","Servir avec salade verte."] },
 
 { id:"bi50", nom:"Filet mignon en croûte d'épices", mode:"both", type:"diner", saison:["automne","hiver"], culture:"bistronomie", temps:45, difficulte:2,
   ingredients:[
@@ -2638,7 +2638,7 @@ const RECIPES = [
     { nom:"Pommes de terre rattes", qte:800, unite:"g", rayon:"Fruits & Légumes" },
     { nom:"Pommes Granny Smith", qte:2, unite:"pièces", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Saisir filet, badigeonner moutarde + miel + épices.","Rouler dans pain d'épices émietté.","Four 22 min à 200°C, repos 5 min.","Rattes sautées + pommes en lamelles, dresser, trancher."] },
+  etapes:["Préchauffer le four à 200°C.","Saler 1 filet mignon de porc.","Badigeonner 3 c. à soupe de moutarde + 1 c. à soupe de miel + 1 c. à café de 4 épices.","Mixer 80g de pain d'épices, rouler le filet dedans.","Saisir 2 min toutes faces dans 1 c. à soupe d'huile.","Enfourner 22 min. Repos 5 min.","Cuire 800g de rattes vapeur en parallèle.","Couper 2 pommes en quartiers, sauter au beurre.","Trancher viande, dresser : rattes + pommes + médaillons."] },
 
 { id:"bi51", nom:"Crémeux d'avocat, gambas snackées", mode:"us", type:"diner", saison:["printemps","été","automne"], culture:"bistronomie", temps:20, difficulte:1,
   ingredients:[
@@ -3608,7 +3608,7 @@ const RECIPES = [
     { nom:"Crème", qte:20, unite:"cl", rayon:"Crèmerie" },
     { nom:"Beurre", qte:40, unite:"g", rayon:"Crèmerie" }
   ],
-  etapes:["Glisser truffes sous la peau.","Pocher 1h dans bouillon + légumes.","Sauce suprême : bouillon + crème + beurre.","Servir avec légumes du bouillon."] },
+  etapes:["Préchauffer le four à 200°C.","Glisser des lamelles de truffe sous la peau de 1 poularde.","Beurrer la poularde, sel.","Couvrir d'1,5L de bouillon de volaille + carottes + poireaux dans une grande cocotte.","Pocher 1h, en arrosant régulièrement.","Sauce suprême : prélever 30cl de bouillon, ajouter 20cl de crème + 40g de beurre.","Servir poularde + légumes + sauce."] },
 
 { id:"fw05", nom:"Saumon en papillote provençale", mode:"both", type:"diner", saison:["printemps","été","automne"], culture:"français", temps:30, difficulte:1,
   ingredients:[
@@ -3630,7 +3630,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:4, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Thym", qte:4, unite:"branches", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Fenouil émincé fin.","Papillote : fenouil + bar + citron + olives + thym + huile.","Four 12 min à 200°C.","Ouvrir à table."] },
+  etapes:["Préchauffer le four à 200°C.","Émincer 1 fenouil très finement.","Pour chaque papillote : papier sulfurisé, fenouil en lit, filet de bar, citron en rondelles, olives, thym, huile.","Sceller en pliant les bords.","Enfourner 12 min.","Ouvrir à table."] },
 
 { id:"fw07", nom:"Coquilles Saint-Jacques au safran", mode:"us", type:"diner", saison:["automne","hiver"], culture:"français", temps:30, difficulte:2,
   ingredients:[
@@ -3679,7 +3679,7 @@ const RECIPES = [
     { nom:"Olives noires", qte:100, unite:"g", rayon:"Épicerie salée" },
     { nom:"Pdt grenailles", qte:800, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Saisir souris.","Ail + vin + tomates + herbes.","Four 2h30 à 150°C.","Olives + grenailles en fin."] },
+  etapes:["Préchauffer le four à 150°C.","Saisir 6 souris d'agneau 5 min toutes faces.","Ajouter 1 tête d'ail entière + 30cl de vin blanc + 40cl de tomates + 2 c. à soupe d'herbes de Provence.","Couvrir, enfourner 2h30.","Ajouter 100g d'olives noires 15 min avant la fin.","Servir avec 800g de grenailles rôties."] },
 
 { id:"fw11", nom:"Daube de joue de porc cidre", mode:"both", type:"diner", saison:["automne","hiver"], culture:"français", temps:180, difficulte:2,
   ingredients:[
@@ -3693,7 +3693,7 @@ const RECIPES = [
     { nom:"Beurre", qte:40, unite:"g", rayon:"Crèmerie" },
     { nom:"Pommes de terre", qte:800, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Saisir joues + lardons.","Oignons + carottes + cidre + bouquet, 2h30.","Pommes en quartiers 20 min en fin.","Pdt vapeur."] },
+  etapes:["Saisir 1,2kg de joues de porc + 200g de lardons.","Émincer 3 oignons + 4 carottes, suer 8 min.","Déglacer 75cl de cidre + bouquet garni.","Mijoter 2h30 doux.","Ajouter 4 pommes en quartiers 20 min en fin.","Cuire 800g de pdt vapeur. Servir."] },
 
 { id:"fw12", nom:"Pintade aux pommes & calvados", mode:"both", type:"diner", saison:["automne","hiver"], culture:"français", temps:75, difficulte:2,
   ingredients:[
@@ -3751,7 +3751,7 @@ const RECIPES = [
     { nom:"Échalote", qte:1, unite:"pièce", rayon:"Fruits & Légumes" },
     { nom:"Vinaigre", qte:2, unite:"c. à soupe", rayon:"Épicerie salée" }
   ],
-  etapes:["Frites en cuisson 30 min.","Piquer andouillettes, badigeonner moutarde.","Grill 12 min en retournant.","Salade vinaigrette."] },
+  etapes:["Cuire 1kg de pdt en bâtonnets pour frites : 2 bains à 150 puis 180°C.","Pendant ce temps, piquer 4 andouillettes. Badigeonner de moutarde forte.","Cuire au grill 12 min en retournant.","Salade vinaigrée à part.","Servir andouillettes + frites + moutarde + salade."] },
 
 { id:"fw17", nom:"Boudin blanc aux pommes", mode:"both", type:"diner", saison:["automne","hiver"], culture:"français", temps:25, difficulte:1,
   ingredients:[
@@ -3762,7 +3762,7 @@ const RECIPES = [
     { nom:"Crème", qte:10, unite:"cl", rayon:"Crèmerie" },
     { nom:"Purée", qte:1, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Pommes sautées au beurre.","Boudins poêlés 5 min par face.","Calvados flambé, crème.","Purée."] },
+  etapes:["Éplucher 1kg de pdt, cuire 20 min eau salée. Écraser avec 20cl de lait + 60g de beurre + muscade.","Couper 4 pommes en quartiers. Sauter dans 30g de beurre 8 min.","Flamber 5cl de calvados sur les pommes.","Ajouter 10cl de crème, mélanger.","Cuire 6 boudins blancs 5 min par face dans poêle peu beurrée.","Servir : boudin + pommes + purée."] },
 
 { id:"fw18", nom:"Cervelle d'agneau aux câpres", mode:"us", type:"diner", saison:["printemps","automne","hiver"], culture:"français", temps:30, difficulte:3,
   ingredients:[
@@ -3794,7 +3794,7 @@ const RECIPES = [
     { nom:"Beurre", qte:40, unite:"g", rayon:"Crèmerie" },
     { nom:"Pommes grenailles", qte:800, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Grenailles rôties au four.","Aiguillettes 3 min par face.","Échalote + miel + balsamique en sauce.","Beurre monté, napper."] },
+  etapes:["Préchauffer le four à 200°C.","Rôtir 800g de grenailles 30 min : huile + sel.","Saisir 700g d'aiguillettes de canard 3 min par face dans 1 c. à soupe d'huile. Repos.","Dans la poêle, suer 1 échalote.","Ajouter 3 c. à soupe de miel + 3 c. à soupe de balsamique. Caraméliser 2 min.","Monter avec 40g de beurre.","Trancher aiguillettes. Dresser avec grenailles, napper."] },
 
 { id:"fw21", nom:"Magret en croûte d'épices", mode:"us", type:"diner", saison:["automne","hiver"], culture:"français", temps:30, difficulte:2,
   ingredients:[
@@ -3805,7 +3805,7 @@ const RECIPES = [
     { nom:"Fond de canard", qte:10, unite:"cl", rayon:"Épicerie salée" },
     { nom:"Pommes de terre Anna", qte:1, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Pommes Anna au four 40 min.","Magret côté peau 7 min + chair 4 min.","Badigeonner miel + épices, glacer.","Sauce fond + vinaigre, dresser."] },
+  etapes:["Préchauffer le four à 200°C. Pommes Anna 40 min.","Quadriller 2 magrets.","Côté peau dans poêle froide, allumer feu moyen. Cuire 7 min, retourner 4 min.","Mélanger 2 c. à soupe de miel + 2 c. à soupe de vinaigre + 2 c. à soupe d'épices.","Badigeonner les magrets, glacer 1 min sous le grill.","Trancher, servir avec Anna + sauce fond + vinaigre."] },
 
 { id:"fw22", nom:"Filets de sole meunière", mode:"us", type:"diner", saison:["printemps","été","automne","hiver"], culture:"français", temps:20, difficulte:2,
   ingredients:[
@@ -3816,7 +3816,7 @@ const RECIPES = [
     { nom:"Persil", qte:0.5, unite:"botte", rayon:"Fruits & Légumes" },
     { nom:"Pommes vapeur", qte:800, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Fariner filets.","Cuire au beurre 2 min par face.","Beurre noisette + citron + persil.","Pdt vapeur."] },
+  etapes:["Cuire 800g de pdt vapeur.","Fariner 4 filets de sole, secouer l'excès.","Cuire dans 100g de beurre mousseux 2 min par face.","Beurre noisette : 30g de beurre + citron + persil hors feu.","Servir sole + pdt + beurre noisette."] },
 
 { id:"fw23", nom:"Rougets entiers au four, herbes", mode:"us", type:"diner", saison:["printemps","été","automne"], culture:"français", temps:30, difficulte:2,
   ingredients:[
@@ -3827,7 +3827,7 @@ const RECIPES = [
     { nom:"Huile d'olive", qte:5, unite:"c. à soupe", rayon:"Épicerie salée" },
     { nom:"Pommes vapeur", qte:600, unite:"g", rayon:"Fruits & Légumes" }
   ],
-  etapes:["Vidé les rougets.","Citron + herbes + ail dans le ventre.","Four 18 min à 200°C, huile.","Pdt vapeur."] },
+  etapes:["Préchauffer le four à 200°C.","Vider 6 rougets. Glisser dans le ventre : citron en quartiers, ail, thym, romarin.","Disposer sur plaque, huile d'olive + sel.","Cuire 800g de pdt vapeur en parallèle.","Enfourner les rougets 18 min.","Servir avec pdt + citron."] },
 
 { id:"fw24", nom:"Brandade de morue parmentier", mode:"both", type:"diner", saison:["automne","hiver","printemps"], culture:"français", temps:60, difficulte:2,
   ingredients:[
